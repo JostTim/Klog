@@ -1,0 +1,2041 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="General documentation">
+      
+      
+      
+        <meta name="author" content="Timothe">
+      
+      
+        <link rel="canonical" href="https://josttim.github.io/knowledge/Programming/Python.html">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.2">
+    
+    
+      
+        <title>Python - Knowledge</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f955dcd.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ff6e42">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="teal">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#packaging" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Knowledge" class="md-header__button md-logo" aria-label="Knowledge" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Knowledge
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Python
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/JostTim/knowledge" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    knowledge
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../index.html" class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Blog_Articles.html" class="md-tabs__link">
+      Blog
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Notes.html" class="md-tabs__link md-tabs__link--active">
+        General knowledge
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Knowledge" class="md-nav__button md-logo" aria-label="Knowledge" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Knowledge
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/JostTim/knowledge" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    knowledge
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Blog_Articles.html" class="md-nav__link">
+        Blog
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      <label class="md-nav__link" for="__nav_3">
+        General knowledge
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="General knowledge" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          General knowledge
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Notes.html" class="md-nav__link">
+        Notes
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" checked>
+      
+      <label class="md-nav__link" for="__nav_3_2">
+        Virtual world
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Virtual world" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Virtual world
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_1" type="checkbox" id="__nav_3_2_1" checked>
+      
+      <label class="md-nav__link" for="__nav_3_2_1">
+        Programation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Programation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Programation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Programming.html" class="md-nav__link">
+        General
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="InstallTutorials.html" class="md-nav__link">
+        Instal. tutos
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Python
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="Python.html" class="md-nav__link md-nav__link--active">
+        Python
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#packaging" class="md-nav__link">
+    Packaging :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modules" class="md-nav__link">
+    Modules :
+  </a>
+  
+    <nav class="md-nav" aria-label="Modules :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#built-ins" class="md-nav__link">
+    Built-ins :
+  </a>
+  
+    <nav class="md-nav" aria-label="Built-ins :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bytes" class="md-nav__link">
+    Bytes :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list" class="md-nav__link">
+    list :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zip" class="md-nav__link">
+    zip :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#map" class="md-nav__link">
+    map :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unnested-for-loop" class="md-nav__link">
+    (un)nested for loop :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generators" class="md-nav__link">
+    generators :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logging-and-warnings" class="md-nav__link">
+    logging and warnings:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subprocess" class="md-nav__link">
+    subprocess :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shutil" class="md-nav__link">
+    shutil :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cython" class="md-nav__link">
+    Cython :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collections" class="md-nav__link">
+    Collections :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deeplablcut" class="md-nav__link">
+    Deeplablcut :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sockets" class="md-nav__link">
+    Sockets :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pickle" class="md-nav__link">
+    Pickle :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#matplotlib" class="md-nav__link">
+    Matplotlib :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pandas" class="md-nav__link">
+    Pandas:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#numpy" class="md-nav__link">
+    Numpy:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pyqt5" class="md-nav__link">
+    PyQt5:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scipy" class="md-nav__link">
+    Scipy :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#online-modules" class="md-nav__link">
+    Online modules :
+  </a>
+  
+    <nav class="md-nav" aria-label="Online modules :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pytube" class="md-nav__link">
+    pyTube :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imports" class="md-nav__link">
+    Imports :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#environments" class="md-nav__link">
+    Environments :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    Documentation:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#string-fomatting" class="md-nav__link">
+    String fomatting :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debug" class="md-nav__link">
+    Debug :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    Performance :
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#profiling" class="md-nav__link">
+    Profiling :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speeding-up-python" class="md-nav__link">
+    Speeding up python :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classes-specificities" class="md-nav__link">
+    Classes specificities :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ide" class="md-nav__link">
+    IDE:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specific-applications" class="md-nav__link">
+    Specific Applications:
+  </a>
+  
+    <nav class="md-nav" aria-label="Specific Applications:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#image" class="md-nav__link">
+    Image :
+  </a>
+  
+    <nav class="md-nav" aria-label="Image :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#image-enhancement" class="md-nav__link">
+    Image enhancement :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#image-rotation-translation-done-right" class="md-nav__link">
+    Image rotation &amp; translation done right :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shape-matching-and-image-calculation-attributes" class="md-nav__link">
+    Shape matching and image calculation attributes :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#machine-vision" class="md-nav__link">
+    Machine vision :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#others" class="md-nav__link">
+    Others :
+  </a>
+  
+    <nav class="md-nav" aria-label="Others :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#education-to-programing" class="md-nav__link">
+    Education to programing :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="C%2B%2B.html" class="md-nav__link">
+        C++
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Other_languages.html" class="md-nav__link">
+        Other Languages
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Informatic.html" class="md-nav__link">
+        Informatics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Communication.html" class="md-nav__link">
+        Communication
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      <label class="md-nav__link" for="__nav_3_3">
+        Physical world
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Physical world" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Physical world
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Electronics_Mechatronics.html" class="md-nav__link">
+        Electronics & Mechatronics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../camera_computer_vision.html" class="md-nav__link">
+        Cameras & Computer vision.
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Mechanic_and_CAD.html" class="md-nav__link">
+        CFAO and Mechanics
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" >
+      
+      <label class="md-nav__link" for="__nav_3_4">
+        Devices and workshop
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Devices and workshop" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Devices and workshop
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Branded_hardware.html" class="md-nav__link">
+        Various hardware
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Organizing_stuff.html" class="md-nav__link">
+        Organising workspace
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5" type="checkbox" id="__nav_3_5" >
+      
+      <label class="md-nav__link" for="__nav_3_5">
+        Theoric
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Theoric" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          Theoric
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Mathematics.html" class="md-nav__link">
+        Mathematics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Statistics.html" class="md-nav__link">
+        Statistics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Physics.html" class="md-nav__link">
+        Physics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Optic.html" class="md-nav__link">
+        Optics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../General_biology.html" class="md-nav__link">
+        Biology
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#packaging" class="md-nav__link">
+    Packaging :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modules" class="md-nav__link">
+    Modules :
+  </a>
+  
+    <nav class="md-nav" aria-label="Modules :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#built-ins" class="md-nav__link">
+    Built-ins :
+  </a>
+  
+    <nav class="md-nav" aria-label="Built-ins :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bytes" class="md-nav__link">
+    Bytes :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list" class="md-nav__link">
+    list :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zip" class="md-nav__link">
+    zip :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#map" class="md-nav__link">
+    map :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unnested-for-loop" class="md-nav__link">
+    (un)nested for loop :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generators" class="md-nav__link">
+    generators :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logging-and-warnings" class="md-nav__link">
+    logging and warnings:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subprocess" class="md-nav__link">
+    subprocess :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shutil" class="md-nav__link">
+    shutil :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cython" class="md-nav__link">
+    Cython :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collections" class="md-nav__link">
+    Collections :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deeplablcut" class="md-nav__link">
+    Deeplablcut :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sockets" class="md-nav__link">
+    Sockets :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pickle" class="md-nav__link">
+    Pickle :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#matplotlib" class="md-nav__link">
+    Matplotlib :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pandas" class="md-nav__link">
+    Pandas:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#numpy" class="md-nav__link">
+    Numpy:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pyqt5" class="md-nav__link">
+    PyQt5:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scipy" class="md-nav__link">
+    Scipy :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#online-modules" class="md-nav__link">
+    Online modules :
+  </a>
+  
+    <nav class="md-nav" aria-label="Online modules :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pytube" class="md-nav__link">
+    pyTube :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imports" class="md-nav__link">
+    Imports :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#environments" class="md-nav__link">
+    Environments :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    Documentation:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#string-fomatting" class="md-nav__link">
+    String fomatting :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debug" class="md-nav__link">
+    Debug :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    Performance :
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#profiling" class="md-nav__link">
+    Profiling :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speeding-up-python" class="md-nav__link">
+    Speeding up python :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classes-specificities" class="md-nav__link">
+    Classes specificities :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ide" class="md-nav__link">
+    IDE:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specific-applications" class="md-nav__link">
+    Specific Applications:
+  </a>
+  
+    <nav class="md-nav" aria-label="Specific Applications:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#image" class="md-nav__link">
+    Image :
+  </a>
+  
+    <nav class="md-nav" aria-label="Image :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#image-enhancement" class="md-nav__link">
+    Image enhancement :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#image-rotation-translation-done-right" class="md-nav__link">
+    Image rotation &amp; translation done right :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shape-matching-and-image-calculation-attributes" class="md-nav__link">
+    Shape matching and image calculation attributes :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#machine-vision" class="md-nav__link">
+    Machine vision :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#others" class="md-nav__link">
+    Others :
+  </a>
+  
+    <nav class="md-nav" aria-label="Others :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#education-to-programing" class="md-nav__link">
+    Education to programing :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/JostTim/knowledge#root/documentation/Programming/Python.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  <h1>Python</h1>
+                
+                <p><a href="https://blog.paperspace.com/boosting-python-scripts-cython/">Increasing python speed</a> with Cython variables definition</p>
+<p><a href="https://docs.python.org/fr/3.6/library/functions.html#id">Native functions</a></p>
+<p><a href="https://robertheaton.com/2014/02/09/pythons-pass-by-object-reference-as-explained-by-philip-k-dick/">Python weird "pass reference by value".</a></p>
+<p><a href="https://strftime.org/">datetime formats in python</a> </p>
+<h2 id="packaging">Packaging :</h2>
+<p><a href="https://packaging.python.org/tutorials/packaging-projects/">Create a package</a></p>
+<h2 id="modules">Modules :</h2>
+<h3 id="built-ins">Built-ins :</h3>
+<p>Arguments <a href="https://stackoverflow.com/questions/2489669/how-do-python-functions-handle-the-types-of-the-parameters-that-you-pass-in"><strong>types</strong> specification</a> in functions and classes : <code>def function( value : int = defaultvalue ) :</code></p>
+<p>List : <a href="https://stackoverflow.com/questions/4010322/sort-a-list-of-class-instances-python">Sort by parameter class instance list</a></p>
+<p>Built in exception types : <a href="https://docs.python.org/3/library/exceptions.html#TypeError">List of them</a></p>
+<h4 id="bytes">Bytes :</h4>
+<p>Examples :</p>
+<div class="highlight"><pre><span></span><code><span class="nb">bytes</span><span class="p">([</span><span class="mh">0x7C</span><span class="p">])</span> <span class="o">==</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x7C</span><span class="s1">&#39;</span> <span class="c1"># IS TRUE</span>
+<span class="nb">bytes</span><span class="p">([</span><span class="mh">0xFD</span><span class="p">,</span><span class="mh">0xFF</span><span class="p">,</span><span class="mh">0xAE</span><span class="p">])</span> <span class="o">==</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\xFd\xff\xae</span><span class="s1">&#39;</span> <span class="c1"># IS TRUE</span>
+<span class="mh">0xFF</span> <span class="o">==</span> <span class="mi">255</span> <span class="c1"># IS TRUE</span>
+<span class="nb">bytes</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="o">==</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x00\x00</span><span class="s1">&#39;</span> <span class="o">==</span> <span class="nb">bytes</span><span class="p">(</span><span class="mh">0x02</span><span class="p">)</span>  <span class="c1"># IS TRUE</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="mh">0x7C</span> <span class="o">==</span> <span class="s1">&#39;|&#39;</span> <span class="c1"># IS FALSE : even though | hex value is 0x7C. 0x7C written is that way is understood by python as it&#39;s unsigned integer decimal value : 124</span>
+<span class="mh">0x7C</span> <span class="o">====</span> <span class="s1">&#39;|&#39;</span><span class="o">.</span><span class="n">encode</span><span class="p">()</span> <span class="c1">#IS FALSE : &#39;|&#39;/encode returns a byte() type object that cannot be equal to decimals or strings/chars</span>
+<span class="nb">bytes</span><span class="p">(</span><span class="mh">0x02</span><span class="p">)</span> <span class="o">==</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x02</span><span class="s1">&#39;</span> <span class="c1"># IS FALSE : bytes(0x02) gives 2 bytes of 0x00 value. 0xFF gives 255 butes of 0 value</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">In</span> <span class="p">[</span><span class="mi">1</span><span class="p">]:</span><span class="o">&gt;&gt;&gt;</span>  <span class="mh">0xFF</span> <span class="o">&lt;&lt;</span> <span class="mi">8</span> 
+<span class="mi">65280</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">In</span> <span class="p">[</span><span class="mi">1</span><span class="p">]:</span><span class="o">&gt;&gt;&gt;</span> <span class="p">(</span><span class="mh">0xFF</span> <span class="o">&lt;&lt;</span> <span class="mi">8</span><span class="p">)</span><span class="o">.</span><span class="n">to_bytes</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">byteorder</span><span class="o">=</span><span class="s1">&#39;big&#39;</span><span class="p">)</span>
+<span class="sa">b</span><span class="s1">&#39;</span><span class="se">\xff\x00</span><span class="s1">&#39;</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">In</span> <span class="p">[</span><span class="mi">1</span><span class="p">]:</span><span class="o">&gt;&gt;&gt;</span> <span class="nb">int</span><span class="o">.</span><span class="n">from_bytes</span><span class="p">(</span><span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x00\x01</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">byteorder</span><span class="o">=</span><span class="s1">&#39;big&#39;</span><span class="p">,</span> <span class="n">signed</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> 
+<span class="mi">65280</span>
+</code></pre></div>
+<h4 id="list">list :</h4>
+<p>A list of size X with all same items A inside : </p>
+<div class="highlight"><pre><span></span><code><span class="n">alist</span> <span class="o">=</span> <span class="p">[</span><span class="n">A</span><span class="p">]</span> <span class="o">*</span> <span class="n">X</span>
+</code></pre></div>
+<h4 id="zip">zip :</h4>
+<p>loop through several list in the same time : </p>
+<p>with :</p>
+<div class="highlight"><pre><span></span><code><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;a1&#39;</span><span class="p">,</span> <span class="s1">&#39;a2&#39;</span><span class="p">,</span> <span class="s1">&#39;a3&#39;</span><span class="p">]</span>
+<span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;b1&#39;</span><span class="p">,</span> <span class="s1">&#39;b2&#39;</span><span class="p">]</span>
+</code></pre></div>
+<p>instead of : </p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">)):</span>
+    <span class="nb">print</span><span class="p">(</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">,</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">)</span>
+</code></pre></div>
+<p>use <strong>zip</strong> : </p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="nb">print</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span>
+</code></pre></div>
+<p>or <strong>map</strong> : </p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">map</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="nb">print</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span>
+</code></pre></div>
+<p>or <strong>list comprehension</strong> (or LC):</p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="p">[(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">a</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">b</span><span class="p">]:</span>
+    <span class="nb">print</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span>
+</code></pre></div>
+<p><strong>dict</strong> comprehensions also exists, <strong>set</strong> comprehension as well, and  <strong>tuple</strong> comprehension too but this one requires to be called like : tuple( tuple comprehension expression) as parentheses alone are already used for generator expressions (genex).</p>
+<h4 id="map">map :</h4>
+<div class="highlight"><pre><span></span><code><span class="nb">map</span><span class="p">(</span><span class="n">function</span><span class="p">,</span> <span class="n">iterable</span><span class="p">[,</span> <span class="n">iterable1</span><span class="p">,</span> <span class="n">iterable2</span><span class="p">,</span><span class="o">...</span><span class="p">,</span> <span class="n">iterableN</span><span class="p">])</span>
+</code></pre></div>
+<blockquote>
+<p>Pour le premier argument de fonction, nous pouvons soit passer une  fonction définie par l'utilisateur, soit utiliser des fonctions <code>lambda</code>, en particulier lorsque l'expression est moins complexe.</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">item</span><span class="p">:</span> <span class="n">item</span><span class="p">[]</span> <span class="n">expression</span><span class="p">,</span> <span class="n">iterable</span><span class="p">)</span>
+</code></pre></div>
+<blockquote>
+<p><code>map()</code> applies <code>function</code> to each item in <code>iterable</code> in a loop and returns a new iterator that yields transformed items on demand. <code>function</code> can be any Python function that takes a number of arguments equal to the number of iterables you pass to <code>map()</code>.</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">number</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">number</span> <span class="o">**</span> <span class="mi">2</span>
+
+<span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+
+<span class="n">squared</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="n">square</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>
+
+<span class="nb">list</span><span class="p">(</span><span class="n">squared</span><span class="p">)</span>
+</code></pre></div>
+<p>https://realpython.com/python-map-function/</p>
+<h4 id="unnested-for-loop">(un)nested for loop :</h4>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="p">((</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">arr</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">arr</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
+</code></pre></div>
+<p>is equal (but faster than) :</p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">arr</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
+    <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">arr</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
+</code></pre></div>
+<p><a href="https://stackoverflow.com/questions/17006641/single-line-nested-for-loops">source</a></p>
+<h4 id="generators">generators :</h4>
+<p>with :</p>
+<div class="highlight"><pre><span></span><code><span class="n">favorite_numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">57</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">68</span><span class="p">,</span> <span class="mi">95</span><span class="p">]</span>
+</code></pre></div>
+<p>We can create</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">square_all</span><span class="p">(</span><span class="n">numbers</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+         <span class="k">yield</span> <span class="n">n</span><span class="o">**</span><span class="mi">2</span>
+
+<span class="n">squares</span> <span class="o">=</span> <span class="n">square_all</span><span class="p">(</span><span class="n">favorite_numbers</span><span class="p">)</span>
+</code></pre></div>
+<p>and</p>
+<div class="highlight"><pre><span></span><code><span class="n">squares</span> <span class="o">=</span> <span class="p">(</span><span class="n">n</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">favorite_numbers</span><span class="p">)</span>
+</code></pre></div>
+<p>which are exactly the same.</p>
+<p>The first one is called a <strong>generator function</strong> and the second one is called a <strong>generator expression</strong> (also called genex).</p>
+<p>Generator expression are like list comprehensions but encapsulated with  <code>( )</code> <strong>parenthesis</strong> and not <code>[ ]</code> <strong>brackets</strong> and produce a <strong>generator</strong> and not a <strong>list</strong>.</p>
+<p>To "consume the generator" one can call <code>list(squares)</code></p>
+<p><a href="https://treyhunner.com/2018/06/how-to-make-an-iterator-in-python/">source</a></p>
+<h4 id="logging-and-warnings">logging and warnings:</h4>
+<p><a href="https://docs.python.org/fr/3/howto/logging.html">source</a></p>
+<p><a href="https://docs.python.org/3/library/warnings.html">source</a></p>
+<h4 id="subprocess">subprocess :</h4>
+<p><img alt="⚠" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/26a0.svg" title=":warning:" /> If using subprocess.popen() with a list as cmd argument  on must specify shell=True for it to work.</p>
+<h4 id="shutil">shutil :</h4>
+<p><a href="https://stackabuse.com/how-to-copy-a-file-in-python">shutil to copy files</a></p>
+<h3 id="cython">Cython :</h3>
+<div class="admonition example">
+<p class="admonition-title"><a href="https://anaconda.org/anaconda/cython">Installation</a>:</p>
+<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">conda</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>conda install -c anaconda cython
+</code></pre></div>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">pip</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>pip install Cython --install-option<span class="o">=</span><span class="s2">&quot;--no-cython-compile&quot;</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Import and execute  <a href="https://nyu-cds.github.io/python-cython/02-executing/">.pyx in library and in jupyter</a> C compiled primitives files.</p>
+<p><a href="https://cython.readthedocs.io/en/latest/src/tutorial/pxd_files.html">.pxd</a> files explanation</p>
+<h3 id="collections">Collections :</h3>
+<p><a href="https://pythontic.com/containers/deque/introduction">deque</a> for queueing collections of python objects</p>
+<h3 id="deeplablcut">Deeplablcut :</h3>
+<p><a href="https://forum.image.sc/t/integrating-externally-labeled-data-into-deeplabcut-2-0/21291/2">Integrating externally labeled data into deeplabcut 2.0</a></p>
+<h3 id="sockets">Sockets :</h3>
+<p><a href="https://gist.github.com/goncalopp/4044625">Nice implementation of sending objects with hash checks over python with sockets</a></p>
+<h3 id="pickle">Pickle :</h3>
+<p><a href="https://stackoverflow.com/questions/27732354/unable-to-load-files-using-pickle-and-multiple-modules">Pickle issue solving when switching from function definitions in main or in subpackages</a></p>
+<p><a href="https://www.datacamp.com/community/tutorials/pickle-python-tutorial#multiprocessing">Pickle extensive explanation with interactions with other packages</a></p>
+<p><a href="https://stackoverflow.com/questions/40211236/how-to-move-pointer-to-specific-bytes-and-read-using-pickle-library-in-python">Move to specific byte location in a pickle file ?</a></p>
+<h3 id="matplotlib">Matplotlib :</h3>
+<p>Data visualisation</p>
+<p>Make matplotlib output text as text in plots, <a href="https://stackoverflow.com/questions/34387893/output-matplotlib-figure-to-svg-with-text-as-text-not-curves">not as curves</a> - <a href="https://matplotlib.org/tutorials/introductory/customizing.html">2d link</a></p>
+<p>When using matplotlib qt5agg ( embeded in qt app ) and in the same notebook, call a plot later, use %matplotlib inline inbetween !!!!!!!</p>
+<p>Creating <a href="https://stackoverflow.com/questions/51601272/python-matplotlib-heatmap-colorbar-from-transparent">alpha containing colormaps</a> : </p>
+<p><a href="https://matplotlib.org/3.1.0/gallery/lines_bars_and_markers/spectrum_demo.html#sphx-glr-gallery-lines-bars-and-markers-spectrum-demo-py">Magnitude spectrum ( fft ) quick vizualisation function</a> : ax.magnitude_spectrum( signal , Fs= sampling freq, scale='dB')</p>
+<p><a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.switch_backend.html">Switching backends</a> from qt5 to inline in python (no %magic)</p>
+<p><a href="https://stackoverflow.com/questions/7821518/matplotlib-save-plot-to-numpy-array">Save plots to numpy arrays <strong>directly</strong></a></p>
+<ul>
+<li>
+<ul>
+<li>
+<p><a href="https://matplotlib.org/stable/gallery/statistics/time_series_histogram.html#sphx-glr-gallery-statistics-time-series-histogram-py">Pcolormesh</a> (for time series (histogram based averaging) </p>
+<p><img src="Python.assets/sphx_glr_time_series_histogram_001.png" alt="Line plot with alpha, 2d histogram and log color scale, 2d histogram and linear color scale" style="zoom: 50%;" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Seaborn</strong> :</p>
+<ul>
+<li>
+<p>Setting figure size : </p>
+<div class="highlight"><pre><span></span><code><span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">rc</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;figure.figsize&#39;</span><span class="p">:(</span><span class="mf">11.7</span><span class="p">,</span><span class="mf">8.27</span><span class="p">)})</span>
+</code></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Plotly</strong> :</p>
+<ul>
+<li><a href="https://dash.plotly.com/layout">Layouts</a></li>
+<li>PCA visualisation <a href="https://plotly.com/python/pca-visualization/">ref</a></li>
+<li>Sankey diagram : <a href="https://plotly.com/python/sankey-diagram/">ref</a></li>
+</ul>
+</li>
+</ul>
+<p><img alt="image-20210623191645263" src="Python.assets/image-20210623191645263.png" /></p>
+<ul>
+<li>
+<p><strong>Scipy</strong> :</p>
+<ul>
+<li><a href="https://stackoverflow.com/questions/35490371/how-to-visualize-dendrogram-a-dictionary-of-hierarchical-items">Dendrogram</a> <a href="https://i.stack.imgur.com/WEsvk.png"><img src="Python.assets/WEsvk.png" alt="Dendrogram" style="zoom:33%;" /></a></li>
+</ul>
+</li>
+<li>
+<p><strong>Bokeh</strong> : </p>
+<p><a href="https://realpython.com/python-data-visualization-bokeh/">Live data visualisation (interactive)</a></p>
+<p>https://dash.plotly.com/layout - <a href="https://medium.com/plotly/introducing-dash-5ecf7191b503">Another one</a></p>
+<p><a href="https://www.sicara.ai/blog/2018-01-30-bokeh-dash-best-dashboard-framework-python">Bokeh dash comparison</a></p>
+<p><a href="https://realpython.com/python-data-visualization-bokeh/#prepare-the-data">Bokeh introduction</a></p>
+<p><a href="https://stackoverflow.com/questions/50192139/bokeh-apply-color-map-to-set-of-lines">Multiline color and visualisation (better than calling several times the line module)</a></p>
+<p><a href="https://stackoverflow.com/questions/41380824/python-bokeh-hover-date-time">HoverTool bokeh</a> with <a href="http://docs.bokeh.org/en/1.0.2/docs/user_guide/examples/tools_hover_tooltip_formatting.html">example</a> and wiki on <a href="https://docs.bokeh.org/en/latest/docs/user_guide/tools.html">plot tools</a> (drag pinch etc..)</p>
+<p><a href="https://docs.bokeh.org/en/latest/docs/user_guide/plotting.html">Bokeh plot types</a></p>
+</li>
+<li>
+<p><a href="https://github.com/maartenbreddels/ipyvolume"><strong>Ipyvolume</strong></a> : </p>
+<p><a href="https://cloud.githubusercontent.com/assets/1765949/23901444/8d4f26f8-08bd-11e7-81e6-cedad0a8471c.gif"><img src="Python.assets/8d4f26f8-08bd-11e7-81e6-cedad0a8471c.gif" alt="screencast" style="zoom:25%;" /></a></p>
+<p>using animations in jupyter notebook / lab based on webGL and Ipython widgets. (ipywidgets)</p>
+</li>
+</ul>
+<h3 id="pandas">Pandas:</h3>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><a href="https://towardsdatascience.com/how-to-use-multiindex-in-pandas-to-level-up-your-analysis-aeac7f451fce">Creating multindexes</a> and <a href="https://towardsdatascience.com/handling-pandas-groupby-and-its-multi-indexes-efae3e6b788c">Pandas multingex groupby</a></p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">ERREUR TRES CHIANTE</p>
+<p><a href="https://www.dataquest.io/blog/settingwithcopywarning/">settingwithcopywarning</a> . Peut 'Corrompre un dataframe'...</p>
+<p>Ne pas utiliser le setter 
+<div class="highlight"><pre><span></span><code><span class="n">dataframe</span><span class="p">[</span><span class="s2">&quot;column&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">defaultvalue</span>
+</code></pre></div>
+Il renvoie une copie et fout la merde. Préferer à la place :
+<div class="highlight"><pre><span></span><code><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[:</span> <span class="p">,</span> <span class="s2">&quot;column&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">defaultvalue</span> 
+</code></pre></div>
+Utiliser <strong>.loc</strong> partout, tout le temps pour setter une ou des valeurs. Pour setter une slice de la même manière, utiliser .xs</p>
+</div>
+<h3 id="numpy">Numpy:</h3>
+<p>Crosscorrelation : <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.correlate.html">scipy correlation</a></p>
+<p>Subclassing a numpy array : <a href="https://numpy.org/doc/stable/user/basics.subclassing.html">source</a></p>
+<p>Why numpy is using an origin convetion diffrent than matplotlib :           </p>
+<p><img alt="" src="Python.assets/fpIAt.png" /></p>
+<blockquote>
+<p>Your graphic is not of a matrix, it is of a Cartesian coordinate  system. As you say, in the Cartesian coordinate system, the first  coordinate give the horizontal position, the second coordinate gives the vertical position, and going up the page means the second coordinate  increases. The location <code>(0, 0)</code> is at the lower left of many graphics, but it can be adjust to be anywhere, since each coordinate may be negative.</p>
+<p>In a traditional matrix, however, the first coordinate is the row, or vertical position, and the second is the column, horizontal position.  Going up the page means a decreasing first coordinate. Location <code>(1, 1)</code> is the upper left corner of any matrix, since each coordinate must be a positive integer. Here is a Wikipedia image <a href="https://en.wikipedia.org/wiki/Matrix_(mathematics)">for a matrix</a>:</p>
+</blockquote>
+<p><a href="https://stackoverflow.com/questions/51849547/why-is-numpys-origin-at-the-upper-left-unlike-mathematical-convention/51849585">source</a></p>
+<p><a href="https://numpy.org/doc/stable/user/basics.broadcasting.html">Broadcasting</a> : <a href="https://docs.scipy.org/doc/numpy-1.10.0/reference/generated/numpy.broadcast_to.html">broadcast_to</a></p>
+<blockquote>
+<p>A readonly view on the original array with the given shape. It is typically not contiguous. (no memory duplication theoretically)</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">np</span><span class="o">.</span><span class="n">broadcast_to</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+       <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+       <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]])</span>
+</code></pre></div>
+<p>The term broadcasting describes how numpy treats arrays with different shapes during arithmetic operations. Subject to certain constraints, the smaller array is “broadcast” across the larger array so that they have compatible shapes. Broadcasting provides a means of vectorizing array operations so that looping occurs in C instead of Python.</p>
+</blockquote>
+<p><u>Avoiding <strong>nested</strong> for loops on numpy arrays :</u> </p>
+<p><a href="https://numpy.org/doc/stable/reference/generated/numpy.ndenumerate.html">ndenumerate</a> : Return an iterator yielding pairs of array coordinates and values.</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">ndenumerate</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
+<span class="o">&gt;&gt;&gt;</span>     <span class="nb">print</span><span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+
+<span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="mi">1</span>
+<span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="mi">2</span>
+<span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="mi">3</span>
+<span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="mi">4</span>
+</code></pre></div>
+<p><a href="https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html">meshgrid</a> or <a href="https://numpy.org/doc/stable/reference/generated/numpy.ndenumerate.html">mgrid</a> </p>
+<div class="highlight"><pre><span></span><code><span class="n">np</span><span class="o">.</span><span class="n">mgrid</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
+<span class="n">array</span><span class="p">([[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
+        <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+        <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+        <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+        <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">]],</span>
+       <span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+        <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+        <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+        <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+        <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]]])</span>
+</code></pre></div>
+<div class="admonition info">
+<p class="admonition-title">Types in numpy:</p>
+<p>Numpy uses class objects to encapsule all types of ints ( regardless of bit size, signed or not ) and floats into :</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="err">```</span><span class="n">python</span>
+<span class="nb">int</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">integer</span><span class="p">,</span> <span class="nb">float</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">floating</span>
+<span class="err">```</span>
+<span class="n">Similarly</span> <span class="p">:</span> 
+
+<span class="err">```</span><span class="n">python</span>
+<span class="nb">bool</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">str</span>
+<span class="err">```</span>
+</code></pre></div>
+<p>With <strong>isinstance()</strong> built in function, the second parameter can be a tuple ,  and if any type inside correcponds to the one on the first parameter: the function returns true : thus we can test any int type with :</p>
+<div class="highlight"><pre><span></span><code> <span class="nb">isinstance</span><span class="p">(</span> <span class="n">value</span> <span class="p">,</span> <span class="p">(</span> <span class="nb">int</span> <span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">integer</span> <span class="p">))</span>
+</code></pre></div>
+<p>Another tool : np.issubdtype( ) is made to test dtypes and determine if one descend from another ( signed is important here, but not bitsize )</p>
+<p><strong>Ellipsis</strong> =  <strong>. . .</strong>  An object that is used to say 'an arbitrary number of dimensions' - <a href="https://stackoverflow.com/questions/12116830/numpy-slice-of-arbitrary-dimensions">link</a> </p>
+<p>Example : <code>slice = myarray[:,:,i]</code> or <code>slice = myarray[:,:,:,:,:,i]</code> both equals : <code>slice = myarray[..., i]</code></p>
+<p>find indices of  max values in a multi dimensionnal array : </p>
+<div class="highlight"><pre><span></span><code><span class="n">indices</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">unravel_index</span><span class="p">(</span><span class="n">array</span><span class="o">.</span><span class="n">argmax</span><span class="p">(),</span> <span class="n">array</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</code></pre></div>
+<p><a href="https://stackoverflow.com/questions/55284090/how-to-find-maximum-value-in-whole-2d-array-with-indices">source</a></p>
+<p>Remove dimensions = 1 : <a href="https://numpy.org/doc/stable/reference/generated/numpy.squeeze.html">np.squeze</a></p>
+<h3 id="pyqt5">PyQt5:</h3>
+<p><a href="https://stackoverflow.com/questions/8651742/dynamically-adding-and-removing-widgets-in-pyqt">Adding and removing widgets programatically</a></p>
+<p><a href="https://www.learnpyqt.com/tutorials/layouts/">Layout management in pyQt5</a></p>
+<p><a href="https://stackoverflow.com/questions/37918012/pyqt-give-parent-when-creating-a-widget">PyQt parents widgets, memory leaks, and delete on close (forum)</a></p>
+<h3 id="scipy">Scipy :</h3>
+<p>When fitting : primary issue is the function (number of variables, degrees of adjustment, correctly written etc), then the initial values, and if not working, one can adjust the <code>maxfev</code> .<a href="https://stackoverflow.com/questions/19314402/why-does-scipy-optimize-curve-fit-not-fit-correctly-to-the-data">source</a></p>
+<p><u>2D fitting a curve :</u> </p>
+<p><a href="https://stackoverflow.com/questions/21566379/fitting-a-2d-gaussian-function-using-scipy-optimize-curve-fit-valueerror-and-m">source</a> (used, 2D gaussian function py3 compatible, with offset)  <a href="https://stackoverflow.com/questions/27539933/2d-gaussian-fit-for-intensities-at-certain-coordinates-in-python">source</a> (unused, no offset, fit doesn't converge properly)</p>
+<h3 id="online-modules">Online modules :</h3>
+<h4 id="pytube">pyTube :</h4>
+<p><a href="https://pytube.io/en/latest/api.html#pytube.Stream.download">https://pytube.io/en/latest/api.html#pytube.Stream.download</a></p>
+<h2 id="imports">Imports :</h2>
+<p><a href="https://stackoverflow.com/questions/24322927/python-how-to-alias-module-name-rename-with-preserving-backward-compatibility">Rename module during import to preserve back compatibility</a></p>
+<div class="admonition info">
+<p class="admonition-title">init files :</p>
+<p><a href="https://stackoverflow.com/questions/41871239/how-to-use-init-py-in-sub-modules-to-define-namespaces">Namespaces and <strong>init</strong> files</a>
+<a href="https://sametmax.com/vous-pouvez-mettre-du-code-dans-__init__-py">Put code inside <strong>__init__</strong> files</a>
+<a href="https://stackoverflow.com/questions/448271/what-is-init-py-for">Init file explanation (forum)</a></p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title"><a href="https://stackoverflow.com/questions/49577290/determine-if-object-is-of-type-foo-without-importing-type-foo">Check class type of an item without having to import it's library</a> : </p>
+<div class="highlight"><pre><span></span><code><span class="p">(</span><span class="n">value</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__module__</span><span class="p">,</span> <span class="n">value</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">)</span> <span class="o">==</span> <span class="p">(</span><span class="s1">&#39;numpy&#39;</span><span class="p">,</span> <span class="s1">&#39;ndarray&#39;</span><span class="p">)</span>
+</code></pre></div>
+</div>
+<p>From inside __init__ :</p>
+<div class="highlight"><pre><span></span><code><span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
+</code></pre></div>
+<p>Necessary because by default, inside init, the <code>sys.path()</code> only contains the path to parent folder (if is a subpackage), and thus, can't import modules inside it's corresponding subpackage.</p>
+<p><a href="https://stackoverflow.com/questions/34753206/init-py-cant-find-local-modules">source</a> </p>
+<h2 id="environments">Environments :</h2>
+<p>If issues with "visual C++ xx.x required" : </p>
+<div class="highlight"><pre><span></span><code>pip install --upgrade setuptools
+</code></pre></div>
+<p><strong>Export :</strong> </p>
+<div class="highlight"><pre><span></span><code>conda env export <span class="p">&gt;</span> environment.yml
+</code></pre></div>
+<p>Import :</p>
+<h2 id="documentation">Documentation:</h2>
+<p><a href="https://docs.python.org/fr/2.7/library/pydoc.html">Pydoc</a> : automatically creates python documentation files in html. with architecture and links. The dream. Just needs to state """ triple quotemarks """ documentation at the top of the function or calsses to explain their usage</p>
+<p>​   call it this way : </p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span> &lt;path to the library parent folder&gt;
+pydoc -w &lt;path to the library parent folder&gt;
+</code></pre></div>
+<p><a href="https://github.com/CoatiSoftware/Sourcetrail">Sourcetrail - Another better flavor</a> for Visualizing and creating graphs of function calls </p>
+<p><a href="https://pycallgraph.readthedocs.io/en/master/">Visualizing and creating graphs of function calls (to create docs)</a></p>
+<ul>
+<li>
+<p>Numpydoc to Markdown and serve directly (live changes updates): </p>
+<p>https://github.com/greenape/mktheapidocs</p>
+</li>
+</ul>
+<p><a href="https://pdoc3.github.io/pdoc/doc/pdoc/#supported-docstring-formats&amp;gsc.tab=0">Pdoc</a> : kind of the same to pydoc.</p>
+<p>YAPF : code formatter (best than autopep8 as it reformat your code even if no violation is found)</p>
+<p><a href="https://google.github.io/styleguide/pyguide.html#s3.8.1-comments-in-doc-strings">Google python</a> style guide with <a href="https://google.github.io/styleguide/pyguide.html#doc-function-returns">docstrings</a> infos.</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">fetch_smalltable_rows</span><span class="p">(</span><span class="n">table_handle</span><span class="p">:</span> <span class="n">smalltable</span><span class="o">.</span><span class="n">Table</span><span class="p">,</span>
+                          <span class="n">keys</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Union</span><span class="p">[</span><span class="nb">bytes</span><span class="p">,</span> <span class="nb">str</span><span class="p">]],</span>
+                          <span class="n">require_all_keys</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Mapping</span><span class="p">[</span><span class="nb">bytes</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">]]:</span>
+    <span class="sd">&quot;&quot;&quot;Fetches rows from a Smalltable.</span>
+
+<span class="sd">    Retrieves rows pertaining to the given keys from the Table instance</span>
+<span class="sd">    represented by table_handle.  String keys will be UTF-8 encoded.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      table_handle:</span>
+<span class="sd">        An open smalltable.Table instance.</span>
+<span class="sd">      keys:</span>
+<span class="sd">        A sequence of strings representing the key of each table row to</span>
+<span class="sd">        fetch.  String keys will be UTF-8 encoded.</span>
+<span class="sd">      require_all_keys:</span>
+<span class="sd">        Optional; If require_all_keys is True only rows with values set</span>
+<span class="sd">        for all keys will be returned.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">      A dict mapping keys to the corresponding table row data</span>
+<span class="sd">      fetched. Each row is represented as a tuple of strings. For</span>
+<span class="sd">      example:</span>
+
+<span class="sd">      {b&#39;Serak&#39;: (&#39;Rigel VII&#39;, &#39;Preparer&#39;),</span>
+<span class="sd">       b&#39;Zim&#39;: (&#39;Irk&#39;, &#39;Invader&#39;),</span>
+<span class="sd">       b&#39;Lrrr&#39;: (&#39;Omicron Persei 8&#39;, &#39;Emperor&#39;)}</span>
+
+<span class="sd">      Returned keys are always bytes.  If a key from the keys argument is</span>
+<span class="sd">      missing from the dictionary, then that row was not found in the</span>
+<span class="sd">      table (and require_all_keys must have been False).</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">      IOError: An error occurred accessing the smalltable.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+</code></pre></div>
+<h2 id="string-fomatting">String fomatting :</h2>
+<div class="admonition tip">
+<p class="admonition-title"><a href="https://realpython.com/python-f-strings/">f-strings</a></p>
+<p>The best way (simpler and <strong>faster</strong> exec at runtime !) to format strings (if python &gt; 3.5)</p>
+</div>
+<p>To format numerical values inside f strings :</p>
+<p><div class="highlight"><pre><span></span><code><span class="n">In</span> <span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="c1"># format floating points</span>
+        <span class="n">val</span> <span class="o">=</span> <span class="mf">12.3</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">val</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="mf">12.30</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">In</span> <span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="c1"># format datetime values</span>
+        <span class="kn">import</span> <span class="nn">datetime</span>
+        <span class="n">now</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">now</span><span class="si">:</span><span class="s1">%Y-%m-%d %H:%M</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="mi">2019</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">11</span> <span class="mi">22</span><span class="p">:</span><span class="mi">39</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">In</span> <span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="c1"># justify to the left (default) and add non significant 0</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="mi">3</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">x</span><span class="si">:</span><span class="s1">02</span><span class="si">}</span><span class="s1"> </span><span class="si">{</span><span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="si">:</span><span class="s1">3</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="mi">4</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">x</span><span class="si">:</span><span class="s1">02</span><span class="si">}</span><span class="s1"> </span><span class="si">{</span><span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="si">:</span><span class="s1">3</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">2</span><span class="p">]:</span> <span class="mi">03</span>   <span class="mi">9</span>
+        <span class="mi">04</span>  <span class="mi">16</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">In</span> <span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="c1"># justify to the right</span>
+        <span class="n">s2</span> <span class="o">=</span> <span class="s1">&#39;ab&#39;</span>
+        <span class="n">s3</span> <span class="o">=</span> <span class="s1">&#39;abc&#39;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">s2</span><span class="si">:</span><span class="s1">&gt;10</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">s3</span><span class="si">:</span><span class="s1">&gt;10</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>        <span class="n">ab</span>
+              <span class="n">abc</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">In</span> <span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="c1"># hexadecimal</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="mi">255</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">a</span><span class="si">:</span><span class="s2">x</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="n">ff</span>
+</code></pre></div></p>
+<div class="admonition tip">
+<p class="admonition-title"><strong>str</strong> and <strong>repr</strong> peskyness</p>
+<div class="highlight"><pre><span></span><code><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">new_comedian</span><span class="si">}</span><span class="s2">&quot;</span> <span class="c1">#- using the __str__ function of new_comedian</span>
+<span class="o">&gt;&gt;&gt;</span><span class="s1">&#39;Eric Idle is 74.&#39;</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">new_comedian</span><span class="si">!r}</span><span class="s2">&quot;</span> <span class="c1">#- using the __repr__ function of new_comedian</span>
+<span class="o">&gt;&gt;&gt;</span><span class="s1">&#39;Eric Idle is 74. Surprise!&#39;</span>
+</code></pre></div>
+</div>
+<h2 id="debug">Debug :</h2>
+<p><a href="https://stackoverflow.com/questions/3891804/raise-warning-in-python-without-interrupting-program">Warnings (for example for deprecation) instead of errors raised</a></p>
+<p><a href="http://eric.univ-lyon2.fr/~ricco/tanagra/fichiers/fr_Tanagra_Numba_JIT_Python.pdf">Compilation JIT (just in time) with Numba in python</a> (only for function with positionnal aguments)</p>
+<h2 id="performance">Performance :</h2>
+<h3 id="profiling">Profiling :</h3>
+<p>In Ipython notebook, .ipy files or line commands : </p>
+<p><strong>%timeit</strong> with a space, before a method or satement : time and prints the time taken</p>
+<h3 id="speeding-up-python">Speeding up python :</h3>
+<p><a href="https://medium.com/@urban_institute/using-multiprocessing-to-make-python-code-faster-23ea5ef996ba">Multiprocessing</a></p>
+<p><a href="https://timber.io/blog/multiprocessing-vs-multithreading-in-python-what-you-need-to-know/">Multiprocessing vs threading</a> </p>
+<p><a href="https://medium.com/towards-artificial-intelligence/the-why-when-and-how-of-using-python-multi-threading-and-multi-processing-afd1b8a8ecca">When using multi processing or multi threading</a></p>
+<p><a href="https://www.freecodecamp.org/news/if-you-have-slow-loops-in-python-you-can-fix-it-until-you-cant-3a39e03b6f35/">Fixing slow loops</a></p>
+<p><a href="http://thepythoncorner.com/dev/the-art-of-avoiding-nested-code/">Avoiding nested code</a></p>
+<p><a href="https://medium.com/python-pandemonium/never-write-for-loops-again-91a5a4c84baf">"Never use for loop again (a bit extreme tho)"</a></p>
+<h2 id="classes-specificities">Classes specificities :</h2>
+<p>Iterator creation for a class : </p>
+<p><a href="https://thispointer.com/python-how-to-make-a-class-iterable-create-iterator-class-for-it/">Iterator class with</a>  <strong>__iter__</strong>  and  <strong>__next__</strong></p>
+<p><a href="https://pythonpedia.com/en/tutorial/2063/overloading">Overloading basics</a>, operators , etc</p>
+<p><a href="https://stackoverflow.com/questions/6560354/how-would-i-create-a-custom-list-class-in-python">Initialize</a> parent class in child with <strong>super()</strong></p>
+<p>Explanation of  <a href="https://he-arc.github.io/livre-python/super/index.html">Super</a></p>
+<p><a href="https://stackoverflow.com/questions/29214888/typeerror-cannot-create-a-consistent-method-resolution-order-mro">MRO (method resolution order ) for classes methods</a></p>
+<p>To reload a class in Jupyter lab :</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">importlib</span>
+<span class="n">importlib</span><span class="o">.</span><span class="n">reload</span><span class="p">(</span><span class="n">module</span><span class="p">)</span>
+</code></pre></div>
+<p>Defining a method as a property : @property before the method definition ( can only take one argument then : self )</p>
+<p>Making a class able to print a custom layout : use <strong>__repr__</strong> and <strong>__str__</strong> <a href="https://stackoverflow.com/questions/1535327/how-to-print-instances-of-a-class-using-print">(source)</a></p>
+<p>Get a class bale to supscript itself : use <strong>__getitem__</strong> and <strong>__setitem__</strong> <a href="https://stackoverflow.com/questions/33727217/subscriptable-objects-in-class">(source)</a></p>
+<p>To use leballed supricpt : use getattr(self, name) ( calls an method / property named as variable name )</p>
+<p>Slices are returned with this function : https://www.programiz.com/python-programming/methods/built-in/slice where slice is start stop step. If None None : returns all span. Is step none : interpreted as 1</p>
+<p><strong>dir</strong>( class object ) returns all methods and properties of the given object. Interesting to learn and make smarter code</p>
+<p>Calling a parent class from child : <a href="https://stackoverflow.com/questions/805066/how-to-call-a-parent-classs-method-from-child-class-in-python"><strong>super()</strong></a></p>
+<p><u>Custom <a href="https://stackoverflow.com/questions/2936863/implementing-slicing-in-getitem">Iterating</a> over a slice :</u></p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="fm">__getitem__</span><span class="p">(</span> <span class="bp">self</span><span class="p">,</span> <span class="n">key</span> <span class="p">)</span> <span class="p">:</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span> <span class="n">key</span><span class="p">,</span> <span class="nb">slice</span> <span class="p">)</span> <span class="p">:</span>
+        <span class="c1">#Get the start, stop, and step from the slice</span>
+        <span class="k">return</span> <span class="p">[</span><span class="bp">self</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="n">xrange</span><span class="p">(</span><span class="o">*</span><span class="n">key</span><span class="o">.</span><span class="n">indices</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">)))]</span>
+    <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span> <span class="n">key</span><span class="p">,</span> <span class="nb">int</span> <span class="p">)</span> <span class="p">:</span>
+        <span class="k">if</span> <span class="n">key</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="p">:</span> <span class="c1">#Handle negative indices</span>
+            <span class="n">key</span> <span class="o">+=</span> <span class="nb">len</span><span class="p">(</span> <span class="bp">self</span> <span class="p">)</span>
+        <span class="k">if</span> <span class="n">key</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">key</span> <span class="o">&gt;=</span> <span class="nb">len</span><span class="p">(</span> <span class="bp">self</span> <span class="p">)</span> <span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">IndexError</span><span class="p">,</span> <span class="s2">&quot;The index (</span><span class="si">%d</span><span class="s2">) is out of range.&quot;</span><span class="o">%</span><span class="n">key</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">getData</span><span class="p">(</span><span class="n">key</span><span class="p">)</span> <span class="c1">#Get the data from elsewhere</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">,</span> <span class="s2">&quot;Invalid argument type.&quot;</span>
+</code></pre></div>
+<p><a href="https://www.oreilly.com/library/view/mastering-object-oriented-python/9781783280971/ch08s02.html"><u>Built in class decorators :</u></a> </p>
+<div class="highlight"><pre><span></span><code><span class="nd">@staticmethod</span> <span class="c1"># To not use self in a class method arguments</span>
+<span class="nd">@classmethod</span> <span class="c1"># To call &#39;factory&#39; class before the main class and thus be able to define init parameters from the class itself :</span>
+             <span class="c1">#https://www.programiz.com/python-programming/methods/built-in/classmethod</span>
+<span class="nd">@property</span> <span class="c1"># To call a method like a property</span>
+<span class="nd">@wraps</span>  <span class="c1"># To get docstrings even if you call a function decorator somewhere                  </span>
+        <span class="c1"># https://stackoverflow.com/questions/308999/what-does-functools-wraps-do</span>
+<span class="nd">@timeit</span> <span class="c1"># to profile a function by making a given number of loops on it and printing the mean and sem</span>
+</code></pre></div>
+<p>List of awsome decorators : <a href="https://github.com/lord63/awesome-python-decorator">Awesome python decorators</a></p>
+<p>Some other usefull decorators<a href="https://wiki.python.org/moin/PythonDecoratorLibrary#Easy_adding_methods_to_a_class_instance"> ( like add to class decorator ): </a></p>
+<p><a href="https://nyu-cds.github.io/python-cython/02-executing/"><u>Built in magics commands :</u></a></p>
+<div class="highlight"><pre><span></span><code><span class="o">%%</span><span class="n">cython</span>
+</code></pre></div>
+<p>Make a class callable : implement method <a href="https://stackoverflow.com/questions/14585987/making-a-class-callable-in-same-instance">ref</a></p>
+<div class="highlight"><pre><span></span><code><span class="vm">__class__</span>
+</code></pre></div>
+<h2 id="ide">IDE:</h2>
+<ul>
+<li>
+<p><a href="https://colab.research.google.com/notebooks/">Online editor and environment : Google Collab</a></p>
+</li>
+<li>
+<p>Spyder</p>
+</li>
+<li>
+<p>Pycharm</p>
+</li>
+<li>
+<p>Jupyter notebook and jupyter lab</p>
+</li>
+<li>
+<p>Atom ( with hydrogen as runtime execution addon)</p>
+</li>
+</ul>
+<h2 id="specific-applications">Specific Applications:</h2>
+<p><a href="http://blog.dowski.com/2008/07/31/customizing-the-python-import-system/">Import from web trick</a> </p>
+<p><a href="https://stackoverflow.com/questions/57761132/area-selection-and-capture-of-the-screen-with-python-on-windows">Capture specific area screen with python</a></p>
+<h3 id="image">Image :</h3>
+<h4 id="image-enhancement">Image enhancement :</h4>
+<p><a href="https://www.eurasip.org/Proceedings/Eusipco/Eusipco2008/papers/1569102178.pdf">Edge contrained curve fitting in the threshold decomposition domain (paper)</a></p>
+<p><strong>Superresolution</strong> with DeepNeuralNetworks in opencv. </p>
+<ul>
+<li>
+<p>Tuto learnOpencv <a href="https://learnopencv.com/super-resolution-in-opencv/">ref</a></p>
+</li>
+<li>
+<p>Tuto TowardsDataScience <a href="https://towardsdatascience.com/deep-learning-based-super-resolution-with-opencv-4fd736678066">ref</a></p>
+</li>
+</ul>
+<h4 id="image-rotation-translation-done-right">Image rotation &amp; translation done right :</h4>
+<p><a href="https://rasterio.readthedocs.io/en/latest/topics/reproject.html">Reprojection with rasterio</a></p>
+<h4 id="shape-matching-and-image-calculation-attributes">Shape matching and image calculation attributes :</h4>
+<p><a href="http://www.cyto.purdue.edu/cdroms/micro2/content/education/wirth10.pdf">PDF on image an shape analysis and measurement</a></p>
+<p><a href="https://docs.opencv.org/master/d5/d45/tutorial_py_contours_more_functions.html">CV2 binary shapes analysis</a> </p>
+<p><a href="https://subscription.packtpub.com/book/data/9781789344912/8/ch08lvl1sec93/matching-contours">Moments invariants de Hu (online course)</a> </p>
+<p><a href="https://www.analyticsvidhya.com/blog/2019/10/detailed-guide-powerful-sift-technique-image-matching-python/">SIFT technique for image matching</a> </p>
+<h4 id="machine-vision">Machine vision :</h4>
+<p><a href="https://www.analyticsvidhya.com/blog/2019/03/opencv-functions-computer-vision-python/">Topic abount basic openCV fucntion for machine vision (and Haar cascade classifiers)</a></p>
+<p><a href="https://www.analyticsvidhya.com/blog/2018/10/a-step-by-step-introduction-to-the-basic-object-detection-algorithms-part-1/">Object detection algorithms (convolutionnal neural networks)</a></p>
+<h3 id="others">Others :</h3>
+<p><strong>Mathematical Calculations :</strong></p>
+<p><a href="https://www.python-course.eu/graphs_python.php">Graph theory calculation with python</a> : usind lists tuples and dictionnaries to define custom class (there may be some fully implemented libraries online but this is better as a tutorial not only to classes def but also to graphs)</p>
+<p><strong>Curvature calculation :</strong></p>
+<p><a href="https://en.wikipedia.org/wiki/Curvature#Mean_curvature">Wikipedia curvature</a></p>
+<p><a href="https://mathworld.wolfram.com/Curvature.html">Wolfram mathematica curvature</a></p>
+<p><a href="https://github.com/aymanesouani/curvature_estimation_Rusinkiewicz">Curvature calculation (from a github user, taking advantage of Rusinkiewicz's paper)</a></p>
+<ul>
+<li>
+<p><a href="https://gist.github.com/elyase/451cbc00152cb99feac6">Curvature based on fit and derivative</a></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.com/questions/50562254/curvature-of-set-of-points">Another validation of curvature as fit and derivative</a></p>
+</li>
+<li><a href="https://stackoverflow.com/questions/47972932/detecting-curvature-of-a-plot">Another validation of curtvature as fit and second derivative</a></li>
+</ul>
+<p><a href="https://math.stackexchange.com/questions/2507540/numerical-way-to-solve-for-the-curvature-of-a-curve">Interestig mathematical discussion around curvature</a></p>
+<p><a href="https://stackoverflow.com/questions/36745577/how-do-you-create-in-python-a-file-with-permissions-other-users-can-write">Setting write acess to files python</a></p>
+<p>Conda error "require conda init" chen calling conda activate : <a href="https://superuser.com/questions/1479560/conda-install-package-error-missing-zlib-dll">answer : add Anaconda3/library/bin to path</a></p>
+<h5 id="education-to-programing">Education to programing :</h5>
+<p><a href="https://buzzcoder.gitbooks.io/codecraft-python/content/">Codecraft python</a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="InstallTutorials.html" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Instal. tutos
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="C%2B%2B.html" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              C++
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            &copy; 2021 Timothe
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.4ea5477f.min.js"></script>
+      
+    
+  </body>
+</html>
