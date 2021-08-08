@@ -1,0 +1,83 @@
+# Project information
+site_name: Knowledge
+site_description: 'General documentation'
+site_author: 'Timothe'
+site_url: 'https://josttim.github.io/knowledge/'
+
+# Copyright
+copyright: '&copy; 2021 Timothe'
+
+# Repository
+repo_name: 'knowledge'
+repo_url: 'https://github.com/JostTim/knowledge'
+edit_uri: '#root/documentation/'
+
+use_directory_urls: false
+
+docs_dir: 'documentation'
+
+theme: 
+    name : material
+    palette:
+        scheme: slate
+        primary: deep orange
+        accent: teal
+    features:
+        - navigation.tabs
+    highlightjs : true
+    hljs_languages :
+        - python
+        - c++
+        - c
+        - html
+        - css
+        - cmd
+
+plugins:
+    - search      
+   
+markdown_extensions:
+    - pymdownx.keys
+    - pymdownx.superfences
+    - pymdownx.tabbed
+    - pymdownx.details
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - admonition
+    - attr_list
+    - def_list
+ 
+nav:
+    - Home: index.md
+    - Blog : Blog_Articles.md
+    - General knowledge:
+        - 'Notes': 'Notes.md'
+        - 'Virtual world' :
+            - Programation: 
+                - 'General' : 'Programming\Programming.md'
+                - 'Instal. tutos' : 'Programming\InstallTutorials.md'
+                - 'Python' :  'Programming\Python.md'
+                - 'C++' :     'Programming\C++.md'
+                - 'Other Languages' :  'Programming\Other_languages.md'
+            - 'Informatics': 'Informatic.md'
+            - 'Communication' : 'Communication.md'
+
+        - "Physical world" :
+            - 'Electronics & Mechatronics': 'Electronics_Mechatronics.md'
+            - 'Cameras & Computer vision.': 'camera_computer_vision.md'
+            - 'CFAO and Mechanics': 'Mechanic_and_CAD.md'
+            
+        - "Devices and workshop":
+            - 'Various hardware': 'Branded_hardware.md'
+            - 'Organising workspace': 'Organizing_stuff.md'
+        
+        - "Theoric" :
+            - 'Mathematics': 'Mathematics.md'
+            - 'Statistics' : 'Statistics.md'
+            - 'Physics': 'Physics.md'
+            - 'Optics': 'Optic.md'
+            - 'Biology': 'General_biology.md'
+      

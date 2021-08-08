@@ -1,0 +1,3 @@
+## Rangement:
+
+[Avantages d'un rack bien rangé en electronique !](https://www.digikey.fr/fr/blog/even-einstein-can-be-wrong?utm_medium=email&utm_source=aut&utm_campaign=79381_AUT2011A&utm_content=featured2learnmore_FR&utm_cid=12172723&mkt_tok=eyJpIjoiWkRFMk0ySmlPRGN3TXpVNSIsInQiOiJEdDdHa1diaU1aSnVjV3BWeXBXXC93Y3doMjh4ZVAyZ0kwMW9RUVwvd2g1c2tjTW80dXRSemNVRDRLNURLZE5DV3IwTVwvQ25jUytGN04wY2FXNmlJWFF0Skxsd3RMRTZKZ2tMOEV3RnZPNVZqRlRsU1BDMjBrZEtmMXVxYlg0XC81MWEifQ%3D%3D)
