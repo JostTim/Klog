@@ -2,7 +2,7 @@
 site_name: Knowledge
 site_description: 'General documentation'
 site_author: 'Timothe'
-site_url: 'https://josttim.github.io/knowledge/'
+site_url: 'https://josttim.github.io/knowledge'
 
 # Copyright
 copyright: '&copy; 2021 Timothe'
@@ -24,6 +24,8 @@ theme:
         accent: teal
     features:
         - navigation.tabs
+        - navigation.instant
+        - navigation.top
     highlightjs : true
     hljs_languages :
         - python
@@ -52,32 +54,37 @@ markdown_extensions:
  
 nav:
     - Home: index.md
-    - Blog : Blog_Articles.md
-    - General knowledge:
-        - 'Notes': 'Notes.md'
-        - 'Virtual world' :
-            - Programation: 
-                - 'General' : 'Programming\Programming.md'
-                - 'Instal. tutos' : 'Programming\InstallTutorials.md'
-                - 'Python' :  'Programming\Python.md'
-                - 'C++' :     'Programming\C++.md'
-                - 'Other Languages' :  'Programming\Other_languages.md'
-            - 'Informatics': 'Informatic.md'
-            - 'Communication' : 'Communication.md'
-
-        - "Physical world" :
-            - 'Electronics & Mechatronics': 'Electronics_Mechatronics.md'
-            - 'Cameras & Computer vision.': 'camera_computer_vision.md'
-            - 'CFAO and Mechanics': 'Mechanic_and_CAD.md'
-            
-        - "Devices and workshop":
-            - 'Various hardware': 'Branded_hardware.md'
-            - 'Organising workspace': 'Organizing_stuff.md'
+    
+    - Blog: 
+        - 'Net backbone': 'Blog\backbone.md'
+        - 'Ignoble': 'Blog\Ignoble.md'
+        - 'Psychotronics': 'Blog\Psychotronics.md'
         
-        - "Theoric" :
-            - 'Mathematics': 'Mathematics.md'
-            - 'Statistics' : 'Statistics.md'
-            - 'Physics': 'Physics.md'
-            - 'Optics': 'Optic.md'
-            - 'Biology': 'General_biology.md'
+    - Notes: 'Notes.md'
+    
+    - SoftwR :
+        - Programation: 
+            - 'General' : 'Programming\Programming.md'
+            - 'Instal. tutos' : 'Programming\InstallTutorials.md'
+            - 'Python' :  'Programming\Python.md'
+            - 'C++' :     'Programming\C++.md'
+            - 'Other Languages' :  'Programming\Other_languages.md'
+        - 'Informatics': 'Informatic.md'
+        - 'Communication' : 'Communication.md'
+
+    - HardwR :
+        - 'Elec-Mechatronics': 'Electronics_Mechatronics.md'
+        - 'Computer vision.': 'camera_computer_vision.md'
+        - 'Mechanics': 'Mechanic_and_CAD.md'
+            
+    - Concepts :
+        - 'Mathematics': 'Mathematics.md'
+        - 'Statistics' : 'Statistics.md'
+        - 'Physics': 'Physics.md'
+        - 'Optics': 'Optic.md'
+        - 'Biology': 'General_biology.md'
+        
+    - Workshop:
+        - 'Devices': 'Branded_hardware.md'
+        - 'Organising workspace': 'Organizing_stuff.md'
       
