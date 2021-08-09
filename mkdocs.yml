@@ -10,7 +10,7 @@ copyright: '&copy; 2021 Timothe'
 # Repository
 repo_name: 'knowledge'
 repo_url: 'https://github.com/JostTim/knowledge'
-edit_uri: '#root/documentation/'
+edit_uri: ''
 
 use_directory_urls: false
 
@@ -19,9 +19,18 @@ docs_dir: 'documentation'
 theme: 
     name : material
     palette:
-        scheme: slate
-        primary: deep orange
-        accent: teal
+    
+        - scheme: default
+            toggle:
+                icon: material/toggle-switch-off-outline
+                name: Switch to dark mode
+        - scheme: slate
+            primary: deep orange
+            accent: teal
+            toggle:
+                icon: material/toggle-switch
+                name: Switch to light mode
+        
     features:
         - navigation.tabs
         - navigation.instant
@@ -56,8 +65,8 @@ nav:
     - Home: index.md
     
     - Blog: 
-        - 'Net backbone': 'Blog\backbone.md'
-        - 'Ignoble': 'Blog\Ignoble.md'
+        - 'INet Backbone': 'Blog\backbone.md'
+        - 'Ignoble Price': 'Blog\Ignoble.md'
         - 'Psychotronics': 'Blog\Psychotronics.md'
         
     - Notes: 'Notes.md'
