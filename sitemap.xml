@@ -1,83 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://josttim.github.io/knowledge/index.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://josttim.github.io/knowledge/Blog_Articles.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <loc>https://josttim.github.io/knowledge/Blog/backbone.html</loc>
+     <lastmod>2021-08-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://josttim.github.io/knowledge/Blog/Ignoble.html</loc>
+     <lastmod>2021-08-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://josttim.github.io/knowledge/Blog/Psychotronics.html</loc>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Notes.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Programming/Programming.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Programming/InstallTutorials.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Programming/Python.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Programming/C%2B%2B.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Programming/Other_languages.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Informatic.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Communication.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Electronics_Mechatronics.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/camera_computer_vision.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Mechanic_and_CAD.html</loc>
-     <lastmod>2021-08-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://josttim.github.io/knowledge/Branded_hardware.html</loc>
-     <lastmod>2021-08-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://josttim.github.io/knowledge/Organizing_stuff.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Mathematics.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Statistics.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Physics.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/Optic.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://josttim.github.io/knowledge/General_biology.html</loc>
-     <lastmod>2021-08-08</lastmod>
+     <lastmod>2021-08-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://josttim.github.io/knowledge/Branded_hardware.html</loc>
+     <lastmod>2021-08-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://josttim.github.io/knowledge/Organizing_stuff.html</loc>
+     <lastmod>2021-08-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
