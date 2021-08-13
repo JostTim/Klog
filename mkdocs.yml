@@ -1,40 +1,29 @@
 # Project information
-site_name: Knowledge
-site_description: 'General documentation'
+site_name: MazeDocs
+site_description: 'Maze documentation'
 site_author: 'Timothe'
-site_url: 'https://josttim.github.io/knowledge'
+site_url: ''
 
 # Copyright
 copyright: '&copy; 2021 Timothe'
 
 # Repository
-repo_name: 'knowledge'
-repo_url: 'https://github.com/JostTim/knowledge'
+repo_name: 'MazeDocs'
+repo_url: ''
 edit_uri: ''
 
 use_directory_urls: false
 
-docs_dir: 'documentation'
+docs_dir: 'notedocs'
 
 theme: 
     name : material
     palette:
-    
-        - scheme: default
-            toggle:
-                icon: material/toggle-switch-off-outline
-                name: Switch to dark mode
-        - scheme: slate
-            primary: deep orange
-            accent: teal
-            toggle:
-                icon: material/toggle-switch
-                name: Switch to light mode
-        
+        scheme: slate
+        primary: deep orange
+        accent: teal
     features:
         - navigation.tabs
-        - navigation.instant
-        - navigation.top
     highlightjs : true
     hljs_languages :
         - python
@@ -63,37 +52,44 @@ markdown_extensions:
  
 nav:
     - Home: index.md
-    
-    - Blog: 
-        - 'INet Backbone': 'Blog\backbone.md'
-        - 'Ignoble Price': 'Blog\Ignoble.md'
-        - 'Psychotronics': 'Blog\Psychotronics.md'
+ 
+    - Private: 
+        - 'Career': 'Private\Career.md'
+        - 'Personnal Notes': 'Private\Private.md'
+        - 'Stuff to buy': 'Private\Commandes_todo.md'
         
-    - Notes: 'Notes.md'
-    
-    - SoftwR :
-        - Programation: 
-            - 'General' : 'Programming\Programming.md'
-            - 'Instal. tutos' : 'Programming\InstallTutorials.md'
-            - 'Python' :  'Programming\Python.md'
-            - 'C++' :     'Programming\C++.md'
-            - 'Other Languages' :  'Programming\Other_languages.md'
-        - 'Informatics': 'Informatic.md'
-        - 'Communication' : 'Communication.md'
-
-    - HardwR :
-        - 'Elec-Mechatronics': 'Electronics_Mechatronics.md'
-        - 'Computer vision.': 'camera_computer_vision.md'
-        - 'Mechanics': 'Mechanic_and_CAD.md'
+    - Documentation:
+        - 'Software' :
+            - 'Ongoing tools': 'Documentation\Software\PyTools_ideas.md'
+            - 'Position Tracking': 'Documentation\Software\BehaviorToolkit.md'
             
-    - Concepts :
-        - 'Mathematics': 'Mathematics.md'
-        - 'Statistics' : 'Statistics.md'
-        - 'Physics': 'Physics.md'
-        - 'Optics': 'Optic.md'
-        - 'Biology': 'General_biology.md'
+        - 'Hardware' :
+            - 'MAZE': 'Documentation\Hardware\Maze.md'
+            - 'MORJ' : 'Documentation\Hardware\MORJ.md'
+            - 'Snapmaker 2' : 'Documentation\ExternalHardware\Snapmaker2.md'
+            - 'Ultimaker S5' : 'Documentation\ExternalHardware\UlimakerS5.md'
+            - 'Proxxon 500BL' : 'Documentation\ExternalHardware\Proxxon500BL.md'
+            
+    - Analysis notes: 
+        - 'Expect 2': 'Analysis\Expect_2.md'
+        - 'Expect 3': 'Analysis\Expect_3.md'
+        - 'Expect Controls': 'Analysis\Expect_controls.md'
+        - 'MORJ_paper': 'Analysis\MORJ_quantif.md'
         
-    - Workshop:
-        - 'Devices': 'Branded_hardware.md'
-        - 'Organising workspace': 'Organizing_stuff.md'
-      
+    - Lab :
+        - 'Cahier de manip': 'Lab\ELNTim.md'
+        - 'Coffre fort': 'Lab\Lab_codex.md'
+        - 'Notes non-datées': 'Lab\Unordered_lab_notes.md'
+        - 'Precis pharmaco.': 'Lab\Surgery_pharmacology.md'
+        - 'Protocoles':
+            - 'Awake VSD staning': 'Lab\Awake_VSD_staining.md'
+            - 'Glass window': 'Lab\Glass_window.md'
+            - 'Pdms window': 'Lab\PDMS_window.md'
+            - 'Glass window opening': 'Lab\Glass_window_opening.md'
+            - 'Implantation': 'Lab\Implantation.md'
+            - 'Intrinsic imaging': 'Lab\Intrinsic_Imaging.md'
+    
+    - Bibliography: 
+        - 'Neurosciences': 'Biblio\Biblio_codex_2.md'      
+
+        
