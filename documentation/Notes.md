@@ -1,3 +1,7 @@
+
+
+
+
 DIY textile bible website [Kobakant - How to get what you want](https://www.kobakant.at/DIY/)
 
 
@@ -6,6 +10,12 @@ DIY textile bible website [Kobakant - How to get what you want](https://www.koba
 
 > Everything **HTML**, **CSS**, and **JavaScript**,
 > the most common languages used in making web pages.
+
+
+
+- [Listen Notes](https://www.listennotes.com/?s=df), a search engine for podcasts online.
+
+
 
 ## LINKS TO SORT :
 
@@ -65,9 +75,13 @@ DIY textile bible website [Kobakant - How to get what you want](https://www.koba
 
 
 
+Serve html files directly from github : with [raw.gitrack.com](https://raw.githack.com/)
+
 ## Keeping Notes :
 
 ### Markdown :
+
+Invented by John Gruber. [[source](https://daringfireball.net/projects/markdown/syntax#overview)] 
 
 URL to markdown converter : [FuckYeahMarkdown.com](http://fuckyeahmarkdown.com/)
 

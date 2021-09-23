@@ -12,6 +12,12 @@
 
 
 
+## Objects : 
+
+Reference counting in python : [source](https://towardsdatascience.com/understanding-reference-counting-in-python-3894b71b5611)
+
+Variables in python [source](https://medium.com/swlh/a-deep-dive-into-variables-in-python-8f55f69c3653)
+
 ## Modules :
 
 ### Built-ins :
@@ -582,6 +588,12 @@ Function arguments **default values** and **type hints** syntax :
 def foo(opts : dict = {}) -> str:
     return "foobar"
 ```
+
+[Python-Markdown](https://python-markdown.github.io/) : 
+
+A tool that allows to generate html from md formatted text files.
+
+[Tutorial for using it](https://coderbook.com/@marcus/how-to-render-markdown-syntax-as-html-using-python/)
 
 
 
