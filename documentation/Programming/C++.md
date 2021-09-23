@@ -435,6 +435,24 @@ struct foo {
 
 - Nested classes : [ref](https://riptutorial.com/cplusplus/example/11914/nested-classes-structures)
 
+
+
+Pass the class object to a function in c++ : 
+
+```c++
+template<class MODULE>
+void function_taking_class() {
+	// use static functions of AnyClass
+	MODULE::count_instances();
+
+	// or create an object of AnyClass and use it
+	MODULE object;
+	object.member = value;
+}
+```
+
+
+
 ## Arduino specifics :
 
 [Question about C++ Javan and C# compilation and execution time](https://stackoverflow.com/questions/145110/c-performance-vs-java-c) - Answer, with JIT (just in time compiler) C#and Java can be even faster than C++ because optimizations can be made depending on the architecture of the machine, optimisations that are less drastic for OS versatility sake when compiling C++ long before execution.
@@ -534,6 +552,9 @@ Il faut comprendre comment fonctionne la "compilation", et par  "compilation" j'
 Les instructions de préprocesseur sont exécuté AVANT le compilateur.
 Toute les instruction de préprocesseur sont évalue et font leurs jobs.
 Par exemples, "#include fichier" permet de copier le contenue de "fichier" à la place de #include.
+
+ `<...>` for inclusions only looks in the system and library areas.  `"..."` also looks inside your sketch.
+
 Ca remplace la ligne par le contenue du fichier, carrément.
 
 Ensuite, la compilation (qui ne s'effectue QUE sur les fichiers .c).

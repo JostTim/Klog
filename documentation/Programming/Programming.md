@@ -1,4 +1,4 @@
-## IDE :
+## IDEs :
 
 ### VisualStudio :
 
@@ -12,16 +12,39 @@ To format a document: ++ctrl+k++ - ++ctrl+d++
 
 ## Conventions :
 
+### IDE flags : 
+
 Scannable notes in code :
 
 `TODO` `BUG` `XXX` `FIXME` `OPTIMIZE` `HACK`
 
+### Styleguides :
+
 [Google styleguides](https://google.github.io/styleguide/)
 
-## Model program structure :
+
+
+### Model program structure :
 
 - Agent Interaction Diagram : a way to represent model diagram of agents interactions with a user.
 - UML (Universal Modeling Language) : Object oriented way to represent classes and their interactions - [Easy to use with Java](https://www.jmdoudoux.fr/java/dej/chap-uml.htm) 
+
+
+
+### File path components : 
+
+ `/` -> root
+ `.` -> THIS dir path
+ `..` -> go "up" one level
+
+<u>Examples :</u> 
+
+ `/a/./b` -> in `/a/b`
+ `/a/./b/..` -> `/a/b/..` -> `/a`
+ `/a/./b/../..` -> `/a/..` -> `/`
+ `/a/./b/../../c` -> `/c`
+
+
 
 ## File formats :
 
@@ -47,6 +70,43 @@ Scannable notes in code :
 
 - config text files (e.g. ini) 
 - yaml or yml files
+
+
+
+For configurationtext files : *[stack exchange thread](https://unix.stackexchange.com/questions/54957/what-is-the-difference-between-ini-and-conf)*
+
+> **.ini** -style configuration files may have a format similar to this:
+>
+> ```ini
+> [heading1]
+> key1=value
+> key2=value
+> 
+> [heading2]
+> a=1
+> b=2
+> 
+> etc...
+> ```
+>
+> **.conf** -style configuration files are more varied. They may look similar to this:
+>
+> ```json
+> # A comment
+> button 1 {
+>   name "hello"
+>   "text" hi.there
+>   "more..." {
+>     "something 123"  bla.bla "123"
+>   }
+> }
+> 
+> # Another comment
+> button 2 {
+>   # hello
+>   x=2
+> }
+> ```
 
 
 
@@ -100,6 +160,8 @@ Databases
 
 ![databases_infrormatics](Programming.assets/databases_infrormatics.PNG)
 
+## Some vocabulary : 
+
 [Managed code ](https://en.wikipedia.org/wiki/Managed_code) : 
 
 > is computer program code that requires and will execute only under the management of a [Common Language Infrastructure](https://en.wikipedia.org/wiki/Common_Language_Infrastructure) (CLI) or other types of virtual machines.Le terme de *managed code* provenant de Microsoft ne fait pas partie de la terminologie [Java](https://fr.wikipedia.org/wiki/Java_(langage)), mais le même concept existe : du code exécuté dans la [JVM](https://fr.wikipedia.org/wiki/Java_Virtual_Machine) bénéficie de plusieurs avantages du code managé, dont notamment le [ramasse-miettes](https://fr.wikipedia.org/wiki/Ramasse-miettes_(informatique)).
@@ -107,4 +169,8 @@ Databases
 [Garbage colletor](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) :
 
 > In [computer science](https://en.wikipedia.org/wiki/Computer_science), **garbage collection** (**GC**) is a form of automatic [memory management](https://en.wikipedia.org/wiki/Memory_management). The *garbage collector* attempts to reclaim memory which was allocated by the program, but is no longer referenced—also called *[garbage](https://en.wikipedia.org/wiki/Garbage_(computer_science))* There is several strategies for automatic garbage detection.
+
+[Esoteric language or Esolang :](https://en.wikipedia.org/wiki/Esoteric_programming_language#Befunge)
+
+> An **esoteric programming language** (sometimes shortened to **esolang**) is a [programming language](https://en.wikipedia.org/wiki/Programming_language) designed to test the boundaries of computer programming language design, as a [proof of concept](https://en.wikipedia.org/wiki/Proof_of_concept), as [software art](https://en.wikipedia.org/wiki/Software_art), as a hacking interface to another language (particularly [functional programming](https://en.wikipedia.org/wiki/Functional_programming) or [procedural programming](https://en.wikipedia.org/wiki/Procedural_programming) languages), or as a joke.  The use of *[esoteric](https://en.wiktionary.org/wiki/esoteric)* distinguishes these languages from programming languages that working  developers use to write software. Usually, an esolang's creators do not  intend the language to be used for mainstream programming, although some esoteric features, such as [visuospatial](https://en.wikipedia.org/wiki/Visuospatial) [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages)),[[1\]](https://en.wikipedia.org/wiki/Esoteric_programming_language#cite_note-1)  have inspired practical applications in the arts.  Such languages are often popular among [hackers](https://en.wikipedia.org/wiki/Hacker_(hobbyist)) and hobbyists.
 

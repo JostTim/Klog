@@ -22,6 +22,18 @@
 
 
 
+## Making circuits :
+
+### Decoupling capacitors : 
+
+[Why are they necessary](https://www.protoexpress.com/blog/decoupling-capacitor-use/#Why_is_decoupling_necessary) ? 
+
+Usually : A **0.1uF** capacitor between ground and  supply planes before entry inside the IC, FOR EACH IC.
+
+And one **10uF** capacitor between ground and supply plane for all ICs.
+
+
+
 ## Cables & Connectors
 
 ### Cables :
@@ -227,6 +239,8 @@ R2 **67** ohms :  Vout = 1,8V
 
 ### Batteries :
 
+Learn everything about batteries : [Battery University](https://batteryuniversity.com)
+
 <u>Lithium ion  :</u>
 
 - [3.7V Lipolymer batteries](https://www.ebay.com/b/3-7V-Lithium-Multipurpose-Rechargeable-Batteries/48619/bn_57020267)
@@ -319,7 +333,7 @@ Linear , latching , or simple (digital ) - [Info about the variants](http://adam
 
 <u>On computer AHRS fusion :</u>
 
-- [madgwick_py: A Python implementation of Madgwick's IMU and AHRS algorithm.](https://github.com/morgil/madgwick_py)
+- [madgwick.py: A Python implementation of Madgwick's IMU and AHRS algorithm.](https://github.com/morgil/madgwick_py)
 
 	> This implementation was done at the Cognitive Systems Lab (CSL) of the Karlsruhe Institute of Technology: 
 - [micropython-fusion](https://github.com/micropython-IMU/micropython-fusion)

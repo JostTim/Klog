@@ -576,6 +576,13 @@ def fetch_smalltable_rows(table_handle: smalltable.Table,
 
 ```
 
+Function arguments **default values** and **type hints** syntax :
+
+```python
+def foo(opts : dict = {}) -> str:
+    return "foobar"
+```
+
 
 
 ## String fomatting :
