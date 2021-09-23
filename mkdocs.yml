@@ -19,12 +19,16 @@ docs_dir: 'documentation'
 theme: 
     name : material
     palette:
-        scheme: slate
+      - scheme: default
+        toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to dark mode
+      - scheme: slate
         primary: deep orange
         accent: teal
         toggle:
-            icon: material/toggle-switch
-            name: Switch to light mode
+          icon: material/toggle-switch
+          name: Switch to light mode
         
     features:
         - navigation.tabs
