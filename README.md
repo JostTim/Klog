@@ -1,2 +1,2 @@
-# knowledge
-Available [here](https://josttim.github.io/knowledge/)
+# knowledge LOG
+Available online [here](https://josttim.github.io/knowledge/)
