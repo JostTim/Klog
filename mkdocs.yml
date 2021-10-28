@@ -64,19 +64,19 @@ nav:
     - Home: index.md
     
     - Blog: 
-        - 'INet Backbone': 'Blog\backbone.md'
-        - 'Ignoble Price': 'Blog\Ignoble.md'
-        - 'Psychotronics': 'Blog\Psychotronics.md'
+        - 'INet Backbone': 'Blog/backbone.md'
+        - 'Ignoble Price': 'Blog/Ignoble.md'
+        - 'Psychotronics': 'Blog/Psychotronics.md'
         
     - Notes: 'Notes.md'
     
     - SoftwR :
         - Programation: 
-            - 'General' : 'Programming\Programming.md'
-            - 'Instal. tutos' : 'Programming\InstallTutorials.md'
-            - 'Python' :  'Programming\Python.md'
-            - 'C++' :     'Programming\C++.md'
-            - 'Other Languages' :  'Programming\Other_languages.md'
+            - 'General' : 'Programming/Programming.md'
+            - 'Instal. tutos' : 'Programming/InstallTutorials.md'
+            - 'Python' :  'Programming/Python.md'
+            - 'C++' :     'Programming/C++.md'
+            - 'Other Languages' :  'Programming/Other_languages.md'
         - 'Informatics': 'Informatic.md'
         - 'Communication' : 'Communication.md'
 
