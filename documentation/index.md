@@ -20,7 +20,7 @@
 
 - [Voltage divider calculator](https://circuitdigest.com/calculators/voltage-divider-calculator)
 
-	
+​	
 
 - [ASCII code](https://www.ascii-code.com/)
 
@@ -39,6 +39,14 @@
 - [C++ online  shell](http://cpp.sh/)
 
 - [Google Collab](https://colab.research.google.com/notebooks/) : Python online editor
+
+
+
+- [Link previews](https://link-previews.stephanbogner.de/) : image generator : by stephan bogner
+
+## Repos docs :
+
+- **[pGenUtils](https://josttim.github.io/pGenUtils/)** : general purpose code for lab dev and private use.
 
 
 

@@ -120,6 +120,17 @@ Graphical 3D space mathematical programming courses & tutorials : Scratchpixel 2
 
 ## Machine Learning :
 
+[Google's machine learning crash course :](https://developers.google.com/machine-learning/crash-course?hl=fr)<a href="https://developers.google.com/machine-learning/crash-course?hl=fr">
+<img src="Programming.assets/2021-10-14-Google_Developers-Machine_Learning_Crash_Course_….png" alt="2021-10-14-Google_Developers-Machine_Learning_Crash_Course_…" style="zoom:80%;" />
+</a>
+
+
+
+<iframe src = "http://google.peek.link/2idf">
+</iframe>
+
+
+
 [FPGA deep learning tutorial](https://software.intel.com/en-us/ai/courses/deep-learning-inference-fpga)
 
 [Convolution artificialNN guide](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
@@ -139,6 +150,10 @@ With interpretable deep learning : could open a new way in neurosciences.
 Recurrent Neuronal Networks : 
 
 - [Long short term memory](https://en.wikipedia.org/wiki/Long_short-term_memory)
+
+
+
+
 
 
 
