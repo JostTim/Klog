@@ -63,7 +63,7 @@ markdown_extensions:
 nav:
     - Home: index.md
     
-    - Blog: 
+    - Articles: 
         - 'INet Backbone': 'Blog/backbone.md'
         - 'Ignoble Price': 'Blog/Ignoble.md'
         - 'Psychotronics': 'Blog/Psychotronics.md'
@@ -85,7 +85,7 @@ nav:
         - 'Computer vision.': 'camera_computer_vision.md'
         - 'Mechanics': 'Mechanic_and_CAD.md'
             
-    - Concepts :
+    - Scientific Fields :
         - 'Mathematics': 'Mathematics.md'
         - 'Statistics' : 'Statistics.md'
         - 'Physics': 'Physics.md'
