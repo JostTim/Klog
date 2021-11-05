@@ -114,6 +114,16 @@ Face to face (type DF)
 
 [Oleksandr Stepanenko](https://grabcad.com/oleksandr.stepanenko-1) : https://grabcad.com/library/6-dof-parallel-robot-1 Modules de déplacement linéaires et robots 6 axes delta
 
+## Parts reference :
+
+### Screws : 
+
+<u>**BTR Screws cheatsheet :**</u> 
+
+![GIF_221005020473_1](Mechanic_and_CAD.assets/GIF_221005020473_1.gif)
+
+
+
 ## Mechanisms :
 
 Shibata coupler : https://www.reddit.com/r/3Dprinting/comments/kp8bu8/my_attempt_at_designing_and_printing_a_shibata/
