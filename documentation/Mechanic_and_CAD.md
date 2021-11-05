@@ -114,7 +114,7 @@ Face to face (type DF)
 
 [Oleksandr Stepanenko](https://grabcad.com/oleksandr.stepanenko-1) : https://grabcad.com/library/6-dof-parallel-robot-1 Modules de déplacement linéaires et robots 6 axes delta
 
-## Parts reference :
+## Sizes reference :
 
 ### Screws : 
 
@@ -122,7 +122,11 @@ Face to face (type DF)
 
 ![GIF_221005020473_1](Mechanic_and_CAD.assets/GIF_221005020473_1.gif)
 
+### Holes : 
 
+<u>**Tap / taraudage diameters for metric screws :**</u>
+
+![https://www.drillanddriver.com/wp-content/uploads/2021/09/M8-Hole-Sizes.jpg](Mechanic_and_CAD.assets/M8-Hole-Sizes.jpg)
 
 ## Mechanisms :
 
