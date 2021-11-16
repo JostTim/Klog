@@ -8,6 +8,9 @@ To format a selection : ++ctrl+k++ - ++ctrl+f++
 
 To format a document: ++ctrl+k++ - ++ctrl+d++ 
 
+## GitHub
+
+How to manage [Labels](https://medium.com/@dtinth/how-to-copy-github-labels-from-one-project-to-another-1857adc73e0f) : Using github-label-manager tool (community dev)
 
 
 ## Conventions :
