@@ -13,6 +13,18 @@ To format a document: ++ctrl+k++ - ++ctrl+d++
 How to manage [Labels](https://medium.com/@dtinth/how-to-copy-github-labels-from-one-project-to-another-1857adc73e0f) : Using github-label-manager tool (community dev)
 
 
+## Windows :
+
+usefull shell commands : 
+
+| command  | arguments | description                                                  |
+| -------- | --------- | ------------------------------------------------------------ |
+| ipconfig |           | a classic. Get info mainly about local network of a computer |
+| nbstat   |           |                                                              |
+|          |           |                                                              |
+
+
+
 ## Conventions :
 
 ### IDE flags : 
