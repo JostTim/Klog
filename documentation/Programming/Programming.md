@@ -23,6 +23,10 @@ usefull shell commands :
 | nbstat   |           |                                                              |
 |          |           |                                                              |
 
+Freeze a configuration for a multi user computer : 
+
+[Faronics DeepFreeze](https://www.faronics.com/en-uk/products/deep-freeze) - Not free : search for alternatives online
+
 
 
 ## Conventions :
