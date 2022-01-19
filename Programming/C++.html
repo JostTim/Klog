@@ -9,14 +9,13 @@
         <meta name="description" content="General documentation">
       
       
-      
         <meta name="author" content="Timothe">
       
       
         <link rel="canonical" href="https://josttim.github.io/Klog/Programming/C%2B%2B.html">
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.3">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.4">
     
     
       
@@ -24,10 +23,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.5143246d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.bb3983ee.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
         
       
     
@@ -37,14 +36,13 @@
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
-    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-
 
     
     
@@ -61,9 +59,8 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
   
     
-    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
-      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -79,6 +76,7 @@
     <div data-md-component="announce">
       
     </div>
+    
     
       
 
@@ -137,8 +135,7 @@
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
       </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -170,8 +167,7 @@
     
     
       <div class="md-header__source">
-        
-<a href="https://github.com/JostTim/Klog" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/JostTim/Klog" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
@@ -340,8 +336,7 @@
   </label>
   
     <div class="md-nav__source">
-      
-<a href="https://github.com/JostTim/Klog" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/JostTim/Klog" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
@@ -583,6 +578,7 @@
       </a>
       
         
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -1057,6 +1053,7 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -1225,61 +1222,61 @@
             <article class="md-content__inner md-typeset">
               
                 
-                
-                  <h1>C++</h1>
-                
-                <h2 id="libraries">Libraries:</h2>
+
+  <h1>C++</h1>
+
+<h2 id="libraries">Libraries:</h2>
 <p>Standard imports : </p>
-<div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
-<span class="cp">#include</span> <span class="cpf">&lt;string&gt;</span><span class="cp"></span>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;string&gt;</span><span class="cp"></span>
 <span class="cp">#include</span><span class="cpf">&lt;string.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>
-<span class="cp">#include</span> <span class="cpf">&lt;typeinfo&gt;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;typeinfo&gt;</span><span class="cp"></span>
 </code></pre></div>
 <h2 id="structures">Structures :</h2>
 <p>Switch case : </p>
-<div class="highlight"><pre><span></span><code><span class="k">switch</span> <span class="p">(</span><span class="n">var</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">case</span> <span class="nl">label1</span><span class="p">:</span>
-    <span class="c1">// statements</span>
-    <span class="k">break</span><span class="p">;</span>
-  <span class="k">case</span> <span class="nl">label2</span><span class="p">:</span>
-    <span class="c1">// statements</span>
-    <span class="k">break</span><span class="p">;</span>
-  <span class="k">default</span><span class="o">:</span>
-    <span class="c1">// statements</span>
-    <span class="k">break</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">var</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">case</span><span class="w"> </span><span class="nl">label1</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="c1">// statements</span>
+<span class="w">    </span><span class="k">break</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="k">case</span><span class="w"> </span><span class="nl">label2</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="c1">// statements</span>
+<span class="w">    </span><span class="k">break</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="k">default</span><span class="o">:</span><span class="w"></span>
+<span class="w">    </span><span class="c1">// statements</span>
+<span class="w">    </span><span class="k">break</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 <p><a href="https://www.arduino.cc/reference/tr/language/structure/control-structure/switchcase/">source</a></p>
 <ul>
 <li>Go across a char array with pointer shifting :</li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="kt">char</span><span class="o">*</span> <span class="n">charrarray</span> <span class="o">=</span> <span class="k">const_cast</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">*&gt;</span><span class="p">(</span><span class="s">&quot;test&quot;</span><span class="p">);</span>
-<span class="k">for</span> <span class="p">(</span><span class="kt">uint8_t</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">charrarray</span><span class="p">);</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kt">char</span> <span class="n">b</span> <span class="o">=</span> <span class="o">*</span><span class="n">charrarray</span><span class="o">++</span><span class="p">;</span>
-    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">b</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="kt">char</span><span class="o">*</span><span class="w"> </span><span class="n">charrarray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">const_cast</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">*&gt;</span><span class="p">(</span><span class="s">&quot;test&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">charrarray</span><span class="p">);</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">charrarray</span><span class="o">++</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 <ul>
 <li>Equivalent to moving the pointer manually :</li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="kt">char</span><span class="o">*</span> <span class="n">charrarray</span> <span class="o">=</span> <span class="k">const_cast</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">*&gt;</span><span class="p">(</span><span class="s">&quot;test&quot;</span><span class="p">);</span>
-<span class="k">for</span> <span class="p">(</span><span class="kt">uint8_t</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">charrarray</span><span class="p">);</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kt">char</span> <span class="n">b</span> <span class="o">=</span> <span class="o">*</span><span class="n">charrarray</span><span class="p">;</span>
-    <span class="n">charrarray</span> <span class="o">=</span> <span class="n">charrarray</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
-    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">b</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="kt">char</span><span class="o">*</span><span class="w"> </span><span class="n">charrarray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">const_cast</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">*&gt;</span><span class="p">(</span><span class="s">&quot;test&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">charrarray</span><span class="p">);</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">charrarray</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">charrarray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">charrarray</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 <ul>
 <li>Equivalent if needed in reverse order to move manually pointer to end of variable and go backward : (if addressed data is not splitted in RAM though but i think it if it is, the physical ram address layer refer internally to a virtual ram address layer and we only access this one.)</li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="kt">char</span><span class="o">*</span> <span class="n">charrarray</span> <span class="o">=</span> <span class="k">const_cast</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">*&gt;</span><span class="p">(</span><span class="s">&quot;test&quot;</span><span class="p">);</span>
-<span class="n">charrarray</span> <span class="o">=</span> <span class="n">charrarray</span> <span class="o">+</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">charrarray</span><span class="p">)</span><span class="mi">-1</span><span class="p">;</span>
-<span class="k">for</span> <span class="p">(</span><span class="kt">uint8_t</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">charrarray</span><span class="p">);</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kt">char</span> <span class="n">b</span> <span class="o">=</span> <span class="o">*</span><span class="n">charrarray</span><span class="o">--</span><span class="p">;</span>
-    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">b</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="kt">char</span><span class="o">*</span><span class="w"> </span><span class="n">charrarray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">const_cast</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">*&gt;</span><span class="p">(</span><span class="s">&quot;test&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="n">charrarray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">charrarray</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">charrarray</span><span class="p">)</span><span class="mi">-1</span><span class="p">;</span><span class="w"></span>
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">charrarray</span><span class="p">);</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">charrarray</span><span class="o">--</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 <ul>
 <li><u>Dictionnaries:</u></li>
@@ -1427,23 +1424,23 @@
 <li>Arithmetic (+,-,*,/,%)</li>
 <li>Conditional ternary (?)</li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="n">condition</span> <span class="o">?</span> <span class="nl">result1</span> <span class="p">:</span> <span class="n">result2</span> 
+<div class="highlight"><pre><span></span><code><span class="n">condition</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="nl">result1</span> <span class="p">:</span><span class="w"> </span><span class="n">result2</span><span class="w"> </span>
 </code></pre></div>
 <p>If <code>condition</code> is <code>true</code>, the entire expression evaluates to <code>result1</code>, and otherwise to <code>result2</code>.</p>
 <div class="highlight"><pre><span></span><code><span class="c1">// conditional operator</span>
-<span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
 
-<span class="kt">int</span> <span class="nf">main</span> <span class="p">()</span>
-<span class="p">{</span>
-  <span class="kt">int</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="w"> </span><span class="p">()</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">;</span><span class="w"></span>
 
-  <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
-  <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">;</span>
-  <span class="n">c</span> <span class="o">=</span> <span class="p">(</span><span class="n">a</span><span class="o">&gt;</span><span class="n">b</span><span class="p">)</span> <span class="o">?</span> <span class="nl">a</span> <span class="p">:</span> <span class="n">b</span><span class="p">;</span>
+<span class="w">  </span><span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="n">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">a</span><span class="o">&gt;</span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="nl">a</span> <span class="p">:</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w"></span>
 
-  <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">c</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39;\n&#39;</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">7</span>
+<span class="w">  </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="sc">&#39;\n&#39;</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="mi">7</span><span class="w"></span>
 </code></pre></div>
 <h2 id="definitions">Definitions :</h2>
 <ul>
@@ -1453,7 +1450,7 @@
 <p>A <em>macro</em> is a fragment of code which has been given a name. Whenever the name is used, it is replaced by the contents of the macro.</p>
 <p>example </p>
 <div class="highlight"><pre><span></span><code><span class="cp">#ifndef X </span><span class="c1">//macros definitions can be checked with this</span>
-  <span class="cp">#define X() virtual ReturnType Accept(BaseVisitor&amp; guest) { return AcceptImpl(*this, guest); }</span>
+<span class="w">  </span><span class="cp">#define X() virtual ReturnType Accept(BaseVisitor&amp; guest) { return AcceptImpl(*this, guest); }</span>
 <span class="cp">#elseif Y</span>
 <span class="cp">#else</span>
 <span class="cp">#endif</span>
@@ -1465,7 +1462,7 @@
 <blockquote>
 <p>Initializes an aggregate from braced-init-list.</p>
 </blockquote>
-<div class="highlight"><pre><span></span><code><span class="n">T</span> <span class="n">object</span> <span class="o">=</span> <span class="p">{</span><span class="n">arg1</span><span class="p">,</span> <span class="n">arg2</span><span class="p">,</span> <span class="p">...};</span>
+<div class="highlight"><pre><span></span><code><span class="n">T</span><span class="w"> </span><span class="n">object</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="n">arg1</span><span class="p">,</span><span class="w"> </span><span class="n">arg2</span><span class="p">,</span><span class="w"> </span><span class="p">...};</span><span class="w"></span>
 </code></pre></div>
 <ul>
 <li><u>Null :</u> <a href="https://en.cppreference.com/w/cpp/types/NULL">ref</a></li>
@@ -1474,7 +1471,7 @@
 <ul>
 <li><u>Array of Char Arrays :</u></li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="kt">char</span> <span class="o">*</span><span class="n">t</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">}</span> <span class="c1">// where a, b and c are char* arrays.</span>
+<div class="highlight"><pre><span></span><code><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">t</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">}</span><span class="w"> </span><span class="c1">// where a, b and c are char* arrays.</span>
 </code></pre></div>
 <h2 id="bitewise-operations">Bitewise operations :</h2>
 <p>Usefull bitewise operation tester website : <a href="https://bitwisecmd.com/#0xff%2C%3C%3C%2C8">BitewiseCMD</a></p>
@@ -1490,33 +1487,33 @@
 </blockquote>
 <p><a href="https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/">source</a></p>
 <p>Size of variable in <strong>bytes</strong> :</p>
-<div class="highlight"><pre><span></span><code><span class="kt">uint32_t</span> <span class="n">test</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
-<span class="k">sizeof</span><span class="p">(</span><span class="n">test</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="mi">4</span>
+<div class="highlight"><pre><span></span><code><span class="kt">uint32_t</span><span class="w"> </span><span class="n">test</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w"></span>
+<span class="k">sizeof</span><span class="p">(</span><span class="n">test</span><span class="p">)</span><span class="w"></span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="mi">4</span><span class="w"></span>
 </code></pre></div>
 <ul>
 <li><u><img alt="⚠" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/26a0.svg" title=":warning:" /> The &lt;&lt; operator with a negative value is <a href="https://stackoverflow.com/questions/54679593/bitwise-shift-by-a-negative-number-to-reverse-the-bits-in-a-number">"undefined behavior"</a>  <img alt="⚠" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/26a0.svg" title=":warning:" /></u> :</li>
 </ul>
 <p>To shift in variable directions : Better to first shift &gt;&gt; the variable amount necessary to go back to the rightmost byte, then shift &lt;&lt; a variable amount.</p>
 <p>To set a byte content from a variable to another regardless of the type interpretation, use :</p>
-<div class="highlight"><pre><span></span><code> <span class="n">memcpy</span><span class="p">(</span><span class="n">destination</span><span class="p">,</span> <span class="n">source</span><span class="p">,</span> <span class="n">bytes_size_to_copy</span><span class="p">)</span> <span class="c1">//bytesize is unsigned integral type. Source &amp; Destination are pointer types</span>
+<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="n">memcpy</span><span class="p">(</span><span class="n">destination</span><span class="p">,</span><span class="w"> </span><span class="n">source</span><span class="p">,</span><span class="w"> </span><span class="n">bytes_size_to_copy</span><span class="p">)</span><span class="w"> </span><span class="c1">//bytesize is unsigned integral type. Source &amp; Destination are pointer types</span>
 </code></pre></div>
 <ul>
 <li><u>Float representation :</u> <a href="https://softwareengineering.stackexchange.com/questions/215065/can-anyone-explain-representation-of-float-in-memory">ref</a></li>
 </ul>
 <p>A typical 32-bit float layout looks like the following:</p>
-<div class="highlight"><pre><span></span><code><span class="mi">3</span> <span class="mi">32222222</span> <span class="mi">22211111111110000000000</span>
- <span class="mi">1</span> <span class="mi">09876543</span> <span class="mi">21098765432109876543210</span>
-<span class="o">+-+--------+-----------------------+</span>
-<span class="o">|</span> <span class="o">|</span>        <span class="o">|</span>                       <span class="o">|</span>
-<span class="o">+-+--------+-----------------------+</span>
- <span class="o">^</span>    <span class="o">^</span>                <span class="o">^</span>
- <span class="o">|</span>    <span class="o">|</span>                <span class="o">|</span>
- <span class="o">|</span>    <span class="o">|</span>                <span class="o">+--</span> <span class="n">significand</span> 
- <span class="o">|</span>    <span class="o">|</span>
- <span class="o">|</span>    <span class="o">+-------------------</span> <span class="n">exponent</span> 
- <span class="o">|</span>
- <span class="o">+------------------------</span> <span class="n">sign</span> <span class="n">bit</span>
+<div class="highlight"><pre><span></span><code><span class="mi">3</span><span class="w"> </span><span class="mi">32222222</span><span class="w"> </span><span class="mi">22211111111110000000000</span><span class="w"></span>
+<span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">09876543</span><span class="w"> </span><span class="mi">21098765432109876543210</span><span class="w"></span>
+<span class="o">+-+--------+-----------------------+</span><span class="w"></span>
+<span class="o">|</span><span class="w"> </span><span class="o">|</span><span class="w">        </span><span class="o">|</span><span class="w">                       </span><span class="o">|</span><span class="w"></span>
+<span class="o">+-+--------+-----------------------+</span><span class="w"></span>
+<span class="w"> </span><span class="o">^</span><span class="w">    </span><span class="o">^</span><span class="w">                </span><span class="o">^</span><span class="w"></span>
+<span class="w"> </span><span class="o">|</span><span class="w">    </span><span class="o">|</span><span class="w">                </span><span class="o">|</span><span class="w"></span>
+<span class="w"> </span><span class="o">|</span><span class="w">    </span><span class="o">|</span><span class="w">                </span><span class="o">+--</span><span class="w"> </span><span class="n">significand</span><span class="w"> </span>
+<span class="w"> </span><span class="o">|</span><span class="w">    </span><span class="o">|</span><span class="w"></span>
+<span class="w"> </span><span class="o">|</span><span class="w">    </span><span class="o">+-------------------</span><span class="w"> </span><span class="n">exponent</span><span class="w"> </span>
+<span class="w"> </span><span class="o">|</span><span class="w"></span>
+<span class="w"> </span><span class="o">+------------------------</span><span class="w"> </span><span class="n">sign</span><span class="w"> </span><span class="n">bit</span><span class="w"></span>
 </code></pre></div>
 <p>3.14159 can be represented as :
 $$
@@ -1533,8 +1530,8 @@ $$
 </ul>
 <h2 id="variable-types">Variable types :</h2>
 <h3 id="data-type-of-a-variable">Data type of a variable :</h3>
-<div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;typeinfo&gt;</span><span class="cp"></span>
-<span class="k">typeid</span><span class="p">(</span><span class="n">myVar</span><span class="p">).</span><span class="n">name</span><span class="p">()</span>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;typeinfo&gt;</span><span class="cp"></span>
+<span class="k">typeid</span><span class="p">(</span><span class="n">myVar</span><span class="p">).</span><span class="n">name</span><span class="p">()</span><span class="w"></span>
 </code></pre></div>
 <blockquote>
 <p><strong>*However,*</strong> that requires a compiler feature  called Runtime Type Information (RTTI). It's disabled in the Arduino  IDE, presumably because it tends to increase the runtime memory  requirements of the program.</p>
@@ -1542,8 +1539,8 @@ $$
 <p><a href="https://arduino.stackexchange.com/questions/3079/how-to-retrieve-the-data-type-of-a-variable">source</a></p>
 <p>So we can use : </p>
 <div class="highlight"><pre><span></span><code><span class="c1">// Generic catch-all implementation.</span>
-<span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="nc">T_ty</span><span class="o">&gt;</span> <span class="k">struct</span> <span class="nc">TypeInfo</span> <span class="p">{</span> <span class="k">static</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span> <span class="n">name</span><span class="p">;</span> <span class="p">};</span>
-<span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="nc">T_ty</span><span class="o">&gt;</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span> <span class="n">TypeInfo</span><span class="o">&lt;</span><span class="n">T_ty</span><span class="o">&gt;::</span><span class="n">name</span> <span class="o">=</span> <span class="s">&quot;unknown&quot;</span><span class="p">;</span>
+<span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="k">typename</span> <span class="nc">T_ty</span><span class="o">&gt;</span><span class="w"> </span><span class="k">struct</span> <span class="nc">TypeInfo</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">name</span><span class="p">;</span><span class="w"> </span><span class="p">};</span><span class="w"></span>
+<span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="k">typename</span> <span class="nc">T_ty</span><span class="o">&gt;</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">TypeInfo</span><span class="o">&lt;</span><span class="n">T_ty</span><span class="o">&gt;::</span><span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;unknown&quot;</span><span class="p">;</span><span class="w"></span>
 
 <span class="c1">// Handy macro to make querying stuff easier.</span>
 <span class="cp">#define TYPE_NAME(var) TypeInfo&lt; typeof(var) &gt;::name</span>
@@ -1552,35 +1549,35 @@ $$
 <span class="cp">#define MAKE_TYPE_INFO(type)  template &lt;&gt; const char * TypeInfo&lt;type&gt;::name = #type;</span>
 
 <span class="c1">// Type-specific implementations.</span>
-<span class="n">MAKE_TYPE_INFO</span><span class="p">(</span> <span class="kt">int</span> <span class="p">)</span>
-<span class="n">MAKE_TYPE_INFO</span><span class="p">(</span> <span class="kt">float</span> <span class="p">)</span>
-<span class="n">MAKE_TYPE_INFO</span><span class="p">(</span> <span class="kt">short</span> <span class="p">)</span>
+<span class="n">MAKE_TYPE_INFO</span><span class="p">(</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="n">MAKE_TYPE_INFO</span><span class="p">(</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="n">MAKE_TYPE_INFO</span><span class="p">(</span><span class="w"> </span><span class="kt">short</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
 
 <span class="c1">// Call :</span>
 
-<span class="kt">int</span> <span class="n">myVar</span> <span class="o">=</span> <span class="mi">17</span><span class="p">;</span>
-<span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span> <span class="n">TYPE_NAME</span><span class="p">(</span><span class="n">myVar</span><span class="p">)</span> <span class="p">);</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="kt">int</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">myVar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">17</span><span class="p">;</span><span class="w"></span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="w"> </span><span class="n">TYPE_NAME</span><span class="p">(</span><span class="n">myVar</span><span class="p">)</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="kt">int</span><span class="w"></span>
 </code></pre></div>
 <p>In arduino for code compacity and exec performance</p>
 <p><u>raw type names :</u></p>
-<div class="highlight"><pre><span></span><code><span class="kt">uint8_t</span> <span class="n">uint8</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> 
-<span class="k">typeid</span><span class="p">(</span><span class="n">uint8</span><span class="p">).</span><span class="n">raw_name</span><span class="p">()</span>
-<span class="p">....</span>
+<div class="highlight"><pre><span></span><code><span class="kt">uint8_t</span><span class="w"> </span><span class="n">uint8</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span>
+<span class="k">typeid</span><span class="p">(</span><span class="n">uint8</span><span class="p">).</span><span class="n">raw_name</span><span class="p">()</span><span class="w"></span>
+<span class="p">....</span><span class="w"></span>
 
-<span class="nl">uint8</span> <span class="p">:</span> <span class="s">&quot;.E&quot;</span>
-<span class="nl">uint16_t</span> <span class="p">:</span> <span class="s">&quot;.G&quot;</span>
-<span class="nl">uint32_t</span> <span class="p">:</span> <span class="s">&quot;.I&quot;</span>
-<span class="nl">uint64_t</span> <span class="p">:</span> <span class="s">&quot;._K&quot;</span>
+<span class="nl">uint8</span> <span class="p">:</span><span class="w"> </span><span class="s">&quot;.E&quot;</span><span class="w"></span>
+<span class="nl">uint16_t</span> <span class="p">:</span><span class="w"> </span><span class="s">&quot;.G&quot;</span><span class="w"></span>
+<span class="nl">uint32_t</span> <span class="p">:</span><span class="w"> </span><span class="s">&quot;.I&quot;</span><span class="w"></span>
+<span class="nl">uint64_t</span> <span class="p">:</span><span class="w"> </span><span class="s">&quot;._K&quot;</span><span class="w"></span>
 
-<span class="nl">int8_t</span> <span class="p">:</span> <span class="s">&quot;.C&quot;</span>
-<span class="nl">int16_t</span> <span class="p">:</span> <span class="s">&quot;.F&quot;</span>
-<span class="nl">int32_t</span> <span class="p">:</span> <span class="s">&quot;.H&quot;</span>
-<span class="nl">int64_t</span> <span class="p">:</span> <span class="s">&quot;._J&quot;</span>
+<span class="nl">int8_t</span> <span class="p">:</span><span class="w"> </span><span class="s">&quot;.C&quot;</span><span class="w"></span>
+<span class="nl">int16_t</span> <span class="p">:</span><span class="w"> </span><span class="s">&quot;.F&quot;</span><span class="w"></span>
+<span class="nl">int32_t</span> <span class="p">:</span><span class="w"> </span><span class="s">&quot;.H&quot;</span><span class="w"></span>
+<span class="nl">int64_t</span> <span class="p">:</span><span class="w"> </span><span class="s">&quot;._J&quot;</span><span class="w"></span>
 
-<span class="kt">int</span> <span class="o">:</span> <span class="s">&quot;.H&quot;</span>
-<span class="kt">float</span>  <span class="o">:</span> <span class="s">&quot;.M&quot;</span>
-<span class="kt">double</span>  <span class="o">:</span> <span class="s">&quot;.N&quot;</span>
+<span class="kt">int</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="s">&quot;.H&quot;</span><span class="w"></span>
+<span class="kt">float</span><span class="w">  </span><span class="o">:</span><span class="w"> </span><span class="s">&quot;.M&quot;</span><span class="w"></span>
+<span class="kt">double</span><span class="w">  </span><span class="o">:</span><span class="w"> </span><span class="s">&quot;.N&quot;</span><span class="w"></span>
 </code></pre></div>
 <p>Another implementation to store types in raw c++ : <a href="https://stackoverflow.com/questions/2562176/storing-a-type-in-c">ref</a></p>
 <p>Not much more usefull though</p>
@@ -1588,29 +1585,29 @@ $$
 <blockquote>
 <p>In C++ this can be achieved using <em>template parameters</em>. A template parameter is a special kind of parameter that can be used to pass a  type as argument: just like regular function parameters can be used to  pass values to a function, template parameters allow to pass also types  to a function. These function templates can use these parameters as if  they were any other regular type.</p>
 <p>The format for declaring function templates with type parameters is:</p>
-<div class="highlight"><pre><span></span><code> <span class="k">template</span> <span class="o">&lt;</span><span class="k">class</span> <span class="nc">identifier</span><span class="o">&gt;</span> <span class="n">function_declaration</span><span class="p">;</span> 
+<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">identifier</span><span class="o">&gt;</span><span class="w"> </span><span class="n">function_declaration</span><span class="p">;</span><span class="w"> </span>
 <span class="c1">//or</span>
- <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="nc">identifier</span><span class="o">&gt;</span> <span class="n">function_declaration</span><span class="p">;</span> 
+<span class="w"> </span><span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="k">typename</span> <span class="nc">identifier</span><span class="o">&gt;</span><span class="w"> </span><span class="n">function_declaration</span><span class="p">;</span><span class="w"> </span>
 </code></pre></div>
 <p>The only difference between both prototypes is the use of either the keyword <code>class</code> or the keyword <code>typename</code>. Its use is indistinct, since both expressions have exactly the same meaning and behave exactly the same way.</p>
 <p>For example, to create a template function that returns the greater one of two objects we could use: </p>
-<div class="highlight"><pre><span></span><code><span class="k">template</span> <span class="o">&lt;</span><span class="k">class</span> <span class="nc">myType</span><span class="o">&gt;</span>
-<span class="n">myType</span> <span class="n">GetMax</span> <span class="p">(</span><span class="n">myType</span> <span class="n">a</span><span class="p">,</span> <span class="n">myType</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">return</span> <span class="p">(</span><span class="n">a</span><span class="o">&gt;</span><span class="n">b</span><span class="o">?</span><span class="nl">a</span><span class="p">:</span><span class="n">b</span><span class="p">);</span> 
-<span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">myType</span><span class="o">&gt;</span><span class="w"></span>
+<span class="n">myType</span><span class="w"> </span><span class="n">GetMax</span><span class="w"> </span><span class="p">(</span><span class="n">myType</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">myType</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="n">a</span><span class="o">&gt;</span><span class="n">b</span><span class="o">?</span><span class="nl">a</span><span class="p">:</span><span class="n">b</span><span class="p">);</span><span class="w"> </span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 <p>Here we have created a template function with <code>myType</code> as its  template parameter. This template parameter represents a type that has  not yet been specified, but that can be used in the template function as if it were a regular type. As you can see, the function template <code>GetMax</code> returns the greater of two parameters of this still-undefined type.</p>
 <p>To use this function template we use the following format for the function call:</p>
 <p><code>function_name &lt;type&gt; (parameters);</code>
  For example, to call <code>GetMax</code> to compare two integer values of type <code>int</code> we can write: </p>
-<div class="highlight"><pre><span></span><code><span class="kt">int</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">;</span> <span class="n">GetMax</span> <span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">;</span><span class="w"> </span><span class="n">GetMax</span><span class="w"> </span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">);</span><span class="w"></span>
 </code></pre></div>
 </blockquote>
 <p><a href="https://www.cplusplus.com/doc/oldtutorial/templates/">source</a></p>
 <h3 id="casts">Casts :</h3>
-<div class="highlight"><pre><span></span><code><span class="k">const_cast</span><span class="o">&lt;</span><span class="n">newtype</span><span class="o">&gt;</span><span class="p">(</span><span class="n">value</span> <span class="n">or</span> <span class="n">variable</span><span class="p">)</span> <span class="c1">// removes const from an object</span>
-<span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="n">newtype</span><span class="o">&gt;</span><span class="p">(</span><span class="n">value</span> <span class="n">or</span> <span class="n">variable</span><span class="p">)</span> <span class="c1">//reshapes and casts into variable indepandatly of type byte size</span>
-<span class="kt">unsigned</span><span class="p">()</span> <span class="n">or</span> <span class="kt">signed</span><span class="p">()</span> <span class="c1">// usefull for avoiding raw c++ to print 8bit values as char (default behavior)</span>
+<div class="highlight"><pre><span></span><code><span class="k">const_cast</span><span class="o">&lt;</span><span class="n">newtype</span><span class="o">&gt;</span><span class="p">(</span><span class="n">value</span><span class="w"> </span><span class="n">or</span><span class="w"> </span><span class="n">variable</span><span class="p">)</span><span class="w"> </span><span class="c1">// removes const from an object</span>
+<span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="n">newtype</span><span class="o">&gt;</span><span class="p">(</span><span class="n">value</span><span class="w"> </span><span class="n">or</span><span class="w"> </span><span class="n">variable</span><span class="p">)</span><span class="w"> </span><span class="c1">//reshapes and casts into variable indepandatly of type byte size</span>
+<span class="kt">unsigned</span><span class="p">()</span><span class="w"> </span><span class="n">or</span><span class="w"> </span><span class="kt">signed</span><span class="p">()</span><span class="w"> </span><span class="c1">// usefull for avoiding raw c++ to print 8bit values as char (default behavior)</span>
 </code></pre></div>
 <blockquote>
 <p>Perhaps a better way of thinking of <code>reinterpret_cast</code> is the rouge operator that can "convert" <em>pointers</em> to apples as <em>pointers</em> to submarines.</p>
@@ -1628,10 +1625,10 @@ $$
 <ul>
 <li>Indexation <strong>operator[]</strong> overload : <a href="https://stackoverflow.com/questions/26670367/c-index-class-members">ref</a></li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="kt">float</span><span class="o">&amp;</span> <span class="k">operator</span><span class="p">[]</span> <span class="p">(</span><span class="kt">size_t</span> <span class="n">i</span><span class="p">)</span>
-<span class="p">{</span>
-  <span class="k">return</span> <span class="p">(</span><span class="o">&amp;</span><span class="n">x</span><span class="p">)[</span><span class="n">i</span><span class="p">];</span>
-<span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="kt">float</span><span class="o">&amp;</span><span class="w"> </span><span class="k">operator</span><span class="p">[]</span><span class="w"> </span><span class="p">(</span><span class="kt">size_t</span><span class="w"> </span><span class="n">i</span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">x</span><span class="p">)[</span><span class="n">i</span><span class="p">];</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 <p><a href="https://stackoverflow.com/questions/8493829/accessing-the-operator-from-a-pointer">Accessing the [] operator from a pointer</a></p>
 <ul>
@@ -1649,9 +1646,9 @@ $$
 <p>Structures : <a href="http://www.cplusplus.com/doc/tutorial/structures/">ref</a></p>
 </li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="k">struct</span> <span class="nc">foo</span> <span class="p">{</span>
-  <span class="kt">int</span> <span class="n">bar</span><span class="p">;</span>
-<span class="p">};</span>
+<div class="highlight"><pre><span></span><code><span class="k">struct</span> <span class="nc">foo</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="kt">int</span><span class="w"> </span><span class="n">bar</span><span class="p">;</span><span class="w"></span>
+<span class="p">};</span><span class="w"></span>
 </code></pre></div>
 <ul>
 <li>
@@ -1662,15 +1659,15 @@ $$
 </li>
 </ul>
 <p>Pass the class object to a function in c++ : </p>
-<div class="highlight"><pre><span></span><code><span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">MODULE</span><span class="o">&gt;</span>
-<span class="kt">void</span> <span class="n">function_taking_class</span><span class="p">()</span> <span class="p">{</span>
-    <span class="c1">// use static functions of AnyClass</span>
-    <span class="n">MODULE</span><span class="o">::</span><span class="n">count_instances</span><span class="p">();</span>
+<div class="highlight"><pre><span></span><code><span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">MODULE</span><span class="o">&gt;</span><span class="w"></span>
+<span class="kt">void</span><span class="w"> </span><span class="n">function_taking_class</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="c1">// use static functions of AnyClass</span>
+<span class="w">    </span><span class="n">MODULE</span><span class="o">::</span><span class="n">count_instances</span><span class="p">();</span><span class="w"></span>
 
-    <span class="c1">// or create an object of AnyClass and use it</span>
-    <span class="n">MODULE</span> <span class="n">object</span><span class="p">;</span>
-    <span class="n">object</span><span class="p">.</span><span class="n">member</span> <span class="o">=</span> <span class="n">value</span><span class="p">;</span>
-<span class="p">}</span>
+<span class="w">    </span><span class="c1">// or create an object of AnyClass and use it</span>
+<span class="w">    </span><span class="n">MODULE</span><span class="w"> </span><span class="n">object</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">object</span><span class="p">.</span><span class="n">member</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">value</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 <h2 id="arduino-specifics">Arduino specifics :</h2>
 <p><a href="https://stackoverflow.com/questions/145110/c-performance-vs-java-c">Question about C++ Javan and C# compilation and execution time</a> - Answer, with JIT (just in time compiler) C#and Java can be even faster than C++ because optimizations can be made depending on the architecture of the machine, optimisations that are less drastic for OS versatility sake when compiling C++ long before execution.</p>
@@ -1692,8 +1689,8 @@ $$
 </li>
 </ul>
 <h3 id="millis-unsigned-long-overflow"><strong>Millis unsigned long overflow :</strong></h3>
-<div class="highlight"><pre><span></span><code><span class="k">if</span>  <span class="p">(</span><span class="n">millis</span><span class="p">()</span><span class="o">-</span><span class="n">memory</span> <span class="o">&gt;</span> <span class="mi">100</span><span class="p">)</span> <span class="p">{</span>
-<span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w">  </span><span class="p">(</span><span class="n">millis</span><span class="p">()</span><span class="o">-</span><span class="n">memory</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">100</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 <p>because unsigned long comparisons use modulo uperator if result is overflowing ( negative ).</p>
 <p>explanation <a href="https://www.best-microcontroller-projects.com/arduino-millis.html">here</a></p>
@@ -1703,19 +1700,19 @@ $$
 <ul>
 <li><strong><u>Prints :</u></strong></li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
-<span class="cp">#include</span> <span class="cpf">&lt;iomanip&gt;</span><span class="c1"> </span><span class="cp"></span>
-<span class="cp">#include</span> <span class="cpf">&lt;string&gt;</span><span class="cp"></span>
-<span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span><span class="cp"></span>
-<span class="kt">int</span> <span class="n">value</span> <span class="o">=</span> <span class="mi">15</span><span class="p">;</span>
-<span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">setw</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">hex</span> <span class="o">&lt;&lt;</span> <span class="n">value</span><span class="p">;</span> <span class="c1">//HEXA fixed width 3</span>
-<span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">dec</span> <span class="o">&lt;&lt;</span> <span class="n">value</span><span class="p">;</span> <span class="c1">//DECIMAL</span>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iomanip&gt;</span><span class="c1"> </span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;string&gt;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;string.h&gt;</span><span class="cp"></span>
+<span class="kt">int</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">15</span><span class="p">;</span><span class="w"></span>
+<span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">setw</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">hex</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">value</span><span class="p">;</span><span class="w"> </span><span class="c1">//HEXA fixed width 3</span>
+<span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">dec</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">value</span><span class="p">;</span><span class="w"> </span><span class="c1">//DECIMAL</span>
 </code></pre></div>
 <p>List of std::io manipulators :</p>
-<div class="highlight"><pre><span></span><code><span class="n">std</span><span class="o">::</span><span class="n">dec</span>
-<span class="n">std</span><span class="o">::</span><span class="n">hex</span>
-<span class="n">std</span><span class="o">::</span><span class="n">setprecision</span> <span class="p">(</span><span class="mi">15</span><span class="p">)</span>
-<span class="n">std</span><span class="o">::</span><span class="n">setw</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="n">std</span><span class="o">::</span><span class="n">dec</span><span class="w"></span>
+<span class="n">std</span><span class="o">::</span><span class="n">hex</span><span class="w"></span>
+<span class="n">std</span><span class="o">::</span><span class="n">setprecision</span><span class="w"> </span><span class="p">(</span><span class="mi">15</span><span class="p">)</span><span class="w"></span>
+<span class="n">std</span><span class="o">::</span><span class="n">setw</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span><span class="w"></span>
 </code></pre></div>
 <ul>
 <li>
@@ -1771,53 +1768,53 @@ Ainsi, à l'étape du préprocesseur, le  contenue du .h (et donc le prototype d
 
 <span class="cp">#pragma once</span>
 
-<span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span>
-<span class="k">class</span> <span class="nc">TestTemp</span>  
-<span class="p">{</span>
+<span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span><span class="w"></span>
+<span class="k">class</span> <span class="nc">TestTemp</span><span class="w">  </span>
+<span class="p">{</span><span class="w"></span>
 
-<span class="k">public</span><span class="o">:</span>
+<span class="k">public</span><span class="o">:</span><span class="w"></span>
 
-    <span class="n">TestTemp</span><span class="p">();</span>
-    <span class="k">template</span> <span class="o">&lt;</span><span class="kt">int</span> <span class="n">size</span><span class="o">&gt;</span>
-    <span class="kt">void</span> <span class="n">SetValue</span><span class="p">(</span> <span class="n">T</span> <span class="n">obj_i</span><span class="p">[</span><span class="n">size</span><span class="p">]</span> <span class="p">);</span>
-    <span class="n">T</span> <span class="nf">Getalue</span><span class="p">();</span>
+<span class="w">    </span><span class="n">TestTemp</span><span class="p">();</span><span class="w"></span>
+<span class="w">    </span><span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="kt">int</span><span class="w"> </span><span class="n">size</span><span class="o">&gt;</span><span class="w"></span>
+<span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">SetValue</span><span class="p">(</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="n">obj_i</span><span class="p">[</span><span class="n">size</span><span class="p">]</span><span class="w"> </span><span class="p">);</span><span class="w"></span>
+<span class="w">    </span><span class="n">T</span><span class="w"> </span><span class="nf">Getalue</span><span class="p">();</span><span class="w"></span>
 
-<span class="k">private</span><span class="o">:</span>
+<span class="k">private</span><span class="o">:</span><span class="w"></span>
 
-    <span class="n">T</span> <span class="n">m_Obj</span><span class="p">;</span>
-<span class="p">};</span>
+<span class="w">    </span><span class="n">T</span><span class="w"> </span><span class="n">m_Obj</span><span class="p">;</span><span class="w"></span>
+<span class="p">};</span><span class="w"></span>
 <span class="cp">#endif</span>
 </code></pre></div>
 <p><u>Template Class Source File</u> (.cpp)</p>
 <div class="highlight"><pre><span></span><code><span class="c1">// TestTemp.cpp</span>
-<span class="cp">#include</span> <span class="cpf">&quot;TestTemp.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;TestTemp.h&quot;</span><span class="cp"></span>
 
-<span class="k">template</span> <span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span>
-<span class="n">TestTemp</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">TestTemp</span><span class="p">()</span>
-<span class="p">{</span>
-<span class="p">}</span>
-<span class="k">template</span> <span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span> <span class="k">template</span> <span class="o">&lt;</span><span class="kt">int</span> <span class="n">size</span><span class="o">&gt;</span>
-<span class="kt">void</span> <span class="n">TestTemp</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">SetValue</span><span class="p">(</span> <span class="n">T</span> <span class="n">obj_i</span><span class="p">[</span><span class="n">size</span><span class="p">]</span> <span class="p">)</span>
-<span class="p">{</span>
+<span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span><span class="w"></span>
+<span class="n">TestTemp</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">TestTemp</span><span class="p">()</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+<span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span><span class="w"> </span><span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="kt">int</span><span class="w"> </span><span class="n">size</span><span class="o">&gt;</span><span class="w"></span>
+<span class="kt">void</span><span class="w"> </span><span class="n">TestTemp</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">SetValue</span><span class="p">(</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="n">obj_i</span><span class="p">[</span><span class="n">size</span><span class="p">]</span><span class="w"> </span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
 
-<span class="p">}</span>
-<span class="k">template</span> <span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span>
-<span class="n">T</span> <span class="n">TestTemp</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">Getalue</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="k">return</span> <span class="n">m_Obj</span><span class="p">;</span>
-<span class="p">}</span>
+<span class="p">}</span><span class="w"></span>
+<span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span><span class="w"></span>
+<span class="n">T</span><span class="w"> </span><span class="n">TestTemp</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">Getalue</span><span class="p">()</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">m_Obj</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 <p><a href="https://www.codeproject.com/Articles/48575/How-to-Define-a-Template-Class-in-a-h-File-and-Imp">ref</a></p>
 <ul>
 <li>With parent and inherited child classes : </li>
 </ul>
 <p>In Child.h, you would simply declare:</p>
-<div class="highlight"><pre><span></span><code><span class="n">Child</span><span class="p">(</span><span class="kt">int</span> <span class="n">Param</span><span class="p">,</span> <span class="kt">int</span> <span class="n">ParamTwo</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="n">Child</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">Param</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">ParamTwo</span><span class="p">);</span><span class="w"></span>
 </code></pre></div>
 <p>In Child.cpp, you would then have:</p>
-<div class="highlight"><pre><span></span><code><span class="n">Child</span><span class="o">::</span><span class="n">Child</span><span class="p">(</span><span class="kt">int</span> <span class="n">Param</span><span class="p">,</span> <span class="kt">int</span> <span class="n">ParamTwo</span><span class="p">)</span> <span class="o">:</span> <span class="n">Parent</span><span class="p">(</span><span class="n">Param</span><span class="p">)</span> <span class="p">{</span>
-    <span class="c1">//rest of constructor here</span>
-<span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="n">Child</span><span class="o">::</span><span class="n">Child</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">Param</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">ParamTwo</span><span class="p">)</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">Parent</span><span class="p">(</span><span class="n">Param</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="c1">//rest of constructor here</span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 <p><a href="https://stackoverflow.com/questions/24047140/c-inheritance-calling-base-class-constructor-in-header">ref</a></p>
 <ul>
@@ -1830,11 +1827,6 @@ Ainsi, à l'étape du préprocesseur, le  contenue du .h (et donc le prototype d
 <p>is a reserved name for compiler options : <a href="https://docs.microsoft.com/fr-fr/cpp/c-runtime-library/debug?view=msvc-160">ref</a></p>
 <p><u>QT tutorials :</u> </p>
 <p>https://openclassrooms.com/fr/courses/1894236-programmez-avec-le-langage-c/1898935-initiez-vous-a-qt</p>
-                
-              
-              
-                
-
 
               
             </article>
@@ -1848,8 +1840,7 @@ Ainsi, à l'étape du préprocesseur, le  contenue du .h (et donc le prototype d
         
       </main>
       
-        
-<footer class="md-footer">
+        <footer class="md-footer">
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
@@ -1888,20 +1879,19 @@ Ainsi, à l'étape du préprocesseur, le  contenue du .h (et donc le prototype d
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-          <div class="md-footer-copyright__highlight">
-            &copy; 2021 Timothe
-          </div>
-        
-        
-          Made with
-          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-            Material for MkDocs
-          </a>
-        
-        
-      </div>
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2021 Timothe
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
       
     </div>
   </div>
@@ -1911,10 +1901,10 @@ Ainsi, à l'étape du préprocesseur, le  contenue du .h (et donc le prototype d
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.instant", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.instant", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.361d90f1.min.js"}</script>
     
     
-      <script src="../assets/javascripts/bundle.f89c2efe.min.js"></script>
+      <script src="../assets/javascripts/bundle.289a2a4b.min.js"></script>
       
     
   </body>
