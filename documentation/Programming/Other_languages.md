@@ -30,6 +30,8 @@ Kind of mix between C++ and Java, mostly usefull to make easy animations or visu
 
 ### GO :
 
+[A tour of go language](https://go.dev/tour/basics/2)
+
 [Tiny Go : using GO to program arduino 32 bits microcontrollers](https://f-leb.developpez.com/tutoriels/arduino/tinygo/)
 
 Temporal : [Go coded "microservice" that integrates everything annoying when necessity to retry operations on distributed systems](https://github.com/temporalio/temporal)
@@ -46,7 +48,7 @@ Temporal : [Go coded "microservice" that integrates everything annoying when nec
 
 
 
-## Batch languages :
+## Batch languages:
 
 ### DOS batch:
 
@@ -54,13 +56,13 @@ Temporal : [Go coded "microservice" that integrates everything annoying when nec
 
 To convert a batch file to a classical exe : use windows built in [IExpress](https://en.wikipedia.org/wiki/IExpress) utilitary - tuto : [here](https://appuals.com/batch-to-exe/)
 
-### Mac Shell :
+### Mac Shell:
 
 [Shell scripting basics](https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/shell_scripts/shell_scripts.html)
 
 
 
-## WEB languages :
+## WEB languages:
 
 [Snap.svg](http://snapsvg.io/) : library for making easy full vectoriel animations in javascript.
 
@@ -75,4 +77,8 @@ To convert a batch file to a classical exe : use windows built in [IExpress](htt
 #### Angular:
 
 [wiki angular](https://fr.wikipedia.org/wiki/Angular)
+
+#### Other:
+
+[Genially](https://genial.ly/) is a website that allows to do applets or animations like with html/css/javascript but "without coding". Paid service.
 

@@ -8,9 +8,46 @@ To format a selection : ++ctrl+k++ - ++ctrl+f++
 
 To format a document: ++ctrl+k++ - ++ctrl+d++ 
 
+## APIs :
+
+[Restfull API](https://restfulapi.net/http-methods/#get)
+
+> REST APIs enable you to develop all kinds of web applications having all possible CRUD (create, retrieve, update, delete) operations.
+
+[FastAPI](https://fastapi.tiangolo.com/#example)
+
+> FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+
+[Typer](https://github.com/tiangolo/typer)
+
+> Typer is a library for building CLI applications that users will **love using** and developers will **love creating**. Based on Python 3.6+ type hints. It's kind  of a version of FastApi for CLI.
+
+[RSTP](https://www.leadtools.com/help/sdk/v21/dh/multimedia/to/creating-an-rtsp-server.html) 
+
+> Real Time Streaming Protocol (RTSP)
+>
+> Typically, an RTSP server will stream all the files from a certain folder.
+
+[Multicast Camra Frames over LAN](https://elsampsa.github.io/valkka-examples/_build/html/lesson_5.html)
+
+> In this lesson, we are receiving frames from an IP camera using  LiveThread and recast those frames to a multicast address using another  LiveThread.
+
 ## GitHub
 
 How to manage [Labels](https://medium.com/@dtinth/how-to-copy-github-labels-from-one-project-to-another-1857adc73e0f) : Using github-label-manager tool (community dev)
+
+[OSSU](https://github.com/ossu/computer-science) :
+
+> Open Source Society University
+>
+> Path to a free self-taught education in Computer Science! 
+
+[**Numfocus**](https://numfocus.org/sponsored-projects) :  
+
+> From Netflix to NASA, researchers  use NumFOCUS sponsored projects to solve the most challenging problems.  Explore our open source tools by language, features, or industry.
+>
+> Funding Numpy, matplotlib, pandas, project jupyter....
+
 
 
 ## Windows :
@@ -194,6 +231,10 @@ Databases
 
 ![databases_infrormatics](Programming.assets/databases_infrormatics.PNG)
 
+### Old languages :
+
+Cobol : [COmmon Business Oriented Language](https://fr.wikipedia.org/wiki/Cobol)
+
 ## Some vocabulary : 
 
 [Managed code ](https://en.wikipedia.org/wiki/Managed_code) : 
@@ -208,3 +249,12 @@ Databases
 
 > An **esoteric programming language** (sometimes shortened to **esolang**) is a [programming language](https://en.wikipedia.org/wiki/Programming_language) designed to test the boundaries of computer programming language design, as a [proof of concept](https://en.wikipedia.org/wiki/Proof_of_concept), as [software art](https://en.wikipedia.org/wiki/Software_art), as a hacking interface to another language (particularly [functional programming](https://en.wikipedia.org/wiki/Functional_programming) or [procedural programming](https://en.wikipedia.org/wiki/Procedural_programming) languages), or as a joke.  The use of *[esoteric](https://en.wiktionary.org/wiki/esoteric)* distinguishes these languages from programming languages that working  developers use to write software. Usually, an esolang's creators do not  intend the language to be used for mainstream programming, although some esoteric features, such as [visuospatial](https://en.wikipedia.org/wiki/Visuospatial) [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages)),[[1\]](https://en.wikipedia.org/wiki/Esoteric_programming_language#cite_note-1)  have inspired practical applications in the arts.  Such languages are often popular among [hackers](https://en.wikipedia.org/wiki/Hacker_(hobbyist)) and hobbyists.
 
+[Closures](https://en.wikipedia.org/wiki/Closure_(computer_programming)#Closure-like_constructs) : 
+
+> In [programming languages](https://en.wikipedia.org/wiki/Programming_language), a **closure**, also **lexical closure** or **function closure**, is a technique for implementing [lexically scoped](https://en.wikipedia.org/wiki/Lexically_scoped) [name binding](https://en.wikipedia.org/wiki/Name_binding) in a language with [first-class functions](https://en.wikipedia.org/wiki/First-class_function). [Operationally](https://en.wikipedia.org/wiki/Operational_semantics), a closure is a [record](https://en.wikipedia.org/wiki/Record_(computer_science)) storing a [function](https://en.wikipedia.org/wiki/Function_(computer_science))[[a\]](https://en.wikipedia.org/wiki/Closure_(computer_programming)#cite_note-1) together with an environment.[[1\]](https://en.wikipedia.org/wiki/Closure_(computer_programming)#cite_note-2) The environment is a mapping associating each [free variable](https://en.wikipedia.org/wiki/Free_variable) of the function (variables that are used locally, but defined in an enclosing scope) with the [value](https://en.wikipedia.org/wiki/Value_(computer_science)) or [reference](https://en.wikipedia.org/wiki/Reference_(computer_science)) to which the name was bound when the closure was created.[[b\]](https://en.wikipedia.org/wiki/Closure_(computer_programming)#cite_note-3) Unlike a plain function, a closure allows the function to access those *captured variables* through the closure's copies of their values or references, even when the function is invoked outside their scope.
+
+[Singletons](https://en.wikipedia.org/wiki/Singleton_pattern) :
+
+> In [software engineering](https://en.wikipedia.org/wiki/Software_engineering), the **singleton pattern** is a [software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) that restricts the [instantiation](https://en.wikipedia.org/wiki/Instantiation_(computer_science)) of a [class](https://en.wikipedia.org/wiki/Class_(computer_programming)) to one "single" instance. This is useful when exactly one object is needed to coordinate actions across the system.
+>
+> The term comes from the [mathematical concept of a singleton](https://en.wikipedia.org/wiki/Singleton_(mathematics)).

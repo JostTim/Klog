@@ -175,3 +175,12 @@ Andover corporation
 
 
 
+
+
+## Bibliography :
+
+- Edmund Optics : [Light polarization technique](https://www.edmundoptics.eu/knowledge-center/application-notes/illumination/successful-light-polarization-techniques/)
+
+- Article : [High-brightness polarized light-emitting diodes](https://www.nature.com/articles/lsa201222)
+
+- 

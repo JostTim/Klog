@@ -1,3 +1,17 @@
+
+
+
+
+
+
+## Pythonic way of programming :
+
+### Idiomatic Python: EAFP versus LBYL
+
+[EAFP](https://docs.python.org/3.5/glossary.html#term-eafp): “it’s easier to ask for forgiveness than permission”. Quickly, EAFP  means that you should just do what you expect to work and if an  exception might be thrown from the operation then catch it and deal with that fact. What people are traditionally used to is [LBYL](https://docs.python.org/3.5/glossary.html#term-lbyl): “look before you leap”.
+
+
+
 [Increasing python speed](https://blog.paperspace.com/boosting-python-scripts-cython/) with Cython variables definition
 
 [Native functions](https://docs.python.org/fr/3.6/library/functions.html#id)
@@ -5,6 +19,12 @@
 [Python weird "pass reference by value".](https://robertheaton.com/2014/02/09/pythons-pass-by-object-reference-as-explained-by-philip-k-dick/)
 
 [datetime formats in python](https://strftime.org/) 
+
+
+
+[Using feature flags :](https://www.cloudbees.com/blog/python-feature-flag-guide) 
+
+> Feature flags are a way to deal with dependencies and version compatibility with distributed services and APIs
 
 ## Packaging :
 
@@ -21,6 +41,8 @@ Variables in python [source](https://medium.com/swlh/a-deep-dive-into-variables-
 ## Modules :
 
 ### Built-ins :
+
+[Built in python functions](https://docs.python.org/3/library/functions.html)
 
 Arguments [**types** specification](https://stackoverflow.com/questions/2489669/how-do-python-functions-handle-the-types-of-the-parameters-that-you-pass-in) in functions and classes : `def function( value : int = defaultvalue ) :`
 
@@ -207,6 +229,20 @@ To "consume the generator" one can call `list(squares)`
 
 [shutil to copy files](https://stackabuse.com/how-to-copy-a-file-in-python)
 
+#### async :
+
+[A simplified tutorial to async](https://www.aeracode.org/2018/02/19/python-async-simplified/)
+
+[asyncio](https://docs.python.org/3/library/asyncio.html) :
+
+> asyncio is a library to write **concurrent** code using the **async/await** syntax.
+
+[sniffio](https://github.com/python-trio/sniffio) : 
+
+> You're writing a library. You've decided to be ambitious, and support multiple async I/O packages, like [Trio](https://trio.readthedocs.io), and [asyncio](https://docs.python.org/3/library/asyncio.html), and ... You've written a bunch of clever code to handle all the differences. But... how do you know *which* piece of clever code to run?
+>
+> This is a tiny package whose only purpose is to let you detect which async library your code is running under.
+
 ### Cython :
 
 !!! example "[Installation](https://anaconda.org/anaconda/cython):"
@@ -325,7 +361,25 @@ Creating [alpha containing colormaps](https://stackoverflow.com/questions/516012
 
 
 
+### Gizeh :
 
+[Libray for vector graphics (svg, ai)](https://pypi.org/project/gizeh/)
+
+### Shapely :
+
+Simplify a shape : [Simplify polygon](https://pro.arcgis.com/en/pro-app/latest/tool-reference/cartography/simplify-polygon.htm)
+
+> Algos :
+>
+> Retain critical points (Douglas-Peucker)
+>
+> Retain critical bends (Wang-Müller)
+>
+> Retain weighted effective areas (Zhou-Jones)
+>
+> Retain effective areas (Visvalingam-Whyatt)
+
+Smood a N-D curve [scipy.interpolate.splprep](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.splprep.html)
 
 ### Pandas:
 
@@ -346,9 +400,11 @@ Creating [alpha containing colormaps](https://stackoverflow.com/questions/516012
     ```
     Utiliser **.loc** partout, tout le temps pour setter une ou des valeurs. Pour setter une slice de la même manière, utiliser .xs
 
-
+[Adding a row to a dataframe - complete guide](https://www.stackvidhya.com/add-row-to-dataframe/)
 
 ### Numpy:
+
+[Numpy uses SIMD](https://stackoverflow.com/questions/44944367/are-numpys-basic-operations-vectorized-i-e-do-they-use-simd-operations) for vectorized operations, hence it's much quicker and some serial looped operations.
 
 Crosscorrelation : [scipy correlation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.correlate.html)
 
@@ -450,6 +506,8 @@ Remove dimensions = 1 : [np.squeze](https://numpy.org/doc/stable/reference/gener
 
 [Adding and removing widgets programatically](https://stackoverflow.com/questions/8651742/dynamically-adding-and-removing-widgets-in-pyqt)
 
+[How to dynamically add and remove widgets and layouts in PyQt5](https://www.codenong.com/cs109718288/)
+
 [Layout management in pyQt5](https://www.learnpyqt.com/tutorials/layouts/)
 
 [PyQt parents widgets, memory leaks, and delete on close (forum)](https://stackoverflow.com/questions/37918012/pyqt-give-parent-when-creating-a-widget)
@@ -461,6 +519,12 @@ When fitting : primary issue is the function (number of variables, degrees of ad
 <u>2D fitting a curve :</u> 
 
 [source](https://stackoverflow.com/questions/21566379/fitting-a-2d-gaussian-function-using-scipy-optimize-curve-fit-valueerror-and-m) (used, 2D gaussian function py3 compatible, with offset)  [source](https://stackoverflow.com/questions/27539933/2d-gaussian-fit-for-intensities-at-certain-coordinates-in-python) (unused, no offset, fit doesn't converge properly)
+
+### PyInstaller :
+
+[Create Executable from Python Script using Pyinstaller](https://datatofish.com/executable-pyinstaller/)
+
+
 
 ### Online modules :
 
@@ -823,6 +887,8 @@ __class__
 [Topic abount basic openCV fucntion for machine vision (and Haar cascade classifiers)](https://www.analyticsvidhya.com/blog/2019/03/opencv-functions-computer-vision-python/)
 
 [Object detection algorithms (convolutionnal neural networks)](https://www.analyticsvidhya.com/blog/2018/10/a-step-by-step-introduction-to-the-basic-object-detection-algorithms-part-1/)
+
+[Structural similarity index (SSIM)](https://ourcodeworld.com/articles/read/991/how-to-calculate-the-structural-similarity-index-ssim-between-two-images-with-python) 
 
 ### Others :
 
