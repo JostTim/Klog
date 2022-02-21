@@ -189,6 +189,17 @@ SenRing
 
 [Scipy implementation in python](https://github.com/scipy/scipy/blob/v0.16.0/scipy/stats/stats.py#L1963) and [concerns on stack overflow](https://stackoverflow.com/questions/63177236/how-to-calculate-signal-to-noise-ratio-using-python)
 
+## Communication :
+
+### Serial :
+
+- **COBS** or **[Consistent Overhead Byte Stuffing](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing)**, allows to change one byte, usually 00 as another value along a packet and descypher it back, by adding only one overhead byte. This in turns allow to use this specific byte value as an unique frame delimiter.
+- **CRC** or [Cyclic Redundancy Check](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) is an error detecting algorithm. They are popular because they are simple to implement in binary [hardware](https://en.wikipedia.org/wiki/Computer_hardware), easy to analyze mathematically, and particularly good at detecting common errors caused by [noise](https://en.wikipedia.org/wiki/Noise_(electronics)) in transmission channels.
+
+
+
+#### Parallel :
+
 ## Power :
 
 ### Power control :
