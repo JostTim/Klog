@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://josttim.github.io/Klog/Electronics_Mechatronics.html">
       
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.4">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
     
     
       
@@ -23,7 +23,7 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.bb3983ee.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.6e60f8b8.min.css">
       
         
         <link rel="stylesheet" href="assets/stylesheets/palette.e6a45f82.min.css">
@@ -60,7 +60,7 @@
   
     
     
-      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -849,6 +849,39 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#communication" class="md-nav__link">
+    Communication :
+  </a>
+  
+    <nav class="md-nav" aria-label="Communication :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#serial" class="md-nav__link">
+    Serial :
+  </a>
+  
+    <nav class="md-nav" aria-label="Serial :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parallel" class="md-nav__link">
+    Parallel :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#power" class="md-nav__link">
     Power :
   </a>
@@ -898,7 +931,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#communication" class="md-nav__link">
+  <a href="#communication_1" class="md-nav__link">
     Communication :
   </a>
   
@@ -1475,6 +1508,39 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#communication" class="md-nav__link">
+    Communication :
+  </a>
+  
+    <nav class="md-nav" aria-label="Communication :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#serial" class="md-nav__link">
+    Serial :
+  </a>
+  
+    <nav class="md-nav" aria-label="Serial :">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parallel" class="md-nav__link">
+    Parallel :
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#power" class="md-nav__link">
     Power :
   </a>
@@ -1524,7 +1590,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#communication" class="md-nav__link">
+  <a href="#communication_1" class="md-nav__link">
     Communication :
   </a>
   
@@ -1847,6 +1913,13 @@ Way better than Molex's overpriced, poorly retaining, single-side contact KK  </
 <p><a href="https://fr.wikipedia.org/wiki/Rapport_signal_sur_bruit">source</a></p>
 </blockquote>
 <p><a href="https://github.com/scipy/scipy/blob/v0.16.0/scipy/stats/stats.py#L1963">Scipy implementation in python</a> and <a href="https://stackoverflow.com/questions/63177236/how-to-calculate-signal-to-noise-ratio-using-python">concerns on stack overflow</a></p>
+<h2 id="communication">Communication :</h2>
+<h3 id="serial">Serial :</h3>
+<ul>
+<li><strong>COBS</strong> or <strong><a href="https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing">Consistent Overhead Byte Stuffing</a></strong>, allows to change one byte, usually 00 as another value along a packet and descypher it back, by adding only one overhead byte. This in turns allow to use this specific byte value as an unique frame delimiter.</li>
+<li><strong>CRC</strong> or <a href="https://en.wikipedia.org/wiki/Cyclic_redundancy_check">Cyclic Redundancy Check</a> is an error detecting algorithm. They are popular because they are simple to implement in binary <a href="https://en.wikipedia.org/wiki/Computer_hardware">hardware</a>, easy to analyze mathematically, and particularly good at detecting common errors caused by <a href="https://en.wikipedia.org/wiki/Noise_(electronics)">noise</a> in transmission channels.</li>
+</ul>
+<h4 id="parallel">Parallel :</h4>
 <h2 id="power">Power :</h2>
 <h3 id="power-control">Power control :</h3>
 <p>Triac : MOC3021</p>
@@ -1907,7 +1980,7 @@ R1 : <strong>0-10K</strong> pot, in parallel with <strong>2000</strong> Ohm resi
 <p><a href="https://store.arduino.cc/arduino-nano-33-ble-sense">Low cost IA enabled (tensorflow lite) Arduino</a></p>
 <p><a href="https://blog.arduino.cc/2020/06/18/simple-machine-learning-with-arduino-knn/">Arduino tutorial for machine learning with KNN</a></p>
 <p><a href="https://fr.wikipedia.org/wiki/PICkit">PICkit</a> : tool to program microcontrollers and debug the in situ</p>
-<h3 id="communication">Communication :</h3>
+<h3 id="communication_1">Communication :</h3>
 <p><a href="https://www.rs-online.com/designspark/rf-lora-the-50km-radio-module">RF LORA article on designspark</a>  <a href="https://fr.rs-online.com/web/p/lpwan/1251265/?cm_mmc=en-ds-_-web-_-ds%3Adiscover%3Aall-technologies%3Ainternet-of-things%3Arf-lora-the-50km-radio-module_fp-_-1251265">RF LORA module on RS</a></p>
 <p><img alt="1112" src="Electronics_Mechatronics.assets/1112.gif" /></p>
 <ul>
@@ -2073,10 +2146,10 @@ R1 : <strong>0-10K</strong> pot, in parallel with <strong>2000</strong> Ohm resi
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.instant", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.361d90f1.min.js"}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.instant", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.22074ed6.min.js"}</script>
     
     
-      <script src="assets/javascripts/bundle.289a2a4b.min.js"></script>
+      <script src="assets/javascripts/bundle.960e086b.min.js"></script>
       
     
   </body>
