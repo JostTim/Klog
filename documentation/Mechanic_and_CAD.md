@@ -128,6 +128,10 @@ Face to face (type DF)
 
 ![https://www.drillanddriver.com/wp-content/uploads/2021/09/M8-Hole-Sizes.jpg](Mechanic_and_CAD.assets/M8-Hole-Sizes.jpg)
 
+### Linear rails :
+
+![linear_blocks_sizes](Mechanic_and_CAD.assets/download.jpg)
+
 ## Mechanisms :
 
 Shibata coupler : https://www.reddit.com/r/3Dprinting/comments/kp8bu8/my_attempt_at_designing_and_printing_a_shibata/

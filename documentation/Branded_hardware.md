@@ -1,3 +1,21 @@
+## Induction motor speed control :
+
+Searched characteristics of a potter's wheel [ref](https://www.le-blog-du-bol.fr/tour-de-potier-guide-complet/)
+
+Triac vs Variable Frequency Drive for speed control [ref](https://blog.orientalmotor.com/speed-control-basics-speed-control-methods-of-ac-induction-motors)
+
+Tune the PID : [ref](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=9013)
+
+
+
+
+
+
+
+
+
+
+
 ## Snapmaker 2 :
 
 [Extension module DIY](https://forum.snapmaker.com/t/custom-extention-module/13424)
