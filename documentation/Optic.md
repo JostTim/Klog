@@ -145,7 +145,7 @@ Photographic [lens designs](https://en.wikipedia.org/wiki/Photographic_lens_desi
 ![prismsfigure3](Optic.assets/prismsfigure3.jpg)
 
 - [Wedge Prisms](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=147) : a set of 2 can allow for 2D displacement of a light ray(can be both used for projecting or reading with an adjustable FOV camera) if both are rotatively controlled.
-- [Dove prisms](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6810) are able to retroreflect (and invert) image or rotate the image by twice the angle applied to the prism relative to the image source orientation.
+- [Dove prisms](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6810) are able to retroreflect (and invert) image or rotate the image by twice the angle applied to the prism relative to the image source orientation. http://ishikawa-vision.org/vision/rollcamera/index-e.html
 
 - Risley Prism Beam ([RPUPS - universal pointing system](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9579/95790B/Risley-prism-universal-pointing-system-RPUPS/10.1117/12.2188088.short?SSO=1)) ( based on wedge prisms )
 
