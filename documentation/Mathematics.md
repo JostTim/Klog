@@ -34,6 +34,8 @@
 
 [A very simplified explanation of it and the many uses in the real world](https://towardsdatascience.com/what-is-graph-theory-and-why-should-you-care-28d6a715a5c2)
 
+Child of a greater branch called [network science](https://en.wikipedia.org/wiki/Network_science)
+
 **Used for arborescence and "tree" of possibilities**. amongst other uses
 
 [Graphs algorithms for python](https://networkx.org/documentation/latest/reference/algorithms/index.html)
@@ -47,18 +49,18 @@ Key concepts :
   - Betweenness centrality :
 
   	Or short : EBC for edges - NBC for nodes
-
+  	
   	<img src="Mathematics.assets/Graph_betweenness.svg" style="zoom:33%;" />
-
+  	
   	An [undirected graph](https://en.wikipedia.org/wiki/Undirected_graph) colored based on the betweenness centrality of each vertex from least (red) to greatest (blue).
-
+  	
   	> For every pair of vertices in a connected graph, there exists at least  one shortest path between the vertices such that either the number of  edges that the path passes through (for unweighted graphs) or the sum of the weights of the edges (for weighted graphs) is minimized. The  betweenness centrality for each [vertex](https://en.wikipedia.org/wiki/Vertex_(graph_theory)) is the number of these shortest paths that pass through the vertex [ref](https://en.wikipedia.org/wiki/Betweenness_centrality)
 
 
 - **Communities** :
 
 	> A network is said to have **community structure** if the nodes of the network can be easily grouped into (potentially overlapping) sets of nodes such that each set of nodes is densely connected internally. [ref](https://en.wikipedia.org/wiki/Community_structure)
-
+	
 	- Detection : 
 	
 		Using EBC as edges weights 
@@ -80,7 +82,7 @@ Key concepts :
 		[Community detection using EBC](https://www.analyticsvidhya.com/blog/2020/04/community-detection-graphs-networks/) and the Girvan-Newman algorithm.
 		
 		[A paper review on the processes available](https://arxiv.org/abs/0906.0612) 
-	
+
 - [Adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix) a representation of a graph in a matricial calculation way
 
 [Deep learning and graph theory for connectivity analysis](https://tel.archives-ouvertes.fr/tel-02479670/document)
@@ -113,10 +115,11 @@ Application for the same kind of need for images :
 - Image registration  :
 
 	[ref](https://en.wikipedia.org/wiki/Image_registration)
-
+	
 	![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Registrator_Demo2.png/220px-Registrator_Demo2.png)
 
-	
+
+​	
 
 	- Image obtained with the great software Twibright registrator http://ronja.twibright.com/registrator.php
 
@@ -129,7 +132,7 @@ Application for the same kind of need for images :
 - Filtre de Canny [ref](https://fr.wikipedia.org/wiki/Filtre_de_Canny) - 
 
 	[![img](Mathematics.assets/220px-Valve_original_(1).PNG)](https://commons.wikimedia.org/wiki/File:Valve_original_(1).PNG?uselang=fr)[![img](Mathematics.assets/220px-Valve_monochrome_canny_(6).PNG)](https://commons.wikimedia.org/wiki/File:Valve_monochrome_canny_(6).PNG?uselang=fr)
-
+	
 	> Le **filtre de Canny** (ou détecteur de Canny) est utilisé en [traitement d'images](https://fr.wikipedia.org/wiki/Traitement_d'images) pour la [détection des contours](https://fr.wikipedia.org/wiki/Détection_de_contours). 
 
 

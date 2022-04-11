@@ -4,7 +4,7 @@
 
 [Collimated light to determine focal length](https://www.edmundoptics.com/knowledge-center/video/tutorials/understanding-collimation-to-determine-optical-lens-focal-length/)
 
-
+[Non linear optics](https://en.wikipedia.org/wiki/Nonlinear_optics)
 
 [Lesson on all photonic microscopy techniques and holographic two photon microscopy](https://www.vassanellilab.eu//wp-content/uploads/2016/02/holgraphic-two-photon-microscopy.pdf)
 
@@ -22,7 +22,13 @@
 
 [Discussion on UV curing glues and UV lamps related](https://www.researchgate.net/post/How_to_choose_a_UV_curing_lamp1) 
 
+### Microscopes :
 
+**Multi photon :**
+
+**custom access serial holography** :
+
+[Explanation of Walther Akeman's holographic microscope in french](https://www.insb.cnrs.fr/fr/cnrsinfo/des-photons-explorateurs-de-lactivite-neuronale)
 
 ## Active components :
 
@@ -42,7 +48,19 @@
 
 
 
-### Cameras :
+### Photosensitive devices :
+
+**Measuring their performance :**
+
+[Quantum efficiency](https://en.wikipedia.org/wiki/Quantum_efficiency) :
+
+
+
+<u>Cathode radiant sensitivity :</u>
+
+> The responsivity of a cathode to radiation, defined as the ratio of  the current transmitted by the photocathode to the incident radiant  power of a specific wavelength.
+
+#### Cameras :
 
 Calculator for working distance, working area, and focal length : https://www.flir.fr/iis/machine-vision/lens-calculator/
 
@@ -80,20 +98,25 @@ C-Mount (classic for industrial cameras)
 
 
 
-### Linear Arrays : 
+#### Linear Arrays : 
 
 [Hamamatsu comparative (up to 46 pixels)](https://www.hamamatsu.com/eu/en/product/optical-sensors/photodiodes/ingaas-photodiode-array/ingaas-photodiode-array/index.html) designed for spectroscopy
 
 <u>InGaAs PIN photodiode array :</u> 
 G12430-046D : -46-element array - Large photosensitive area size
 
+##### [PhotoMultipler tube](https://en.wikipedia.org/wiki/Photomultiplier_tube) (PMT) :
+
+[MicroPMTs](https://www.hamamatsu.com/eu/en/product/optical-sensors/pmt/micro-pmt.html) as mammamatsu for embeded two photon microscopes.
+
 
 
 ## Passive components :
 
+[Astigmatism](https://en.wikipedia.org/wiki/Astigmatism_(optical_systems)) (optical) :
 
-
-
+> An [optical system](https://en.wikipedia.org/wiki/Optical_system) with **astigmatism** is one where [rays](https://en.wikipedia.org/wiki/Ray_(optics)) that propagate in two perpendicular [planes](https://en.wikipedia.org/wiki/Plane_(mathematics)) have different [foci](https://en.wikipedia.org/wiki/Focus_(optics)).
+>
 
 ### Optic Fibers
 
@@ -103,19 +126,75 @@ G12430-046D : -46-element array - Large photosensitive area size
 
 
 
-<u>Multimodal fiber optics : [ref](https://en.wikipedia.org/wiki/Multi-mode_optical_fiber)</u>
+<u>[Multimode fiber optics](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10417) : [ref](https://en.wikipedia.org/wiki/Multi-mode_optical_fiber)</u>
 
-- Based on light [modes](https://en.wikipedia.org/wiki/Normal_mode)
+- Based on light [mode](https://en.wikipedia.org/wiki/Mode_(electromagnetism)) wich is the orientation of oscilation of magnetic and eletric (H and E) fields regarding the direction of travel of the wave. It's analoguous to mechanical systems normal [modes](https://en.wikipedia.org/wiki/Normal_mode).
 
-- Limited in length by [modal dispersion](https://en.wikipedia.org/wiki/Modal_dispersion)
+- Transmision is limited in length by [modal dispersion](https://en.wikipedia.org/wiki/Modal_dispersion) (about 940 meters)
+
+It simply is a [wave guide](https://en.wikipedia.org/wiki/Waveguide) where the index of the optical core and coating make light undergo total internal reflection, if entering below an acceptance angle (wich value derivates to the number of **aperture** of the fiber)
+
+[Single Mode fibers](https://en.wikipedia.org/wiki/Single-mode_optical_fiber#Quadruply_clad_fiber)
+
+> In [fiber-optic communication](https://en.wikipedia.org/wiki/Fiber-optic_communication), a **single-mode optical fiber** (**SMF**), also known as fundamental- or mono-mode,[[1\]](https://en.wikipedia.org/wiki/Single-mode_optical_fiber#cite_note-1) is an [optical fiber](https://en.wikipedia.org/wiki/Optical_fiber) designed to carry only a single [mode](https://en.wikipedia.org/wiki/Mode_(electromagnetism)) of light - the [transverse mode](https://en.wikipedia.org/wiki/Transverse_mode).
+>
+> ​      **+** 
+>
+> - No degradation of signal
+>
+> - Low dispersion
+>
+> - Well suited for long distance communication
+>
+> 	**-**
+>
+> - Manufacturing and handling is more difficult
+>
+> - Higher price
+>
+> - Coupling light into the fiber is difficult
+
+Fundamental modes :
+
+> The lowest order mode of a waveguide.
+>
+> *Ttransverse modes* (or *lateral modes*). are fundamental modes.
+>
+> The fundamental mode of a waveguide is the one with the highest [effective refractive index](https://www.rp-photonics.com/effective_refractive_index.html).
+
+[Higher order mode :](https://www.rp-photonics.com/higher_order_modes.html) 
+
+> Basically, all modes other than the fundamental are higher order modes.
+>
+> Not all waveguides support higher-order modes, at least not within their guided modes; they are then called *single-mode waveguides*
+>
+> Higher-order modes are more susceptible to attenuation in wave guides. They are also more sensitive to bending loss.
+>
+> Better for light throughput at lower distances (like LED or lamp launch condition, overfilled.)
+
+[Lower order mode :](https://www.yourdictionary.com/low-order-mode)
+
+> A physical path taken by a signal or signal component that is either  parallel to or relatively modestly transverse to the waveguide. Some signal components travel directly through the center of the waveguide,  at least theoretically, and, therefore, travel the shortest possible  distance between the point at which they enter the waveguide and the  point at which they exit the waveguide. They are the one that occur more with an underfilled launch condition (laser input) better for light throughput at long distances (>10/20m). Less sensitive to bending loss and attenuation.
+
+
+
+
+
+
 
 Image transmission with multimode fibers :
+
+https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10417
 
 https://yelin.net.technion.ac.il/files/2015/10/Image-transmission-through-fiber.pdf
 
 https://www.nature.com/articles/s41467-019-10057-8
 
 ### Lenses :
+
+[Hyperfocal distance](https://en.wikipedia.org/wiki/Hyperfocal_distance)
+
+[Advantages of an infinity corrected optical system](https://www.olympus-ims.com/en/microscope/terms/feature15/)
 
 <u>Refractive Lenses :</u>
 
@@ -131,14 +210,24 @@ Photographic [lens designs](https://en.wikipedia.org/wiki/Photographic_lens_desi
 - Planar
 - Tessar
 - [Sonnar](https://en.wikipedia.org/wiki/Zeiss_Sonnar)
+- [Spheric and aspherical lenses](https://en.wikipedia.org/wiki/Spherical_aberration)
+- Achromatic doublets (achromat, apochromat, superachromat)
 
 <u>Catadioptric / reflective lenses :</u>
 
-[Catadroptric system](https://en.wikipedia.org/wiki/Catadioptric_system) was often used in the 70-80s for [telephoto](https://en.wikipedia.org/wiki/Telephoto) [lenses](https://en.wikipedia.org/wiki/Photographic_lens). [Advantages and invonvenients :](https://advancedphototech.wordpress.com/lenses/mirror-mirror-a-guide-to-choosing-and-using-mirror-lenses/)
+[Catadioptric system](https://en.wikipedia.org/wiki/Catadioptric_system) was often used in the 70-80s for [telephoto](https://en.wikipedia.org/wiki/Telephoto) [lenses](https://en.wikipedia.org/wiki/Photographic_lens). [Advantages and invonvenients :](https://advancedphototech.wordpress.com/lenses/mirror-mirror-a-guide-to-choosing-and-using-mirror-lenses/)
 
 > Advantages : Lightweight , less expensive, no chromatic aberration
 >
 > Disadvantages : donut bokeh (can be an advantage as it is quite artistic), fixed aperture and focal length, vignetting, low contrast
+
+ [Scan lenses :](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10764)
+
+[Tube lenses :](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=5834)
+
+Make image at infinity (to use with [infinity-corrected objectives](https://www.olympus-ims.com/en/microscope/terms/feature15/) that are a standard for modern microscopes manufacturers)
+
+
 
 ### Prisms:
 
@@ -149,7 +238,9 @@ Photographic [lens designs](https://en.wikipedia.org/wiki/Photographic_lens_desi
 
 - Risley Prism Beam ([RPUPS - universal pointing system](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9579/95790B/Risley-prism-universal-pointing-system-RPUPS/10.1117/12.2188088.short?SSO=1)) ( based on wedge prisms )
 
-	![](Optic.assets/00010_psisdg9579_95790B_03.jpg)
+```
+![](Optic.assets/00010_psisdg9579_95790B_03.jpg)
+```
 
 
 

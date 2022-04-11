@@ -12,6 +12,10 @@
 
 ## Online "calculators" and useful "converters" :
 
+<u>Physics and optics calculators :</u>
+
+- [Calculatoratoz.com](https://www.calculatoratoz.com/en/optical-path-difference-calculator/Calc-1603)
+
 - THT Resistor [Color code resolver](https://www.digikey.fr/fr/resources/conversion-calculators/conversion-calculator-resistor-color-code) (digikey)
 
 - LED limiting resistor value for [series](http://ledcalc.com/) and [parallel](http://www.hebeiltd.com.cn/?p=zz.led.resistor.calculator) setups.
@@ -20,7 +24,7 @@
 
 - [Voltage divider calculator](https://circuitdigest.com/calculators/voltage-divider-calculator)
 
-​	
+<u>Informatics :</u>
 
 - [ASCII code](https://www.ascii-code.com/)
 
@@ -38,11 +42,13 @@
 
 - [C++ online  shell](http://cpp.sh/)
 
+<u>Online applications :</u>
+
 - [Google Collab](https://colab.research.google.com/notebooks/) : Python online editor
 
-
-
 - [Link previews](https://link-previews.stephanbogner.de/) : image generator : by stephan bogner
+
+
 
 ## Repos docs :
 

@@ -338,6 +338,10 @@ Linear , latching , or simple (digital ) - [Info about the variants](http://adam
 - [Digital](https://www.youtube.com/watch?v=E5eNHewAee8) : OH090U from OPTEK or A1101 to  A1104 from Allegro-microsystems ( A3141 - A3144 discontinued)
 - Latching : US1881 from Melexis
 
+<u>Tunnel magnetoresistance sensors :</u>
+
+> [ **Tunnel magnetoresistance** (**TMR**)](https://en.wikipedia.org/wiki/Tunnel_magnetoresistance#Applications) is a [magnetoresistive effect](https://en.wikipedia.org/wiki/Magnetoresistance) that occurs in a **magnetic tunnel junction** (**MTJ**), which is a component consisting of two [ferromagnets](https://en.wikipedia.org/wiki/Ferromagnet) separated by a thin [insulator](https://en.wikipedia.org/wiki/Insulator_(electrical)). If the insulating layer is thin enough (typically a few [nanometres](https://en.wikipedia.org/wiki/Nanometre)), [electrons](https://en.wikipedia.org/wiki/Electron) can [tunnel](https://en.wikipedia.org/wiki/Quantum_tunneling) from one ferromagnet into the other.
+
 ### IMUs:
 
 [Inertial sensors for positioning and orientation estimation](https://arxiv.org/pdf/1704.06053.pdf)
@@ -346,10 +350,14 @@ Linear , latching , or simple (digital ) - [Info about the variants](http://adam
 
 - [madgwick.py: A Python implementation of Madgwick's IMU and AHRS algorithm.](https://github.com/morgil/madgwick_py)
 
-	> This implementation was done at the Cognitive Systems Lab (CSL) of the Karlsruhe Institute of Technology: 
+```
+> This implementation was done at the Cognitive Systems Lab (CSL) of the Karlsruhe Institute of Technology: 
+```
 - [micropython-fusion](https://github.com/micropython-IMU/micropython-fusion)
 
-	> This document describes the case where sensor data is acquired, and fusion is performed, on a single platform running MicroPython.
+```
+> This document describes the case where sensor data is acquired, and fusion is performed, on a single platform running MicroPython.
+```
 
 ### Touch :
 
