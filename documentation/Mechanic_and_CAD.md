@@ -122,6 +122,10 @@ Face to face (type DF)
 
 ![GIF_221005020473_1](Mechanic_and_CAD.assets/GIF_221005020473_1.gif)
 
+### Hex nuts :
+
+![](Mechanic_and_CAD.assets/HTB1oHdxXOLxK1Rjy0Ffq6zYdVXai.jpg_.webp)
+
 ### Holes : 
 
 <u>**Tap / taraudage diameters for metric screws :**</u>
