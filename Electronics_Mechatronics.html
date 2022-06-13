@@ -831,6 +831,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#daqs" class="md-nav__link">
+    DAQs :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#analogic-electronics" class="md-nav__link">
     Analogic electronics :
   </a>
@@ -1490,6 +1497,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#daqs" class="md-nav__link">
+    DAQs :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#analogic-electronics" class="md-nav__link">
     Analogic electronics :
   </a>
@@ -1872,6 +1886,36 @@ Way better than Molex's overpriced, poorly retaining, single-side contact KK  </
 <p><a href="https://www.kuebler.com/en/products/transmission/slip-rings">Kuebler</a></p>
 <p><a href="https://www.moog.com/products/slip-rings.html">Moog</a></p>
 <h2 id="signal">Signal</h2>
+<h3 id="daqs"><strong>DAQs</strong> :</h3>
+<p>https://marionette-daq.github.io/</p>
+<p><a href="https://ieeexplore.ieee.org/document/6808795?denied=">A low-cost open-source data acquisition system - JR blanco et al</a></p>
+<p>https://www.open-daq.com/ - https://www.open-daq.com/productos/opendaq-n</p>
+<p><a href="https://aip.scitation.org/doi/10.1063/5.0032116?af=R&amp;feed=most-recent&amp;">PyMoDAQ: An open-source Python-based software for modular data acquisition</a></p>
+<p>https://www.monodaq.com/usb-daq/multifunctional/ - https://www.monodaq.com/shop/Catalog/c1/multifunctional-data-acquisition</p>
+<p>https://opendaq-python.readthedocs.io/en/latest/ - https://github.com/openDAQ/python-opendaq</p>
+<p><u>Forum questions on that matter :</u></p>
+<p>​   <a href="https://www.youtube.com/watch?v=kZ5uGLfvnwA">Low-Cost Data Acquisition (DAQ) with Arduino and Binho for Machine Learning | Digi-Key Electronics</a></p>
+<p>​   https://forum.arduino.cc/t/best-choice-for-fast-data-acquisition/45558/8</p>
+<p>​   <a href="https://www.electronicdesign.com/technologies/boards/article/21791134/usb-30-a-tale-of-two-buses">USB 3.0: A Tale Of Two Buses</a></p>
+<p>​   <a href="https://electronics.stackexchange.com/questions/553551/how-to-stream-data-from-embedded-system-to-pc-fast">How to stream data from embedded system to PC fast?</a></p>
+<p>​   <a href="https://www.ti.com/lit/an/slaa012/slaa012.pdf?ts=1628524033885&amp;ref_url=https%253A%252F%252Fwww.google.com%252F">Microcontroller Based Data Acquisition Using the TLC2543 12-Bit Serial-Out ADC</a></p>
+<blockquote>
+<p>​ Herve, thanks for your recommendations.Zynq based boards from Digilent are very attractive, especially Zybo series boards like this one here: (<a href="https://www.researchgate.net/deref/https%3A%2F%2Fstore.digilentinc.com%2Fzybo-z7-zynq-7000-arm-fpga-soc-development-board%2F">https://store.digilentinc.com/zybo-z7-zynq-7000-arm-fpga-soc-development-board/</a>) but, from other point of view, working with them is neither simple nor easy for newcomers.Boards based on Intel FPGA (former ALTERA) Cyclone V SoC Hard Processor System provide comparable processing power, and some may consider they have  even some advantages. But those are also for advanced users and  designers.Thanks,</p>
+</blockquote>
+<p><a href="https://www.digikey.fr/fr/articles/implementing-usb-30-in-mcu-and-microprocessorbased-systems">Implementing USB 3.0 in MCU- and Microprocessor-Based Systems</a></p>
+<p><a href="https://forum.digilent.com/topic/17784-fpga-board-for-capturing-high-speed-adc-data/">FPGA board for capturing high speed ADC data</a></p>
+<p><a href="https://www.logic-x.eu/lxd31k2?Lng=en&amp;gclid=Cj0KCQjw4v2EBhCtARIsACan3nyTZkz7Gc7GKDOhVNwNvXC1AVUZ1DQKXuCAaNDDBC8Uop4nZWVs9kMaAiRhEALw_wcB">LXD31K2 2 channel ADC 16-bits @ 310 Msps  ||  2 channel DAC 16-bits @ 575 Msps</a></p>
+<p><a href="https://www.digikey.fr/fr/articles/why-and-how-to-use-digital-filters-for-analog-to-digital-conversions?utm_medium=email&amp;utm_source=tnl&amp;utm_campaign=91685_TNL2105A&amp;utm_content=article1title_FR&amp;utm_cid=11639307&amp;mkt_tok=MTQ0LU5DQi0wMzAAAAF8-XjAZsKR-786-6ooBE-488HnW0xN7iUqbA1-ve2Y3LLGH3kvPQWulb0Rir5fPvLXkt_DBRe27ARLeOvl2z3Lr2-U8P-znMRIFPvpQunSpuf1uhs">Pourquoi et comment utiliser des filtres numériques pour la conversion analogique-numérique haute vitesse et haute résolution</a></p>
+<p><a href="https://eu.mouser.com/datasheet/2/268/00001680C-708831.pdf">3-Port SS/HS USB Hub Controller</a></p>
+<p><a href="https://electronics.stackexchange.com/questions/206591/what-does-an-mcu-need-to-be-capable-of-usb-3-0-communication">What does an MCU need to be capable of USB 3.0 communication?</a> :</p>
+<blockquote>
+<p>USB 3.0 PHY (physical, electrical) layer achieves the 5Gbit/s  transmission rate utilizing high speed differential signaling (CML),  same as PCI Express. Implementation of this physical layer on chip  requires a transceiver, and a SERDES (serializer, deserializer) at the  minimum, in addition to the MAC (media access control) layer  requirements. These blocks would probably require additional clock  generation and signal conditioning circuitry (equalizers on the lines to reduce bit error rates). Putting all this circuitry in your chip has  two primary costs, silicon area and power.</p>
+</blockquote>
+<p><a href="https://electronics.stackexchange.com/questions/300716/interfacing-large-number-of-uarts-to-pc">Interfacing large number of UARTs to PC</a></p>
+<p><a href="https://www.techdesignforums.com/practice/technique/understanding-usb-3-1-protocol/">Understanding the USB 3.1 protocol</a></p>
+<p><a href="https://superuser.com/questions/1213263/why-does-usb-3-1-only-use-two-of-the-four-available-data-lines">Why does USB 3.1 only use two of the four available data lines?</a></p>
+<p><a href="https://www.st.com/content/st_com/en/about/media-center/press-item.html/n3953.html">STMicroelectronics Launches Robust USB Type-C™ Controllers with Internal Protection to Save Space and Enhance Operation Safety </a></p>
+<p><a href="https://www.netburner.com/products/core-modules/mod5441x/">Single &amp; Dual Ethernet System-on-Module</a></p>
 <h3 id="analogic-electronics">Analogic electronics :</h3>
 <p><a href="https://www.eevblog.com/forum/beginners/is-there-a-way-to-prevent-re-trigger-on-one-shot-(555)/">Prevent retrigger of NE 555</a></p>
 <ul>
@@ -1921,6 +1965,8 @@ Way better than Molex's overpriced, poorly retaining, single-side contact KK  </
 <li><strong>COBS</strong> or <strong><a href="https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing">Consistent Overhead Byte Stuffing</a></strong>, allows to change one byte, usually 00 as another value along a packet and descypher it back, by adding only one overhead byte. This in turns allow to use this specific byte value as an unique frame delimiter.</li>
 <li><strong>CRC</strong> or <a href="https://en.wikipedia.org/wiki/Cyclic_redundancy_check">Cyclic Redundancy Check</a> is an error detecting algorithm. They are popular because they are simple to implement in binary <a href="https://en.wikipedia.org/wiki/Computer_hardware">hardware</a>, easy to analyze mathematically, and particularly good at detecting common errors caused by <a href="https://en.wikipedia.org/wiki/Noise_(electronics)">noise</a> in transmission channels.</li>
 </ul>
+<p>​   <a href="https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/74F401.pdf">74F401 CRC Generator/Checker</a> (electronic device for hardware CRC check)</p>
+<p>​   </p>
 <h4 id="parallel">Parallel :</h4>
 <h2 id="power">Power :</h2>
 <h3 id="power-control">Power control :</h3>
