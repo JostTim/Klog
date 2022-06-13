@@ -85,6 +85,16 @@ Scannable notes in code :
 - Agent Interaction Diagram : a way to represent model diagram of agents interactions with a user.
 - UML (Universal Modeling Language) : Object oriented way to represent classes and their interactions - [Easy to use with Java](https://www.jmdoudoux.fr/java/dej/chap-uml.htm) 
 
+​		https://plantuml.com/fr/guide
+
+​		https://www.planttext.com/
+
+[		MORJ data transfer with planttext](https://www.planttext.com/api/plantuml/svg/bLHTQzim57tNhxZqQIyEsShe62NKJjejK3UPdSAwPXJDbbrHMJAIt2wC_FTToNQQDCbWVZ3IlUVS3zqZNHXBjMqgGOZ9g61mzd48BpotZz0PFWs7yCXu-MWxmt1mHeZb5fSJQYbOJQKfc8QhP3gjQCbbYS6UkAoffXLagggLPDB27mBuHJHxAhLgP3vMGkdpyno3Z4OGrhNW6RLSoSEuJDKhXqCKYqJ33g4WmaePMHDIeuEM34vYPT6U2lhCOAoarKe8ffSIteFB3DoowWIeWNYsc2LTaQz5txVykJBSbUPv3PVszCFFblGmdwNGTt6OF5PLHMM-FCGUps9NBjgOBcY61QUNoJIyXjimMVYwt6Ahdsby2p4r28Sn5LaZAAPmWKzV-p6Uw91jEmKE0gdXroI5eZ7OXmUu_Lw_OPOnyJsu2tvWqDFjQZ7U0ysoeyr-MMbbZZBBbJv-JBIKzYWJDRNBNB_bNpOuqYIO1tUUNmX5jmEmHXnDlU0L2lRjO1pBSZopVm_sc2eSFPwrmcXb-v_2S07sbN6RHb0hRLjPf14XKkLenp1rWoXlHzgy6xl_6KpaXHDnIVMglRDNN32FZgOt3vDm4NgeQ_KNDOXDM3x6EZKLInclqc_NIpdfd9usYReKzoapJa-W6GgHOIi5XWQU8viNd6dZ-qalqtGwk-ccjmP2keipoDMB78oyoE7pvYqXVjyxNu_pBI9ewk1TTutGcRNtc_H33u9HVvIjznaBSWzCRtJyJVAUJOY_AAsl2qLwyGysOYRzOh1HAI4RuGGxpBRwOAChicrr5U1ajtfhy-_RtTQP-wcXpz1d_-1s9mo37I-NEVlj_HTCvlZC_mK0) :
+
+![morj_data_transfer](Programming.assets/morj_data_transfer.svg)
+
+​		https://github.com/qjebbs/vscode-plantuml/blob/master/README.md
+
 
 
 ### File path components : 

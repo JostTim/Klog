@@ -138,6 +138,60 @@ SenRing
 
 ## Signal
 
+### **DAQs** :
+
+https://marionette-daq.github.io/
+
+[A low-cost open-source data acquisition system - JR blanco et al](https://ieeexplore.ieee.org/document/6808795?denied=)
+
+https://www.open-daq.com/ - https://www.open-daq.com/productos/opendaq-n
+
+[PyMoDAQ: An open-source Python-based software for modular data acquisition](https://aip.scitation.org/doi/10.1063/5.0032116?af=R&feed=most-recent&)
+
+https://www.monodaq.com/usb-daq/multifunctional/ - https://www.monodaq.com/shop/Catalog/c1/multifunctional-data-acquisition
+
+https://opendaq-python.readthedocs.io/en/latest/ - https://github.com/openDAQ/python-opendaq
+
+<u>Forum questions on that matter :</u>
+
+​	[Low-Cost Data Acquisition (DAQ) with Arduino and Binho for Machine Learning | Digi-Key Electronics](https://www.youtube.com/watch?v=kZ5uGLfvnwA)
+
+​	https://forum.arduino.cc/t/best-choice-for-fast-data-acquisition/45558/8
+
+​	[USB 3.0: A Tale Of Two Buses](https://www.electronicdesign.com/technologies/boards/article/21791134/usb-30-a-tale-of-two-buses)
+
+​	[How to stream data from embedded system to PC fast?](https://electronics.stackexchange.com/questions/553551/how-to-stream-data-from-embedded-system-to-pc-fast)
+
+​	[Microcontroller Based Data Acquisition Using the TLC2543 12-Bit Serial-Out ADC](https://www.ti.com/lit/an/slaa012/slaa012.pdf?ts=1628524033885&ref_url=https%253A%252F%252Fwww.google.com%252F)
+
+> ​	Herve, thanks for your recommendations.Zynq based boards from Digilent are very attractive, especially Zybo series boards like this one here: ([https://store.digilentinc.com/zybo-z7-zynq-7000-arm-fpga-soc-development-board/](https://www.researchgate.net/deref/https%3A%2F%2Fstore.digilentinc.com%2Fzybo-z7-zynq-7000-arm-fpga-soc-development-board%2F)) but, from other point of view, working with them is neither simple nor easy for newcomers.Boards based on Intel FPGA (former ALTERA) Cyclone V SoC Hard Processor System provide comparable processing power, and some may consider they have  even some advantages. But those are also for advanced users and  designers.Thanks,
+
+[Implementing USB 3.0 in MCU- and Microprocessor-Based Systems](https://www.digikey.fr/fr/articles/implementing-usb-30-in-mcu-and-microprocessorbased-systems)
+
+[FPGA board for capturing high speed ADC data](https://forum.digilent.com/topic/17784-fpga-board-for-capturing-high-speed-adc-data/)
+
+[LXD31K2 2 channel ADC 16-bits @ 310 Msps  ||  2 channel DAC 16-bits @ 575 Msps](https://www.logic-x.eu/lxd31k2?Lng=en&gclid=Cj0KCQjw4v2EBhCtARIsACan3nyTZkz7Gc7GKDOhVNwNvXC1AVUZ1DQKXuCAaNDDBC8Uop4nZWVs9kMaAiRhEALw_wcB)
+
+[Pourquoi et comment utiliser des filtres numériques pour la conversion analogique-numérique haute vitesse et haute résolution](https://www.digikey.fr/fr/articles/why-and-how-to-use-digital-filters-for-analog-to-digital-conversions?utm_medium=email&utm_source=tnl&utm_campaign=91685_TNL2105A&utm_content=article1title_FR&utm_cid=11639307&mkt_tok=MTQ0LU5DQi0wMzAAAAF8-XjAZsKR-786-6ooBE-488HnW0xN7iUqbA1-ve2Y3LLGH3kvPQWulb0Rir5fPvLXkt_DBRe27ARLeOvl2z3Lr2-U8P-znMRIFPvpQunSpuf1uhs)
+
+[3-Port SS/HS USB Hub Controller](https://eu.mouser.com/datasheet/2/268/00001680C-708831.pdf)
+
+[What does an MCU need to be capable of USB 3.0 communication?](https://electronics.stackexchange.com/questions/206591/what-does-an-mcu-need-to-be-capable-of-usb-3-0-communication) :
+
+> USB 3.0 PHY (physical, electrical) layer achieves the 5Gbit/s  transmission rate utilizing high speed differential signaling (CML),  same as PCI Express. Implementation of this physical layer on chip  requires a transceiver, and a SERDES (serializer, deserializer) at the  minimum, in addition to the MAC (media access control) layer  requirements. These blocks would probably require additional clock  generation and signal conditioning circuitry (equalizers on the lines to reduce bit error rates). Putting all this circuitry in your chip has  two primary costs, silicon area and power.
+
+[Interfacing large number of UARTs to PC](https://electronics.stackexchange.com/questions/300716/interfacing-large-number-of-uarts-to-pc)
+
+[Understanding the USB 3.1 protocol](https://www.techdesignforums.com/practice/technique/understanding-usb-3-1-protocol/)
+
+[Why does USB 3.1 only use two of the four available data lines?](https://superuser.com/questions/1213263/why-does-usb-3-1-only-use-two-of-the-four-available-data-lines)
+
+[STMicroelectronics Launches Robust USB Type-C™ Controllers with Internal Protection to Save Space and Enhance Operation Safety ](https://www.st.com/content/st_com/en/about/media-center/press-item.html/n3953.html)
+
+[Single & Dual Ethernet System-on-Module](https://www.netburner.com/products/core-modules/mod5441x/)
+
+
+
 ### Analogic electronics :
 
 [Prevent retrigger of NE 555](https://www.eevblog.com/forum/beginners/is-there-a-way-to-prevent-re-trigger-on-one-shot-(555)/)
@@ -196,7 +250,9 @@ SenRing
 - **COBS** or **[Consistent Overhead Byte Stuffing](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing)**, allows to change one byte, usually 00 as another value along a packet and descypher it back, by adding only one overhead byte. This in turns allow to use this specific byte value as an unique frame delimiter.
 - **CRC** or [Cyclic Redundancy Check](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) is an error detecting algorithm. They are popular because they are simple to implement in binary [hardware](https://en.wikipedia.org/wiki/Computer_hardware), easy to analyze mathematically, and particularly good at detecting common errors caused by [noise](https://en.wikipedia.org/wiki/Noise_(electronics)) in transmission channels.
 
+​	[74F401 CRC Generator/Checker](https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/74F401.pdf) (electronic device for hardware CRC check)
 
+​	
 
 #### Parallel :
 

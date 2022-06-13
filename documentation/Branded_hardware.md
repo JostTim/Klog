@@ -196,3 +196,15 @@ LHY16S : board for the gestion of the battery charge-discharge.
 <u>Dismantling :</u>
 
 https://www.youtube.com/watch?v=KuzxQKTIXiw
+
+
+
+<u>Remorque vélo :</u>
+
+![image-20220508113051434](Branded_hardware.assets/image-20220508113051434.png)
+
+![image-20220508113111743](Branded_hardware.assets/image-20220508113111743.png)
+
+![image-20220508113124977](Branded_hardware.assets/image-20220508113124977.png)
+
+Peut être faite assez "facilement" avec deux roues de vélo (petites ?) et un chassis en barres d'alu soudées au TIG/MIG

@@ -15,25 +15,29 @@ DIY textile bible website [Kobakant - How to get what you want](https://www.koba
 
 - [Listen Notes](https://www.listennotes.com/?s=df), a search engine for podcasts online.
 
+[Seed studio](https://www.seeedstudio.com/category/Grove-c-1003.html)
 
+[beamsplitter for visualizing blood vessels in micam fiber experiments](https://www.chroma.com/products/parts/silver-sputtered-non-polarizing-50-50-vis-beamsplitter#tabs-detail_page_plot-left-1|tabs-0-main-1)
 
 ## LINKS TO SORT :
 
+https://www.wavefrontshaping.net/index (incredible ressource website for talks and scholar wok about microscopy and optics)
+
 [Use primary password with firefox sync vault](https://support.mozilla.org/en-US/kb/use-primary-password-protect-stored-logins) - or use [Keepass](https://www.numetopia.fr/comment-utiliser-keepass-avec-firefox/) with firefox
 
+https://oss.capital/
 
+https://tiangolo.com/projects - https://dev.to/tiangolo
 
+[Rescam Scammers !](https://www.rescam.org/) (cathartic but not so much ecologic...)
 
-
-[Rescam Scammers !](https://www.rescam.org/)
-
-
+https://dev.to/pb/10-github-repositories-every-developer-should-know-ngm
 
 [Capacitors as filters](https://www.arrow.com/en/research-and-events/articles/using-capacitors-to-filter-electrical-noise)
 
+https://parisneuro.ovh/program2021/
 
-
-
+https://github.com/wehr-lab/autopilot
 
 [Physiks intrumente Rotation stages (PI)](https://www.physikinstrumente.com/en/products/rotation-stages/)
 
