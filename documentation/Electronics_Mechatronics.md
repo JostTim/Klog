@@ -34,6 +34,12 @@ And one **10uF** capacitor between ground and supply plane for all ICs.
 
 
 
+<u>PCB manufactoring specificities :</u>
+
+JLCPCB : use 0.8mm milling bit size for mouse bites (or even larger ?)
+
+
+
 ## Cables & Connectors
 
 ### Cables :

@@ -61,3 +61,18 @@ Oamos, a strange search engine [ref](https://www.youtube.com/watch?v=L4_cfJ_QPKg
 
 [![img](Informatic.assets/220px-IBM_Z15_mainframe.jpg)](https://en.wikipedia.org/wiki/File:IBM_Z15_mainframe.jpg)
 
+
+
+### NeuralArt, GANs, image generators :
+
+- [DALL-E](https://openai.com/dall-e-2/#demos) 
+	- Specs : image modifications (add/remove objects), style variations, 
+- [Imagen](https://imagen.research.google/)
+	- Specs : seems particularly good for realistim images
+- Midjourney 
+	- Specs : awsome for art generation, less so for realistic images, from experience
+	- [Advanced /imagine comands](https://midjourney.gitbook.io/docs/user-manual#parameters-to-imagine)
+
+- Alembic's [Disco Diffusion](https://colab.research.google.com/github/alembics/disco-diffusion/blob/main/Disco_Diffusion.ipynb) 
+	- Spec : Free, Runs easily with google collab
+	- [Tutorial](https://www.youtube.com/watch?v=wIw59kAU6u8) (no diving into code, just features) on disco diff
