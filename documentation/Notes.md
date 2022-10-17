@@ -19,6 +19,10 @@ DIY textile bible website [Kobakant - How to get what you want](https://www.koba
 
 [beamsplitter for visualizing blood vessels in micam fiber experiments](https://www.chroma.com/products/parts/silver-sputtered-non-polarizing-50-50-vis-beamsplitter#tabs-detail_page_plot-left-1|tabs-0-main-1)
 
+
+
+[World Wide Neuro](https://www.world-wide.org/Neuro/) for info about neuroscience opportunities.
+
 ## LINKS TO SORT :
 
 https://www.wavefrontshaping.net/index (incredible ressource website for talks and scholar wok about microscopy and optics)
