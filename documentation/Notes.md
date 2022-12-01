@@ -51,7 +51,7 @@ https://github.com/wehr-lab/autopilot
 
 [Using Circuits io](https://www.instructables.com/id/How-to-Use-Circuitsio-for-Arduino-Projects-and-Emb/)
 
-
+[Stamen map that looks like a toner print (google map skin)](http://maps.stamen.com/toner/#12/37.8365/-122.3860)
 
 [Pinout Photo Telecommande](https://www.doc-diy.net/photo/remote_pinout/)
 
@@ -84,6 +84,23 @@ https://github.com/wehr-lab/autopilot
 
 
 Serve html files directly from github : with [raw.gitrack.com](https://raw.githack.com/)
+
+## Logiciels utiles :
+
+- WinDirStats
+- AgentRansack
+- FreeFileSync
+- Rdiff-Backup
+
+## Sites marchands :
+
+- [Modélisme](https://www.multirex.net/)
+
+- Very small headless screws : [DelScrews](https://www.del-screw.com/(sus)flat_point.html#sus-flat)
+
+- Machines moyen oeuvre mécanique [Siderméca](https://www.sidermeca.com/machines-outils-fraiseuses-fraiseuses-d-etabli,173.html)
+
+- Site de vente petit outillage/réparation ferme et agriculture [Farmitoo](https://www.farmitoo.com/fr/)
 
 ## Keeping Notes :
 

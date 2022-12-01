@@ -8,6 +8,12 @@
 
 [Lesson on all photonic microscopy techniques and holographic two photon microscopy](https://www.vassanellilab.eu//wp-content/uploads/2016/02/holgraphic-two-photon-microscopy.pdf)
 
+
+
+[Video quality as a subjective measurement](https://en.wikipedia.org/wiki/Subjective_video_quality) often, using "objective" qualitative measurements doesn't mean the video will "look good"
+
+[Chroma sbsampling](https://en.wikipedia.org/wiki/Chroma_subsampling#4:4:4) taking part of the lower spatial resolution of colors of the retina to make compunded images with color and BW channels subsampled differentely
+
 ## Whole devices : 
 
 [Holographic screens](https://www.crumpe.com/2020/12/looking-glass-portrait-cadre-photo-qui-transforme-les-portraits-iphone-en-hologrammes-3d/) : Le **Looking Glass portrait**

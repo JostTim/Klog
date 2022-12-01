@@ -1,3 +1,14 @@
+## Performance :
+
+- [Intel](https://medium.com/@tpl2go/a-beginners-introduction-to-intel-performance-primitives-d6fecb67795c) (and other suppliers) [performance primitives](https://en.wikipedia.org/wiki/Integrated_Performance_Primitives) 
+
+- [Fixed point vs floating point](https://www.analog.com/en/technical-articles/fixedpoint-vs-floatingpoint-dsp.html) 
+- [Async vs multithreading](https://www.baeldung.com/cs/async-vs-multi-threading)
+
+Cpmputer Science Technicalities :
+
+[Closures (name & environment scoping )](https://en.wikipedia.org/wiki/Closure_(computer_programming))
+
 ## IDEs :
 
 ### VisualStudio :

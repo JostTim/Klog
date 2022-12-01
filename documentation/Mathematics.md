@@ -163,3 +163,6 @@ Position des opérandes différente de la notation classique
 
 > « 3 × (4 + 7) » peut s'écrire en NPI sous la forme « 4 (enter) 7 + 3 × »
 
+
+
+[Domain of discourse](https://en.wikipedia.org/wiki/Domain_of_discourse) for the validity of propositions for example

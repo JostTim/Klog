@@ -1,4 +1,4 @@
-## Statistics :
+## Tests :
 
 [Simple and multiple](https://towardsdatascience.com/the-complete-guide-to-linear-regression-in-python-3d3f8f06bf8) linear regression in python, with scikit learn and statsmodels api
 
@@ -7,6 +7,8 @@
 [Factorial ANOVA](https://www.pythonfordatascience.org/factorial-anova-python/#test_with_python)
 
 [Normality test in scipy.stats](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.normaltest.html) - [Tutorial on normality tests in python](https://machinelearningmastery.com/a-gentle-introduction-to-normality-tests-in-python/)
+
+[Kolmogorov–Smirnov](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test) : used to compare a [sample](https://en.wikipedia.org/wiki/Random_sample) with a reference probability distribution (one-sample K–S test).
 
 | Test                        | Parametric    | Non parametric |
 | --------------------------- | ------------- | -------------- |
@@ -18,7 +20,7 @@ RMSE - [Root mean square deviation - Ecart Quadratique Moyen](https://www.aspexi
 
 
 
-### Standardization :
+## Standardization :
 
 A more general term than than normalization, that can imply more specific things.
 
@@ -32,7 +34,7 @@ A more general term than than normalization, that can imply more specific things
 
 
 
-### Correlations  :
+## Correlations  :
 
 - Linear transformation on data do not change Pearson's correlation as it is a linear correlation. However, non linear transformations do. [ref](https://stats.stackexchange.com/questions/403413/does-data-normalization-and-transformation-change-the-pearsons-correlation)
 
@@ -54,7 +56,7 @@ A more general term than than normalization, that can imply more specific things
 	>
 	> En [traitement du signal](https://fr.wikipedia.org/wiki/Traitement_du_signal), la **corrélation croisée** (aussi appelée **covariance croisée**) est la mesure de la similitude entre deux signaux.
 
-### Agregators :
+## Agregators :
 
 > Moyenne et médiane jouent un rôle similaire dans la compréhension de la  tendance centrale d'une série de chiffres. La moyenne a  traditionnellement été une mesure populaire d'un point central dans un  ensemble, mais elle a l'inconvénient d'être influencée par des valeurs  qui sont très inférieures ou supérieures au reste des valeurs. C'est  pourquoi la médiane (second quartile) est une meilleure mesure centrale pour les cas où un petit nombre de valeurs aberrantes peut considérablement fausser la  moyenne.
 
@@ -62,7 +64,7 @@ A more general term than than normalization, that can imply more specific things
 
 [Statistical dispersion indicators](https://fr.wikipedia.org/wiki/Indicateur_de_dispersion) 
 
-### Boxplots :
+## Boxplots :
 
 Quartiles :
 
@@ -83,9 +85,27 @@ IQR :
 
 
 
-### Voc : 
+## Voc : 
 
 - [Stochastique](https://en.wikipedia.org/wiki/Stochastic) : produit de l'effet du hazard
 - [Heteroscedasticity](https://en.wikipedia.org/wiki/Heteroscedasticity) : inverse of the homogeneity of variance
 
 - 
+
+
+
+## Tools :
+
+[Fuzzy logic](https://fr.wikipedia.org/wiki/Logique_floue) as a computer science tool not exactly similar to [probability logic](https://fr.wikipedia.org/wiki/Logique_probabiliste), both yielding values between 0 and 1.
+
+[Logique modale](https://fr.wikipedia.org/wiki/Logique_modale) : 4 possibilités pour une proposition :
+
+> - **[nécessaire](https://fr.wikipedia.org/wiki/Nécessité)** (ce qui ne peut pas ne pas être vrai), noté ◻  
+> - **[contingent](https://fr.wikipedia.org/wiki/Contingence)** (ce qui peut être faux), noté ¬◻
+> - **[possible](https://fr.wikipedia.org/wiki/Possibilité)** (ce qui peut être vrai), noté ◊              
+> - **[impossible](https://fr.wikipedia.org/wiki/Possibilité)** (ce qui ne peut pas ne pas être faux), noté  ¬◊             
+
+[Bayesian inference](https://fr.wikipedia.org/wiki/Inf%C3%A9rence_bay%C3%A9sienne#Notation_d'%C3%A9vidence) probabilité des causes à partir des evenements observés. 
+
+
+

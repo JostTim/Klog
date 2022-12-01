@@ -74,11 +74,17 @@ To convert a batch file to a classical exe : use windows built in [IExpress](htt
 
 [Dynamic part of a website - tuto](https://sites.google.com/site/usfcomputerscience/the-dynamic-part-of-a-dynamic-web) 
 
+[Haml](https://en.wikipedia.org/wiki/Haml)
+
+#### CSS:
+
+[Sass](https://en.wikipedia.org/wiki/Sass_(stylesheet_language)) 
+
 #### Angular:
 
 [wiki angular](https://fr.wikipedia.org/wiki/Angular)
 
 #### Other:
 
-[Genially](https://genial.ly/) is a website that allows to do applets or animations like with html/css/javascript but "without coding". Paid service.
+[Genially](https://genial.ly/) is a website that claims allowing to do applets or animations like with html/css/javascript but "without coding". Paid service.
 

@@ -318,11 +318,13 @@ Creating [alpha containing colormaps](https://stackoverflow.com/questions/516012
 
 - **Seaborn** :
 
-	- Setting figure size : 
+  - Setting figure size : 
 
-		```python
-		sns.set(rc={'figure.figsize':(11.7,8.27)})
-		```
+  	```python
+  	sns.set(rc={'figure.figsize':(11.7,8.27)})
+  	```
+
+  [Use guide seaborn](https://onezero.blog/generate-publication-ready-plots-using-seaborn-library-part-1/)
 
 - **Plotly** :
 
