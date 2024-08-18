@@ -1,17 +1,10 @@
 
-
-
-
 DIY textile bible website [Kobakant - How to get what you want](https://www.kobakant.at/DIY/)
-
-
 
 - [ HTML DOG](https://htmldog.com/)  a nice website with regrouped examples, techniques and references for web page making.
 
 > Everything **HTML**, **CSS**, and **JavaScript**,
 > the most common languages used in making web pages.
-
-
 
 - [Listen Notes](https://www.listennotes.com/?s=df), a search engine for podcasts online.
 
@@ -19,11 +12,9 @@ DIY textile bible website [Kobakant - How to get what you want](https://www.koba
 
 [beamsplitter for visualizing blood vessels in micam fiber experiments](https://www.chroma.com/products/parts/silver-sputtered-non-polarizing-50-50-vis-beamsplitter#tabs-detail_page_plot-left-1|tabs-0-main-1)
 
-
-
 [World Wide Neuro](https://www.world-wide.org/Neuro/) for info about neuroscience opportunities.
 
-## LINKS TO SORT :
+## Randomly organized links
 
 https://www.wavefrontshaping.net/index (incredible ressource website for talks and scholar wok about microscopy and optics)
 
@@ -51,13 +42,7 @@ https://github.com/wehr-lab/autopilot
 
 [Using Circuits io](https://www.instructables.com/id/How-to-Use-Circuitsio-for-Arduino-Projects-and-Emb/)
 
-[Stamen map that looks like a toner print (google map skin)](http://maps.stamen.com/toner/#12/37.8365/-122.3860)
-
 [Pinout Photo Telecommande](https://www.doc-diy.net/photo/remote_pinout/)
-
-
-
-
 
 [Cinder MKdocs theme](https://sourcefoundry.org/cinder/)
 
@@ -81,8 +66,6 @@ https://github.com/wehr-lab/autopilot
 
 [Edge contrast enhancement / Unsharp_masking](https://en.wikipedia.org/wiki/Edge_enhancement) https://en.wikipedia.org/wiki/Unsharp_masking
 
-
-
 Serve html files directly from github : with [raw.gitrack.com](https://raw.githack.com/)
 
 ## Logiciels utiles :
@@ -92,14 +75,14 @@ Serve html files directly from github : with [raw.gitrack.com](https://raw.githa
 - FreeFileSync
 - Rdiff-Backup
 
+- [slides.com](https://slides.com/) slides in the style that anthony was using (alternative to powerpoint, works on any browser and is lightweight) It is not free (above 5 presentations, so that a bit of a sad thing)  
+  Example [here](slides-deck.html)
+- [Deck.js](http://imakewebthings.com/deck.js/#intro) is similar, but open source. The issue is that it doesn't have a WYSIWYG editor.
 ## Sites marchands :
 
 - [Modélisme](https://www.multirex.net/)
-
-- Very small headless screws : [DelScrews](https://www.del-screw.com/(sus)flat_point.html#sus-flat)
-
+- Japaneese very small headless screws : [DelScrews](https://www.del-screw.com/(sus)flat_point.html#sus-flat)
 - Machines moyen oeuvre mécanique [Siderméca](https://www.sidermeca.com/machines-outils-fraiseuses-fraiseuses-d-etabli,173.html)
-
 - Site de vente petit outillage/réparation ferme et agriculture [Farmitoo](https://www.farmitoo.com/fr/)
 
 ## Keeping Notes :
@@ -159,7 +142,7 @@ URL to markdown converter : [FuckYeahMarkdown.com](http://fuckyeahmarkdown.com/)
 Example of PlantUML integration in typora via Gravizo  :
 
 ![Alt text](https://g.gravizo.com/svg?
-    @startuml;
+	@startuml;
     package "Some Group" {;
     HTTP - [First Component]; 
     [Another Component];
@@ -169,33 +152,8 @@ Example of PlantUML integration in typora via Gravizo  :
 
 
 
-
-
-**Adresses de travail :**
-
-| Addresses réseau : | Identification : |
-| ------------------ | ---------------- |
-| 127.0.0.1:8000     | Notes MKDOCS     |
-| 127.0.0.1:8888/lab | Jupyter lab      |
-|                    |                  |
-
-
-
-### Mkdocs : 
-
-[How to serve mkdocs locally :](https://github.com/mkdocs/mkdocs/issues/1239) 
-
-```bash
-mkdocs serve -a 0.0.0.0:8000
-```
-
-
-
 <u>Adding password to Mkdocs</u> pages (or global project) : [Encryptcontent plugin](https://pypi.org/project/mkdocs-encryptcontent-plugin/)
 
-
-
-### ReStructuredText (RST)
 
 
 

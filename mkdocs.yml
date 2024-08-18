@@ -1,98 +1,143 @@
 # Project information
-site_name: Knowledge Logs
-site_description: 'General documentation'
-site_author: 'Timothe'
-site_url: 'https://josttim.github.io/Klog'
+site_name: Knowledge Archives
+site_description: "General documentation"
+site_author: "Timothe"
+site_url: "https://josttim.github.io/Klog"
 
 # Copyright
-copyright: '&copy; 2021 Timothe'
+copyright: "&copy; 2021 Timothe"
 
 # Repository
-repo_name: 'Klog'
-repo_url: 'https://github.com/JostTim/Klog'
-edit_uri: ''
+repo_name: "Klog"
+repo_url: "https://github.com/JostTim/Klog"
+edit_uri: ""
 
 use_directory_urls: false
 
-docs_dir: 'documentation'
+docs_dir: "documentation"
 
-theme: 
-    name : material
-    palette:
-      - scheme: default
-        toggle:
-          icon: material/toggle-switch-off-outline
-          name: Switch to dark mode
-      - scheme: slate
-        primary: deep orange
-        accent: teal
-        toggle:
-          icon: material/toggle-switch
-          name: Switch to light mode
-        
-    features:
-        - navigation.tabs
-        - navigation.instant
-        - navigation.top
-    highlightjs : true
-    hljs_languages :
-        - python
-        - c++
-        - c
-        - html
-        - css
-        - cmd
+theme:
+        name: material
+        custom_dir: theme_overrides
+        palette:
+                - scheme: default
+                  toggle:
+                          icon: material/toggle-switch-off-outline
+                          name: Switch to dark mode
+                - scheme: slate
+                  primary: deep orange
+                  accent: teal
+                  toggle:
+                          icon: material/toggle-switch
+                          name: Switch to light mode
+
+        features:
+                - navigation.tabs
+                - navigation.instant
+                - navigation.top
+        highlightjs: true
+        hljs_languages:
+                - python
+                - c++
+                - c
+                - html
+                - css
+                - cmd
+
+extra_css:
+        - assets/stylesheets/extra_style.css
 
 plugins:
-    - search      
-   
-markdown_extensions:
-    - pymdownx.keys
-    - pymdownx.superfences
-    - pymdownx.tabbed
-    - pymdownx.details
-    - pymdownx.tasklist:
-        custom_checkbox: true
-    - pymdownx.emoji:
-        emoji_index: !!python/name:materialx.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
-    - admonition
-    - attr_list
-    - def_list
- 
-nav:
-    - Home: index.md
-    
-    - Articles: 
-        - 'INet Backbone': 'Blog/backbone.md'
-        - 'Ignoble Price': 'Blog/Ignoble.md'
-        - 'Psychotronics': 'Blog/Psychotronics.md'
-        
-    - Notes: 'Notes.md'
-    
-    - SoftwR :
-        - Programation: 
-            - 'General' : 'Programming/Programming.md'
-            - 'Instal. tutos' : 'Programming/InstallTutorials.md'
-            - 'Python' :  'Programming/Python.md'
-            - 'C++' :     'Programming/C++.md'
-            - 'Other Languages' :  'Programming/Other_languages.md'
-        - 'Informatics': 'Informatic.md'
-        - 'Communication' : 'Communication.md'
+        - search
+        - blog:
+                  blog_dir: Blog
+                  post_excerpt: optional
+                  authors: false
 
-    - HardwR :
-        - 'Elec-Mechatronics': 'Electronics_Mechatronics.md'
-        - 'Computer vision.': 'camera_computer_vision.md'
-        - 'Mechanics': 'Mechanic_and_CAD.md'
-            
-    - Scientific Fields :
-        - 'Mathematics': 'Mathematics.md'
-        - 'Statistics' : 'Statistics.md'
-        - 'Physics': 'Physics.md'
-        - 'Optics': 'Optic.md'
-        - 'Biology': 'General_biology.md'
-        
-    - Workshop:
-        - 'Devices': 'Branded_hardware.md'
-        - 'Organising workspace': 'Organizing_stuff.md'
-      
+markdown_extensions:
+        - pymdownx.keys
+        - pymdownx.superfences
+        - pymdownx.tabbed
+        - pymdownx.details
+        - pymdownx.tasklist:
+                  custom_checkbox: true
+        - pymdownx.emoji:
+                  emoji_index: !!python/name:material.extensions.emoji.twemoji
+                  emoji_generator: !!python/name:material.extensions.emoji.to_svg
+        - admonition
+        - attr_list
+        - def_list
+        - md_in_html
+
+nav:
+        - Home: index.md
+
+        - Articles:
+                  - Blog/index.md
+
+        - Conceptual Knowledge:
+                  - "Mathematics": "Conceptual_Knowledge/Mathematics.md"
+                  - "Statistics": "Conceptual_Knowledge/Statistics.md"
+                  - "Physics": "Conceptual_Knowledge/Physics.md"
+                  - "Optics": "Conceptual_Knowledge/Optics.md"
+                  - "Biology": "Conceptual_Knowledge/Biology.md"
+                  - "Redacting": "Conceptual_Knowledge/Redacting.md"
+
+        - Engineering Knowledge:
+                  - Programming:
+                            - Programming Theory:
+                                      - "Design Patterns": "Engineering_Knowledge/Programming/Programming_Theory/Design_Patterns.md"
+                                      - "Installations": "Engineering_Knowledge/Programming/Programming_Theory/Install_Tutorials.md"
+                  - Programming Practical:
+                            - "Python": "Engineering_Knowledge/Programming/Programming_Practical/Python.md"
+                            - "C++": "Engineering_Knowledge/Programming/Programming_Practical/C++.md"
+                            - "Web Languages": "Engineering_Knowledge/Programming/Programming_Practical/Weblang.md"
+                            - "Other Languages": "Engineering_Knowledge/Programming/Programming_Practical/Other_Languages.md"
+                            - Platforms: "Engineering_Knowledge/Programming/Programming_Practical/Platforms.md"
+                  - Data Processing:
+                            - "Computer Vision": "Engineering_Knowledge/Data_Processing/Computer_Vision.md"
+                  - Electronics: "Engineering_Knowledge/Electronics/Electronics.md"
+                  - Audio: "Engineering_Knowledge/Audio/Audio.md"
+                  - Mechanics: "Engineering_Knowledge/Mechanics/Mechanics_and_CAD.md"
+                  - Mechatronics: "Engineering_Knowledge/Mechatronics/Mechatronics.md"
+                  - Systems Integration (SI):
+                            - "Informatics": "Engineering_Knowledge/Systems_Integration/Informatics.md"
+                            - "Communication": "Engineering_Knowledge/Systems_Integration/Communication.md"
+
+        - Manufacturing Knowledge:
+                  - "3D Printing": "Manufacturing_Knowledge/3D_Printing.md"
+                  - Machining: "Manufacturing_Knowledge/Machining.md"
+                  - Laser Cutting: "Manufacturing_Knowledge/Laser_Cutting.md"
+
+        - Sourcing Parts:
+                  - Electronic Devices: "Sourcing_Parts/Electronic_Devices.md"
+                  - Mechanical Devices: "Sourcing_Parts/Mechanical_Devices.md"
+                  - Integrated Devices: "Sourcing_Parts/Integrated_Devices.md"
+
+        - Notes: "Notes.md"
+
+        # - SoftwR:
+        #           - Programation:
+        #                     - "General": "Programming/Programming.md"
+        #                     - "Instal. tutos": "Programming/InstallTutorials.md"
+        #                     - "Python": "Programming/Python.md"
+        #                     - "C++": "Programming/C++.md"
+        #                     - "Other Languages": "Programming/Other_languages.md"
+        #           - "Informatics": "Informatic.md"
+        #           - "Communication": "Communication.md"
+
+        # - HardwR:
+        #           - "Elec-Mechatronics": "Electronics_Mechatronics.md"
+        #           - "Computer vision.": "camera_computer_vision.md"
+        #           - "Mechanics": "Mechanic_and_CAD.md"
+
+        # - Scientific Fields:
+        #           - "Mathematics": "Mathematics.md"
+        #           - "Statistics": "Statistics.md"
+        #           - "Physics": "Physics.md"
+        #           - "Optics": "Optic.md"
+        #           - "Biology": "General_biology.md"
+
+        # - Workshop:
+        #           - "Devices": "Branded_hardware.md"
+        #           - "Organising workspace": "Organizing_stuff.md"
