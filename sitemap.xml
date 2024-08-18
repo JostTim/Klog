@@ -2,117 +2,227 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://josttim.github.io/Klog/index.html</loc>
-         <lastmod>2022-12-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josttim.github.io/Klog/Branded_hardware.html</loc>
-         <lastmod>2022-12-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josttim.github.io/Klog/Communication.html</loc>
-         <lastmod>2022-12-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josttim.github.io/Klog/Electronics_Mechatronics.html</loc>
-         <lastmod>2022-12-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josttim.github.io/Klog/General_biology.html</loc>
-         <lastmod>2022-12-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josttim.github.io/Klog/Informatic.html</loc>
-         <lastmod>2022-12-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josttim.github.io/Klog/Mathematics.html</loc>
-         <lastmod>2022-12-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josttim.github.io/Klog/Mechanic_and_CAD.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://josttim.github.io/Klog/Notes.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Optic.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Blog/index.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Organizing_stuff.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Blog/2022/01/20/electric-road-bike.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Physics.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Blog/2024/08/04/enumeration-of-others-projects.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Statistics.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Blog/2021/08/09/internet-backbone.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/camera_computer_vision.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Blog/2021/08/12/potters-wheel.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Blog/Ignoble.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Blog/2022/08/05/salvaged-electronic-ics.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Blog/Psychotronics.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Blog/2021/08/01/scrap-devices.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Blog/backbone.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Blog/2021/12/01/snapmaker-2-upgrades.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Programming/C%2B%2B.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Conceptual_Knowledge/Biology.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Programming/InstallTutorials.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Conceptual_Knowledge/Mathematics.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Programming/Other_languages.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Conceptual_Knowledge/Optics.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Programming/Programming.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Conceptual_Knowledge/Physics.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Programming/Python.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Conceptual_Knowledge/Redacting.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josttim.github.io/Klog/Programming/Weblang.html</loc>
-         <lastmod>2022-12-01</lastmod>
+         <loc>https://josttim.github.io/Klog/Conceptual_Knowledge/Statistics.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Audio/Audio.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Data_Processing/Computer_Vision.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Electronics/Electronics.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Mechanics/Mechanics_and_CAD.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Mechatronics/Mechatronics.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Programming/Programming_Practical/C%2B%2B.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Programming/Programming_Practical/Other_Languages.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Programming/Programming_Practical/Python.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Programming/Programming_Practical/Weblang.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Programming/Programming_Theory/Design_Patterns.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Programming/Programming_Theory/Install_Tutorials.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Systems_Integration/Communication.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Engineering_Knowledge/Systems_Integration/Informatics.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Manufacturing_Knowledge/3D_Printing.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Manufacturing_Knowledge/Laser_Cutting.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Manufacturing_Knowledge/Machining.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Sourcing_Parts/Electronic_Devices.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Sourcing_Parts/Integrated_Devices.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Sourcing_Parts/Mechanical_Devices.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Blog/archive/2024.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Blog/archive/2022.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Blog/archive/2021.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Blog/category/devices.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Blog/category/diy.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Blog/category/upcycling.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Blog/category/integrated-circuits.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Blog/category/vehicules.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Blog/category/3d-printing.html</loc>
+         <lastmod>2024-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josttim.github.io/Klog/Blog/category/infrasctructures.html</loc>
+         <lastmod>2024-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
