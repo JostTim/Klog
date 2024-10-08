@@ -20,6 +20,7 @@
 
 [Visualized quaternions video (3Blue1Brown)](https://www.youtube.com/watch?v=zjMuIxRvygQ) and [INTERACTIVE VIDEOS :](https://eater.net/quaternions) Ben eater's website eater.net
 
+[The fold and cut problem ](https://erikdemaine.org/foldcut/) , for any 2D shape with straight edges (and no holes) one can fold and find a single line on wich to do one single cut. Then unfolding reveals that shape.
 
 
 ## Theory of information :

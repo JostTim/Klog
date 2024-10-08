@@ -35,6 +35,9 @@
 [Argsparse for parsing CLI arguments](https://docs.python.org/3/library/argparse.html#the-parse-args-method)
 [Twine documentation](https://twine.readthedocs.io/en/stable/)
 
+Why using pdm for better packaging : https://chriswarrick.com/blog/2023/01/15/how-to-improve-python-packaging/
+	
+[python notebook in a pdm environement in vscode](https://github.com/pdm-project/pdm/issues/848)
 ## CI/CD
 
 [CI/CD collective on stack overflow](https://stackoverflow.com/collectives/ci-cd)
@@ -60,6 +63,10 @@ Secrets variables for a Group [here](https://docs.gitlab.com/ee/ci/variables/#fo
 Reference counting in python : [source](https://towardsdatascience.com/understanding-reference-counting-in-python-3894b71b5611)
 
 Variables in python [source](https://medium.com/swlh/a-deep-dive-into-variables-in-python-8f55f69c3653)
+
+## Unit testing :
+
+With [pytest](https://seleniumbase.com/the-ultimate-pytest-debugging-guide-2021/) 
 
 ## Modules :
 
@@ -262,7 +269,9 @@ Import and execute  [.pyx in library and in jupyter](https://nyu-cds.github.io/p
 
 [Move to specific byte location in a pickle file ?](https://stackoverflow.com/questions/40211236/how-to-move-pointer-to-specific-bytes-and-read-using-pickle-library-in-python)
 
+### Shelve :
 
+A “shelf” is a persistent, dictionary-like object. The difference with “dbm” databases is that the values (not the keys!) in a shelf can be essentially arbitrary Python objects — anything that the [`pickle`](https://docs.python.org/2/library/pickle.html#module-pickle "pickle: Convert Python objects to streams of bytes and back.") module can handle. This includes most class instances, recursive data types, and objects containing lots of shared sub-objects. The keys are ordinary strings.
 
 ### Matplotlib :
 
@@ -810,7 +819,7 @@ __class__
 
 
 
-## IDE:
+## IDE :
 
 - [Online editor and environment : Google Collab](https://colab.research.google.com/notebooks/)
 
@@ -822,7 +831,7 @@ __class__
 
 - Atom ( with hydrogen as runtime execution addon)
 
-## Specific Applications:
+## Specific Applications :
 
 [Import from web trick](http://blog.dowski.com/2008/07/31/customizing-the-python-import-system/) 
 

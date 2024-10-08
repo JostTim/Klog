@@ -117,7 +117,7 @@ URL to markdown converter : [FuckYeahMarkdown.com](http://fuckyeahmarkdown.com/)
     [Mkdocs admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#tasklist)  notes inline blocks collapsible - explanation.
     Possibility to add [lazy loading in mkdocs](https://squidfunk.github.io/mkdocs-material/reference/images/). For that purpose, [Caniuse](https://caniuse.com/loading-lazy-attr) is a website to check features availability in different browser versions.
 
-
+How to create a custom home page for mkdocs material : https://github.com/squidfunk/mkdocs-material/issues/1996
 
 [Mermaid schematics availables :](https://mermaid-js.github.io/mermaid/#/)
 

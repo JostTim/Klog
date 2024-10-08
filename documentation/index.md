@@ -27,20 +27,15 @@
 <u>Informatics :</u>
 
 - [ASCII code](https://www.ascii-code.com/)
-
 - [RapidTables](https://www.rapidtables.com/)
 	- [ASCII to Hex](https://www.rapidtables.com/convert/number/hex-to-ascii.html)
 	- [ACII,Hex,Bin,Dec,Base64 converter](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)
-	
 - [BitewiseCMD](https://bitwisecmd.com/#0xff%2C%3C%3C%2C8)
-
 - [CRC calculator](https://crccalc.com/)
-
 - [Browserling](https://www.browserling.com/tools) - Many Web utilitaries for HTML coding
-
 - [Regex101 (aka RegexpTester)](https://regex101.com/)
-
 - [C++ online  shell](http://cpp.sh/)
+- [Chmod command calculator](https://chmodcommand.com/)
 
 <u>Online applications :</u>
 
