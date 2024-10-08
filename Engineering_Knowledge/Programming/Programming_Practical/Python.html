@@ -1239,6 +1239,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#unit-testing" class="md-nav__link">
+    Unit testing :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#modules" class="md-nav__link">
     Modules :
   </a>
@@ -1346,6 +1353,13 @@
           <li class="md-nav__item">
   <a href="#pickle" class="md-nav__link">
     Pickle :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shelve" class="md-nav__link">
+    Shelve :
   </a>
   
 </li>
@@ -1502,17 +1516,17 @@
       
         <li class="md-nav__item">
   <a href="#ide" class="md-nav__link">
-    IDE:
+    IDE :
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#specific-applications" class="md-nav__link">
-    Specific Applications:
+    Specific Applications :
   </a>
   
-    <nav class="md-nav" aria-label="Specific Applications:">
+    <nav class="md-nav" aria-label="Specific Applications :">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2216,6 +2230,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#unit-testing" class="md-nav__link">
+    Unit testing :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#modules" class="md-nav__link">
     Modules :
   </a>
@@ -2323,6 +2344,13 @@
           <li class="md-nav__item">
   <a href="#pickle" class="md-nav__link">
     Pickle :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shelve" class="md-nav__link">
+    Shelve :
   </a>
   
 </li>
@@ -2479,17 +2507,17 @@
       
         <li class="md-nav__item">
   <a href="#ide" class="md-nav__link">
-    IDE:
+    IDE :
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#specific-applications" class="md-nav__link">
-    Specific Applications:
+    Specific Applications :
   </a>
   
-    <nav class="md-nav" aria-label="Specific Applications:">
+    <nav class="md-nav" aria-label="Specific Applications :">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2593,6 +2621,8 @@
 <a href="https://setuptools.pypa.io/en/latest/userguide/entry_point.html">Creating entry points (CLI interfaces)</a>
 <a href="https://docs.python.org/3/library/argparse.html#the-parse-args-method">Argsparse for parsing CLI arguments</a>
 <a href="https://twine.readthedocs.io/en/stable/">Twine documentation</a></p>
+<p>Why using pdm for better packaging : https://chriswarrick.com/blog/2023/01/15/how-to-improve-python-packaging/</p>
+<p><a href="https://github.com/pdm-project/pdm/issues/848">python notebook in a pdm environement in vscode</a></p>
 <h2 id="cicd">CI/CD</h2>
 <p><a href="https://stackoverflow.com/collectives/ci-cd">CI/CD collective on stack overflow</a></p>
 <p>Packaging with CI/CD : </p>
@@ -2610,6 +2640,8 @@ Secrets variables for a Group <a href="https://docs.gitlab.com/ee/ci/variables/#
 <h2 id="objects">Objects :</h2>
 <p>Reference counting in python : <a href="https://towardsdatascience.com/understanding-reference-counting-in-python-3894b71b5611">source</a></p>
 <p>Variables in python <a href="https://medium.com/swlh/a-deep-dive-into-variables-in-python-8f55f69c3653">source</a></p>
+<h2 id="unit-testing">Unit testing :</h2>
+<p>With <a href="https://seleniumbase.com/the-ultimate-pytest-debugging-guide-2021/">pytest</a> </p>
 <h2 id="modules">Modules :</h2>
 <h3 id="built-ins">Built-ins :</h3>
 <p><a href="https://docs.python.org/3/library/functions.html">Built in python functions</a></p>
@@ -2729,6 +2761,8 @@ Secrets variables for a Group <a href="https://docs.gitlab.com/ee/ci/variables/#
 <p><a href="https://stackoverflow.com/questions/27732354/unable-to-load-files-using-pickle-and-multiple-modules">Pickle issue solving when switching from function definitions in main or in subpackages</a></p>
 <p><a href="https://www.datacamp.com/community/tutorials/pickle-python-tutorial#multiprocessing">Pickle extensive explanation with interactions with other packages</a></p>
 <p><a href="https://stackoverflow.com/questions/40211236/how-to-move-pointer-to-specific-bytes-and-read-using-pickle-library-in-python">Move to specific byte location in a pickle file ?</a></p>
+<h3 id="shelve">Shelve :</h3>
+<p>A “shelf” is a persistent, dictionary-like object. The difference with “dbm” databases is that the values (not the keys!) in a shelf can be essentially arbitrary Python objects — anything that the <a href="https://docs.python.org/2/library/pickle.html#module-pickle" title="pickle: Convert Python objects to streams of bytes and back."><code>pickle</code></a> module can handle. This includes most class instances, recursive data types, and objects containing lots of shared sub-objects. The keys are ordinary strings.</p>
 <h3 id="matplotlib">Matplotlib :</h3>
 <p>Data visualisation</p>
 <p>Make matplotlib output text as text in plots, <a href="https://stackoverflow.com/questions/34387893/output-matplotlib-figure-to-svg-with-text-as-text-not-curves">not as curves</a> - <a href="https://matplotlib.org/tutorials/introductory/customizing.html">2d link</a></p>
@@ -3098,7 +3132,7 @@ pydoc<span class="w"> </span>-w<span class="w"> </span>&lt;path<span class="w"> 
 <p>Make a class callable : implement method <a href="https://stackoverflow.com/questions/14585987/making-a-class-callable-in-same-instance">ref</a></p>
 <div class="highlight"><pre><span></span><code><span class="vm">__class__</span>
 </code></pre></div>
-<h2 id="ide">IDE:</h2>
+<h2 id="ide">IDE :</h2>
 <ul>
 <li>
 <p><a href="https://colab.research.google.com/notebooks/">Online editor and environment : Google Collab</a></p>
@@ -3116,7 +3150,7 @@ pydoc<span class="w"> </span>-w<span class="w"> </span>&lt;path<span class="w"> 
 <p>Atom ( with hydrogen as runtime execution addon)</p>
 </li>
 </ul>
-<h2 id="specific-applications">Specific Applications:</h2>
+<h2 id="specific-applications">Specific Applications :</h2>
 <p><a href="http://blog.dowski.com/2008/07/31/customizing-the-python-import-system/">Import from web trick</a> </p>
 <p><a href="https://stackoverflow.com/questions/57761132/area-selection-and-capture-of-the-screen-with-python-on-windows">Capture specific area screen with python</a></p>
 <h3 id="image">Image :</h3>
